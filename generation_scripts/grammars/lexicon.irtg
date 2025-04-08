@@ -283,11 +283,11 @@ AUX_did -> r{{ cnt.next() }} [1]
 [english] did
 [semantics] did
 
-AND -> r{{ cnt.next() }}[1]
+AND -> r{{ cnt.next() }} [1]
 [english] and
-[semantics] and
+[semantics] pre_and
 
-SO -> r{{ cnt.next() }}[1]
+SO -> r{{ cnt.next() }} [1]
 [english] so
 [semantics] so
 

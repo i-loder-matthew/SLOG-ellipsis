@@ -3,7 +3,7 @@ VP Ellipsis:
 Transitive and intransitive verbs
 ##}
 
-S! -> S_intrans_verb_ellipis{{ cnt.next() }}(NP_prop_nsubj, VP_unerg, AND, SO, DID, NP_prop_nsubj) [1]
-[english] *(*(?1, ?2), *(AND, *(SO, *(DID, ?3))))
-[semantics] agent(?2, ?1) and agent(?2, ?3)
+S! -> r{{ cnt.next() }}(N_prop_nsubj, V_unerg, AND, SO, AUX_did, N_prop_nsubj) [1]
+[english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
+[semantics] junct2(junct1(and, agent(?2, ?1)), agent(?2, ?6))
 
