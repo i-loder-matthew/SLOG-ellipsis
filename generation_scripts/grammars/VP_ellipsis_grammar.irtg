@@ -1,0 +1,9 @@
+{##
+VP Ellipsis:
+Transitive and intransitive verbs
+##}
+
+S! -> S_intrans_verb_ellipis{{ cnt.next() }}(NP_prop_nsubj, VP_unerg, AND, SO, DID, NP_prop_nsubj) [1]
+[english] *(*(?1, ?2), *(AND, *(SO, *(DID, ?3))))
+[semantics] agent(?2, ?1) and agent(?2, ?3)
+
