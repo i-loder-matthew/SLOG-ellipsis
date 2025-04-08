@@ -283,6 +283,13 @@ AUX_did -> r{{ cnt.next() }} [1]
 [english] did
 [semantics] did
 
+AND -> r{{ cnt.next() }}[1]
+[english] and
+[semantics] and
+
+SO -> r{{ cnt.next() }}[1]
+[english] so
+[semantics] so
 
 {# Levin, '1.2.1 Unspecified Object Alternation'
    And some intuition-based selection.  #}
@@ -474,4 +481,3 @@ V_dat_inf -> r{{ cnt.next() }} [{{ prob }}]
 [english] {{ verbs_lemmas[word] }}
 [semantics] {{ verbs_lemmas[word] }}
 {% endfor %}
-
