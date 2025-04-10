@@ -15,6 +15,7 @@ with open('lexicon/verbs2lemmas.json') as lemma_file:
 with open('lexicon/proper_nouns.json') as propN_file:
  proper_nouns = json.load(propN_file)
 
+
 def parse_varfreeLF(sent,varfreeLF):
     """parse variable free LF to extract parenthesized head/arguments pairs
     Args:
@@ -114,6 +115,7 @@ def varfree_to_cogs_lf(sent,varfreeLF):
     sent = sent.rstrip(string.punctuation)
     tokens_list = sent.split()
     lemma_tokens = [verbs_lemmas[token] if token in verbs_lemmas.keys() else token for token in tokens_list]
+
     # primitives
     if len(tokens_list) == 1:
         raise Exception("The converter don't support primitive logical forms, please use 'generate_primitives.py' script")
@@ -131,7 +133,7 @@ def varfree_to_cogs_lf(sent,varfreeLF):
     defini_nouns = []
     main_lf = []
     for i, token in enumerate(lemma_tokens):
-        if token.lower() in ("the", "a", "that","in","on","beside"):
+        if token.lower() in ("the", "a", "that","in","on","beside", "and"):
             continue
         # nouns part
         isDefini = definite_noun_list[i]
@@ -159,14 +161,23 @@ def varfree_to_cogs_lf(sent,varfreeLF):
 
 if __name__ == "__main__":
 
-  """Conversion precision test using original cogs generalization set and its variable-free format from Qiu et al. 2022 """
-  varfree_lf_file = "cogs_two_formats/gen_varfree_lf.tsv"
-  cogs_file = "cogs_two_formats/gen_cogs_lf.tsv"
-  df_varfree = pd.read_csv(varfree_lf_file, sep="\t", names=["sent", "varfree_lf","type"])
-  df_cogs = pd.read_csv(cogs_file, sep="\t", names=["sent", "cogs_lf","type"])
-  df_varfree["converted_lf"] = df_varfree.apply(lambda x: varfree_to_cogs_lf(x.sent, x.varfree_lf), axis=1)
-  df_varfree["cogs_lf"] = df_cogs["cogs_lf"]
-  exact_match = (df_varfree["converted_lf"] == df_varfree["cogs_lf"]).sum()
-  total_items = df_varfree.shape[0]
-  ratio = exact_match / total_items
-  print(f"Exact match rate between converted LFs and original cogs LFs: {exact_match}/{total_items} ({ratio*100:.1f}%)")
+
+    """ Testing to add conjunction (and nested structured) to LFs """
+
+    # out = varfree_to_cogs_lf("A crayon was sold to the moose that rolled", "sell ( theme = crayon , recipient = * moose ( nmod = roll ( theme = * moose ) ) )")
+
+    out = varfree_to_cogs_lf("Ava slept and so did Aubrey", "and ( junct1 = sleep ( agent = Ava ) , junct2 = sleep ( agent = Aubrey ) )")
+    print(out)
+
+
+#   """Conversion precision test using original cogs generalization set and its variable-free format from Qiu et al. 2022 """
+#   varfree_lf_file = "cogs_two_formats/gen_varfree_lf.tsv"
+#   cogs_file = "cogs_two_formats/gen_cogs_lf.tsv"
+#   df_varfree = pd.read_csv(varfree_lf_file, sep="\t", names=["sent", "varfree_lf","type"])
+#   df_cogs = pd.read_csv(cogs_file, sep="\t", names=["sent", "cogs_lf","type"])
+#   df_varfree["converted_lf"] = df_varfree.apply(lambda x: varfree_to_cogs_lf(x.sent, x.varfree_lf), axis=1)
+#   df_varfree["cogs_lf"] = df_cogs["cogs_lf"]
+#   exact_match = (df_varfree["converted_lf"] == df_varfree["cogs_lf"]).sum()
+#   total_items = df_varfree.shape[0]
+#   ratio = exact_match / total_items
+#   print(f"Exact match rate between converted LFs and original cogs LFs: {exact_match}/{total_items} ({ratio*100:.1f}%)")
