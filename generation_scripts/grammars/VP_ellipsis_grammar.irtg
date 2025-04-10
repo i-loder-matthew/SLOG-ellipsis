@@ -1,9 +1,21 @@
 {##
 VP Ellipsis:
 Transitive and intransitive verbs
-##}
 
-S! -> r{{ cnt.next() }}(N_prop_nsubj, V_unerg, AND, SO, AUX_did, N_prop_nsubj) [1]
+S! -> r{{ cnt.next() }}(N_prop_nsubj, V_unerg, AND, SO, AUX_did, N_prop_nsubj) [0.5]
 [english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
 [semantics] junct2(junct1(and, agent(?2, ?1)), agent(?2, ?6))
 
+
+##}
+
+
+
+S! -> r{{ cnt.next() }}(N_prop_nsubj, VP_external, AND, SO, AUX_did, N_prop_nsubj) [1]
+[english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
+[semantics] junct2(junct1(and, pre_agent(?2, ?1)), pre_agent(?2, ?6))
+
+
+VP_external -> r{{ cnt.next() }}(V_unerg) [1]
+[english] ?1
+[semantics] ?1
