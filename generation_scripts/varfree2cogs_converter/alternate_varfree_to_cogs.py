@@ -178,17 +178,21 @@ def variable_free_to_cogs(variable_free_lf):
     lf_tree = gen_tree(vf_lf)
     ix_dict, current_ix = gen_ix_list(vf_lf)
 
-    lfstring = ""
+    lfstring1 = ""
 
-    definites = ix_dict["definite"]
-    indefinites = ix_dict["indefinite"]
+    definites = ix_dict["definite"].items()
+    indefinites = ix_dict["indefinite"].items()
 
-    for key, value in definites.items():
-        lfstring = lfstring + " * " + key + " ( " + value + " ) ;"
+    for key, value in definites:
+        lfstring1 = lfstring1 + "* " + key + " ( " + value + " ) ; "
 
-    i =  0
-    while i < len(indefinites):
-        
+    for key, value in indefinites:
+        lfstring1 = lfstring1 + key + " ( " + value + " ) AND "
+
+    lfstring2, _ = parse_and_translate(lf_tree, ix_dict, current_ix)
+
+    return lfstring1 + lfstring2
+
 
 
 if __name__ == "__main__":
@@ -200,11 +204,6 @@ if __name__ == "__main__":
     # print(gen_ix_list("and ( junct1 = sleep ( agent = girl ) , junct2 = sleep ( agent = Aubrey ) )"))
 
     vf_lf = "and ( junct1 = sleep ( agent = girl ) , junct2 = sleep ( agent = Aubrey ) )"
-
-    lf_tree = gen_tree(vf_lf)
-    ix_dict, current_ix = gen_ix_list(vf_lf)
-
-
-    cogs_lf, ix = parse_and_translate(lf_tree, ix_dict, current_ix)
+    cogs_lf = variable_free_to_cogs(vf_lf)
 
     print(cogs_lf)
