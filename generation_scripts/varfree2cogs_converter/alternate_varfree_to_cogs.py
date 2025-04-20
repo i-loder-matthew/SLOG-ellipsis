@@ -16,7 +16,7 @@ with open('lexicon/proper_nouns.json') as propN_file:
  proper_nouns = json.load(propN_file)
 
 verb_dict = dict()
-for filename in ["V_trans.json", "V_unacc.json", "V_unerg.json"]:
+for filename in ["V_trans.json", "V_unacc.json", "V_unerg.json", "V_cp_taking.json"]:
     with open("lexicon/" + filename) as f:
         vlist = json.load(f)
         key = filename.split(".")[0]
@@ -47,19 +47,49 @@ def gen_tree(variable_free_lf):
 
     depth_lists = [[]]
 
+    subdown = False
+
+    ccomp_depth = []
+
     for elem in lf_list:
         if elem in ["=", ",", "*"]:
             pass
+        elif elem in ["ccomp"]:
+        
+            ccomp_depth.append(depth)
+            
+            depth += 1
+            if  depth > len(depth_lists) - 1:
+                depth_lists.append([])
         elif elem == "(":
             depth += 1
             if  depth > len(depth_lists) - 1:
                 depth_lists.append([])
         elif elem == ")":
-            depth_lists[depth-1].append(depth_lists[depth])
-            depth_lists[depth] = []
-            depth -= 1
+            if len(ccomp_depth) == 0 or ccomp_depth[-1] != depth - 2:
+                depth_lists[depth-1].append(depth_lists[depth])
+                depth_lists[depth] = []
+                depth -=   1
+            else:
+                # print(depth)
+                # print(ccomp_depth[-1])
+                depth_lists[depth-2].append("ccomp")
+                depth_lists[depth-1].append(depth_lists[depth])
+                depth_lists[depth] = []
+                depth -= 1
+                depth_lists[depth-1].append(depth_lists[depth])
+                depth_lists[depth] = []
+                depth -= 1
+
+                ccomp_depth = ccomp_depth[:-1]
+                # print(ccomp_depth)
+
         else:
             depth_lists[depth].append(elem)
+
+
+        # print (depth_lists[depth])
+
 
 
     return depth_lists[0]
@@ -139,28 +169,37 @@ def parse_and_translate(lf_tree, ix_dict, last_ix):
                 text_j2, ix_j2 = parse_and_translate(daughters[4:],  ix_dict, ix_j1)
 
                 return text_j1 + " AND " + text_j2, ix_j2
-
+        
 
         elif head in all_verbs:
             event_ix = "x _ " + str(current_ix)
+            event_ix_no = current_ix
             current_ix += 1
 
             num_v_args = len(daughters) / 2 # assuming all arguments are nominals
-
+            
             arg_num = 0
 
             out_text = ""
 
             while arg_num < num_v_args:
                 suffix = daughters[arg_num * 2]
+                
                 arg_tree = daughters[arg_num * 2 + 1]
+               
                 
                 if isinstance(arg_tree, str):
                     arg_tree = [arg_tree]
+                
+                if suffix == "ccomp":
+                    
+                    arg_text, current_ix = parse_and_translate(arg_tree, ix_dict, current_ix)
+            
+                    out_text = out_text + head + " . ccomp ( " + event_ix + ", x _ " + str(event_ix_no + 1) + " ) AND " + arg_text
+                else:
+                    arg_text, current_ix = parse_and_translate(arg_tree, ix_dict, current_ix)
 
-                arg_text, current_ix = parse_and_translate(arg_tree, ix_dict, current_ix)
-
-                out_text = out_text + head + " . " +  suffix + " ( " + event_ix + " , " + arg_text + " )"
+                    out_text = out_text + head + " . " +  suffix + " ( " + event_ix + " , " + arg_text + " )"
 
                 arg_num += 1 
                 if arg_num < num_v_args:
@@ -175,8 +214,8 @@ def variable_free_to_cogs(variable_free_lf):
     Output: A COGS LF string
     """
 
-    lf_tree = gen_tree(vf_lf)
-    ix_dict, current_ix = gen_ix_list(vf_lf)
+    lf_tree = gen_tree(variable_free_lf)
+    ix_dict, current_ix = gen_ix_list(variable_free_lf)
 
     lfstring1 = ""
 
@@ -203,7 +242,9 @@ if __name__ == "__main__":
     # print(gen_ix_list("sleep ( agent = Ava )"))
     # print(gen_ix_list("and ( junct1 = sleep ( agent = girl ) , junct2 = sleep ( agent = Aubrey ) )"))
 
-    vf_lf = "and ( junct1 = sleep ( agent = girl ) , junct2 = sleep ( agent = Aubrey ) )"
+    # vf_lf = "and ( junct1 = notice ( agent = Jayden , ccomp = call ( agent = * friend ) ) , junct2 = notice ( agent = boy , ccomp = call ( agent = * friend ) ) )"
+    vf_lf = "and ( junct1 = value ( agent = Elizabeth , ccomp = wish ( agent = William , ccomp = nap ( agent = Emma ) ) ) , junct2 = value ( agent = * lawyer , ccomp = wish ( agent = William , ccomp = nap ( agent = Emma ) ) ) )"
     cogs_lf = variable_free_to_cogs(vf_lf)
 
     print(cogs_lf)
+    

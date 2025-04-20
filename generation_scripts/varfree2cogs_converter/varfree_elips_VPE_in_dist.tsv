@@ -1,0 +1,1000 @@
+A girl cleaned Luke and so did the boy .	and ( junct1 = clean ( agent = girl , theme = Luke ) , junct2 = clean ( agent = * boy , theme = Luke ) )	elips_VPE_in_dist
+The girl liked that a duck ate a dog and so did Abigail .	and ( junct1 = like ( agent = * girl , ccomp = eat ( agent = duck , theme = dog ) ) , junct2 = like ( agent = Abigail , ccomp = eat ( agent = duck , theme = dog ) ) )	elips_VPE_in_dist
+Isabella hoped that the girl dusted a cake and so did Elijah .	and ( junct1 = hope ( agent = Isabella , ccomp = dust ( agent = * girl , theme = cake ) ) , junct2 = hope ( agent = Elijah , ccomp = dust ( agent = * girl , theme = cake ) ) )	elips_VPE_in_dist
+James loved Penelope and so did Emma .	and ( junct1 = love ( agent = James , theme = Penelope ) , junct2 = love ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+Eleanor found the glue and so did William .	and ( junct1 = find ( agent = Eleanor , theme = * glue ) , junct2 = find ( agent = William , theme = * glue ) )	elips_VPE_in_dist
+Olivia ate Wyatt and so did Sebastian .	and ( junct1 = eat ( agent = Olivia , theme = Wyatt ) , junct2 = eat ( agent = Sebastian , theme = Wyatt ) )	elips_VPE_in_dist
+Emma painted Penelope and so did Liam .	and ( junct1 = paint ( agent = Emma , theme = Penelope ) , junct2 = paint ( agent = Liam , theme = Penelope ) )	elips_VPE_in_dist
+A dog painted a cake and so did Sophia .	and ( junct1 = paint ( agent = dog , theme = cake ) , junct2 = paint ( agent = Sophia , theme = cake ) )	elips_VPE_in_dist
+The visitor appreciated that Asher liked Penelope and so did Isabella .	and ( junct1 = appreciate ( agent = * visitor , ccomp = like ( agent = Asher , theme = Penelope ) ) , junct2 = appreciate ( agent = Isabella , ccomp = like ( agent = Asher , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma found the chalk and so did the boy .	and ( junct1 = find ( agent = Emma , theme = * chalk ) , junct2 = find ( agent = * boy , theme = * chalk ) )	elips_VPE_in_dist
+A zebra painted a donut and so did Liam .	and ( junct1 = paint ( agent = zebra , theme = donut ) , junct2 = paint ( agent = Liam , theme = donut ) )	elips_VPE_in_dist
+A girl ate a customer and so did Scarlett .	and ( junct1 = eat ( agent = girl , theme = customer ) , junct2 = eat ( agent = Scarlett , theme = customer ) )	elips_VPE_in_dist
+Joshua liked a cake and so did a frog .	and ( junct1 = like ( agent = Joshua , theme = cake ) , junct2 = like ( agent = frog , theme = cake ) )	elips_VPE_in_dist
+Noah juggled a mirror and so did the teacher .	and ( junct1 = juggle ( agent = Noah , theme = mirror ) , junct2 = juggle ( agent = * teacher , theme = mirror ) )	elips_VPE_in_dist
+The cat drew Grayson and so did Michael .	and ( junct1 = draw ( agent = * cat , theme = Grayson ) , junct2 = draw ( agent = Michael , theme = Grayson ) )	elips_VPE_in_dist
+Liam believed that Harper liked the child and so did the girl .	and ( junct1 = believe ( agent = Liam , ccomp = like ( agent = Harper , theme = * child ) ) , junct2 = believe ( agent = * girl , ccomp = like ( agent = Harper , theme = * child ) ) )	elips_VPE_in_dist
+Hannah helped a cat and so did the girl .	and ( junct1 = help ( agent = Hannah , theme = cat ) , junct2 = help ( agent = * girl , theme = cat ) )	elips_VPE_in_dist
+Mia meant that a passenger nursed a donut and so did William .	and ( junct1 = mean ( agent = Mia , ccomp = nurse ( agent = passenger , theme = donut ) ) , junct2 = mean ( agent = William , ccomp = nurse ( agent = passenger , theme = donut ) ) )	elips_VPE_in_dist
+Noah hunted Wyatt and so did the puppy .	and ( junct1 = hunt ( agent = Noah , theme = Wyatt ) , junct2 = hunt ( agent = * puppy , theme = Wyatt ) )	elips_VPE_in_dist
+A boy painted a cookie and so did the prisoner .	and ( junct1 = paint ( agent = boy , theme = cookie ) , junct2 = paint ( agent = * prisoner , theme = cookie ) )	elips_VPE_in_dist
+Emma liked the game and so did the chicken .	and ( junct1 = like ( agent = Emma , theme = * game ) , junct2 = like ( agent = * chicken , theme = * game ) )	elips_VPE_in_dist
+A professor confessed that Olivia sketched Penelope and so did a girl .	and ( junct1 = confess ( agent = professor , ccomp = sketch ( agent = Olivia , theme = Penelope ) ) , junct2 = confess ( agent = girl , ccomp = sketch ( agent = Olivia , theme = Penelope ) ) )	elips_VPE_in_dist
+Sophia found a balloon and so did Henry .	and ( junct1 = find ( agent = Sophia , theme = balloon ) , junct2 = find ( agent = Henry , theme = balloon ) )	elips_VPE_in_dist
+Emma liked that a baby painted the cake and so did Ava .	and ( junct1 = like ( agent = Emma , ccomp = paint ( agent = baby , theme = * cake ) ) , junct2 = like ( agent = Ava , ccomp = paint ( agent = baby , theme = * cake ) ) )	elips_VPE_in_dist
+Isabella confessed that Emma found the glue and so did a child .	and ( junct1 = confess ( agent = Isabella , ccomp = find ( agent = Emma , theme = * glue ) ) , junct2 = confess ( agent = child , ccomp = find ( agent = Emma , theme = * glue ) ) )	elips_VPE_in_dist
+A girl believed that the cat dusted the crayon and so did the dog .	and ( junct1 = believe ( agent = girl , ccomp = dust ( agent = * cat , theme = * crayon ) ) , junct2 = believe ( agent = * dog , ccomp = dust ( agent = * cat , theme = * crayon ) ) )	elips_VPE_in_dist
+A boy found the cake and so did Emma .	and ( junct1 = find ( agent = boy , theme = * cake ) , junct2 = find ( agent = Emma , theme = * cake ) )	elips_VPE_in_dist
+Emma missed a cat and so did a lion .	and ( junct1 = miss ( agent = Emma , theme = cat ) , junct2 = miss ( agent = lion , theme = cat ) )	elips_VPE_in_dist
+The frog admired that Logan missed the gumball and so did Lucas .	and ( junct1 = admire ( agent = * frog , ccomp = miss ( agent = Logan , theme = * gumball ) ) , junct2 = admire ( agent = Lucas , ccomp = miss ( agent = Logan , theme = * gumball ) ) )	elips_VPE_in_dist
+The girl cooked a cake and so did the baby .	and ( junct1 = cook ( agent = * girl , theme = cake ) , junct2 = cook ( agent = * baby , theme = cake ) )	elips_VPE_in_dist
+Emma poked the donut and so did the monkey .	and ( junct1 = poke ( agent = Emma , theme = * donut ) , junct2 = poke ( agent = * monkey , theme = * donut ) )	elips_VPE_in_dist
+Michael ate the cookie and so did Chloe .	and ( junct1 = eat ( agent = Michael , theme = * cookie ) , junct2 = eat ( agent = Chloe , theme = * cookie ) )	elips_VPE_in_dist
+James declared that Liam drew a cake and so did the girl .	and ( junct1 = declare ( agent = James , ccomp = draw ( agent = Liam , theme = cake ) ) , junct2 = declare ( agent = * girl , ccomp = draw ( agent = Liam , theme = cake ) ) )	elips_VPE_in_dist
+A boy meant that Noah liked Penelope and so did a girl .	and ( junct1 = mean ( agent = boy , ccomp = like ( agent = Noah , theme = Penelope ) ) , junct2 = mean ( agent = girl , ccomp = like ( agent = Noah , theme = Penelope ) ) )	elips_VPE_in_dist
+The baby ate the crocodile and so did the poet .	and ( junct1 = eat ( agent = * baby , theme = * crocodile ) , junct2 = eat ( agent = * poet , theme = * crocodile ) )	elips_VPE_in_dist
+Emma liked the girl and so did a lawyer .	and ( junct1 = like ( agent = Emma , theme = * girl ) , junct2 = like ( agent = lawyer , theme = * girl ) )	elips_VPE_in_dist
+The girl adored the cake and so did Emma .	and ( junct1 = adore ( agent = * girl , theme = * cake ) , junct2 = adore ( agent = Emma , theme = * cake ) )	elips_VPE_in_dist
+The consumer painted a scientist and so did Jackson .	and ( junct1 = paint ( agent = * consumer , theme = scientist ) , junct2 = paint ( agent = Jackson , theme = scientist ) )	elips_VPE_in_dist
+Emma sketched Lillian and so did a bee .	and ( junct1 = sketch ( agent = Emma , theme = Lillian ) , junct2 = sketch ( agent = bee , theme = Lillian ) )	elips_VPE_in_dist
+A girl juggled Penelope and so did Skylar .	and ( junct1 = juggle ( agent = girl , theme = Penelope ) , junct2 = juggle ( agent = Skylar , theme = Penelope ) )	elips_VPE_in_dist
+Olivia proved that Isabella liked a boy and so did Liam .	and ( junct1 = prove ( agent = Olivia , ccomp = like ( agent = Isabella , theme = boy ) ) , junct2 = prove ( agent = Liam , ccomp = like ( agent = Isabella , theme = boy ) ) )	elips_VPE_in_dist
+The wolf ate a nail and so did a girl .	and ( junct1 = eat ( agent = * wolf , theme = nail ) , junct2 = eat ( agent = girl , theme = nail ) )	elips_VPE_in_dist
+The cat helped a cup and so did a girl .	and ( junct1 = help ( agent = * cat , theme = cup ) , junct2 = help ( agent = girl , theme = cup ) )	elips_VPE_in_dist
+Liam liked a guitar and so did a girl .	and ( junct1 = like ( agent = Liam , theme = guitar ) , junct2 = like ( agent = girl , theme = guitar ) )	elips_VPE_in_dist
+A girl helped a donut and so did Olivia .	and ( junct1 = help ( agent = girl , theme = donut ) , junct2 = help ( agent = Olivia , theme = donut ) )	elips_VPE_in_dist
+Liam appreciated Wyatt and so did a sailor .	and ( junct1 = appreciate ( agent = Liam , theme = Wyatt ) , junct2 = appreciate ( agent = sailor , theme = Wyatt ) )	elips_VPE_in_dist
+A duck ate a cake and so did Liam .	and ( junct1 = eat ( agent = duck , theme = cake ) , junct2 = eat ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+Emma hunted the boy and so did Olivia .	and ( junct1 = hunt ( agent = Emma , theme = * boy ) , junct2 = hunt ( agent = Olivia , theme = * boy ) )	elips_VPE_in_dist
+The cow hoped that Mia helped Penelope and so did a professor .	and ( junct1 = hope ( agent = * cow , ccomp = help ( agent = Mia , theme = Penelope ) ) , junct2 = hope ( agent = professor , ccomp = help ( agent = Mia , theme = Penelope ) ) )	elips_VPE_in_dist
+A bird ate a jigsaw and so did Olivia .	and ( junct1 = eat ( agent = bird , theme = jigsaw ) , junct2 = eat ( agent = Olivia , theme = jigsaw ) )	elips_VPE_in_dist
+Emma nursed a cookie and so did Alexander .	and ( junct1 = nurse ( agent = Emma , theme = cookie ) , junct2 = nurse ( agent = Alexander , theme = cookie ) )	elips_VPE_in_dist
+A teacher liked the box and so did Emma .	and ( junct1 = like ( agent = teacher , theme = * box ) , junct2 = like ( agent = Emma , theme = * box ) )	elips_VPE_in_dist
+Emma liked the jigsaw and so did a cat .	and ( junct1 = like ( agent = Emma , theme = * jigsaw ) , junct2 = like ( agent = cat , theme = * jigsaw ) )	elips_VPE_in_dist
+A researcher noticed that the boy ate the cake and so did Noah .	and ( junct1 = notice ( agent = researcher , ccomp = eat ( agent = * boy , theme = * cake ) ) , junct2 = notice ( agent = Noah , ccomp = eat ( agent = * boy , theme = * cake ) ) )	elips_VPE_in_dist
+Emma expected that the baby liked a teacher and so did a captain .	and ( junct1 = expect ( agent = Emma , ccomp = like ( agent = * baby , theme = teacher ) ) , junct2 = expect ( agent = captain , ccomp = like ( agent = * baby , theme = teacher ) ) )	elips_VPE_in_dist
+The baby ate the sailor and so did the girl .	and ( junct1 = eat ( agent = * baby , theme = * sailor ) , junct2 = eat ( agent = * girl , theme = * sailor ) )	elips_VPE_in_dist
+Logan ate the girl and so did James .	and ( junct1 = eat ( agent = Logan , theme = * girl ) , junct2 = eat ( agent = James , theme = * girl ) )	elips_VPE_in_dist
+Noah painted a block and so did the girl .	and ( junct1 = paint ( agent = Noah , theme = block ) , junct2 = paint ( agent = * girl , theme = block ) )	elips_VPE_in_dist
+Noah ate Penelope and so did Liam .	and ( junct1 = eat ( agent = Noah , theme = Penelope ) , junct2 = eat ( agent = Liam , theme = Penelope ) )	elips_VPE_in_dist
+The girl ate the gumball and so did a goose .	and ( junct1 = eat ( agent = * girl , theme = * gumball ) , junct2 = eat ( agent = goose , theme = * gumball ) )	elips_VPE_in_dist
+Ava admired the cake and so did John .	and ( junct1 = admire ( agent = Ava , theme = * cake ) , junct2 = admire ( agent = John , theme = * cake ) )	elips_VPE_in_dist
+The frog ate a box and so did a child .	and ( junct1 = eat ( agent = * frog , theme = box ) , junct2 = eat ( agent = child , theme = box ) )	elips_VPE_in_dist
+The governor juggled a donut and so did a cat .	and ( junct1 = juggle ( agent = * governor , theme = donut ) , junct2 = juggle ( agent = cat , theme = donut ) )	elips_VPE_in_dist
+A girl drew a child and so did the priest .	and ( junct1 = draw ( agent = girl , theme = child ) , junct2 = draw ( agent = * priest , theme = child ) )	elips_VPE_in_dist
+A lion liked that Jaxon liked Layla and so did a monster .	and ( junct1 = like ( agent = lion , ccomp = like ( agent = Jaxon , theme = Layla ) ) , junct2 = like ( agent = monster , ccomp = like ( agent = Jaxon , theme = Layla ) ) )	elips_VPE_in_dist
+The girl cooked the donut and so did a mother .	and ( junct1 = cook ( agent = * girl , theme = * donut ) , junct2 = cook ( agent = mother , theme = * donut ) )	elips_VPE_in_dist
+Elizabeth liked a pillow and so did Noah .	and ( junct1 = like ( agent = Elizabeth , theme = pillow ) , junct2 = like ( agent = Noah , theme = pillow ) )	elips_VPE_in_dist
+A dog hoped that Elijah painted John and so did a girl .	and ( junct1 = hope ( agent = dog , ccomp = paint ( agent = Elijah , theme = John ) ) , junct2 = hope ( agent = girl , ccomp = paint ( agent = Elijah , theme = John ) ) )	elips_VPE_in_dist
+A bear ate John and so did a girl .	and ( junct1 = eat ( agent = bear , theme = John ) , junct2 = eat ( agent = girl , theme = John ) )	elips_VPE_in_dist
+Emma supported that Jackson found the cake and so did a girl .	and ( junct1 = support ( agent = Emma , ccomp = find ( agent = Jackson , theme = * cake ) ) , junct2 = support ( agent = girl , ccomp = find ( agent = Jackson , theme = * cake ) ) )	elips_VPE_in_dist
+Elijah drew Nora and so did a girl .	and ( junct1 = draw ( agent = Elijah , theme = Nora ) , junct2 = draw ( agent = girl , theme = Nora ) )	elips_VPE_in_dist
+A girl appreciated that Emma juggled the baby and so did Benjamin .	and ( junct1 = appreciate ( agent = girl , ccomp = juggle ( agent = Emma , theme = * baby ) ) , junct2 = appreciate ( agent = Benjamin , ccomp = juggle ( agent = Emma , theme = * baby ) ) )	elips_VPE_in_dist
+Emma sketched the cake and so did the cat .	and ( junct1 = sketch ( agent = Emma , theme = * cake ) , junct2 = sketch ( agent = * cat , theme = * cake ) )	elips_VPE_in_dist
+A boy juggled a customer and so did the monkey .	and ( junct1 = juggle ( agent = boy , theme = customer ) , junct2 = juggle ( agent = * monkey , theme = customer ) )	elips_VPE_in_dist
+Charlotte painted the raisin and so did Oliver .	and ( junct1 = paint ( agent = Charlotte , theme = * raisin ) , junct2 = paint ( agent = Oliver , theme = * raisin ) )	elips_VPE_in_dist
+Skylar liked a cloud and so did Emma .	and ( junct1 = like ( agent = Skylar , theme = cloud ) , junct2 = like ( agent = Emma , theme = cloud ) )	elips_VPE_in_dist
+The baby cleaned a mirror and so did a girl .	and ( junct1 = clean ( agent = * baby , theme = mirror ) , junct2 = clean ( agent = girl , theme = mirror ) )	elips_VPE_in_dist
+A girl believed that a monster painted a queen and so did Lucas .	and ( junct1 = believe ( agent = girl , ccomp = paint ( agent = monster , theme = queen ) ) , junct2 = believe ( agent = Lucas , ccomp = paint ( agent = monster , theme = queen ) ) )	elips_VPE_in_dist
+A bear helped the cake and so did the girl .	and ( junct1 = help ( agent = bear , theme = * cake ) , junct2 = help ( agent = * girl , theme = * cake ) )	elips_VPE_in_dist
+The girl nursed a pencil and so did the dog .	and ( junct1 = nurse ( agent = * girl , theme = pencil ) , junct2 = nurse ( agent = * dog , theme = pencil ) )	elips_VPE_in_dist
+A king painted a pickle and so did Liam .	and ( junct1 = paint ( agent = king , theme = pickle ) , junct2 = paint ( agent = Liam , theme = pickle ) )	elips_VPE_in_dist
+Liam liked a cake and so did Emma .	and ( junct1 = like ( agent = Liam , theme = cake ) , junct2 = like ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+A dog liked that Thomas painted Luke and so did Sofia .	and ( junct1 = like ( agent = dog , ccomp = paint ( agent = Thomas , theme = Luke ) ) , junct2 = like ( agent = Sofia , ccomp = paint ( agent = Thomas , theme = Luke ) ) )	elips_VPE_in_dist
+Liam missed Zoey and so did the bear .	and ( junct1 = miss ( agent = Liam , theme = Zoey ) , junct2 = miss ( agent = * bear , theme = Zoey ) )	elips_VPE_in_dist
+Liam liked that the patient cleaned the cake and so did Logan .	and ( junct1 = like ( agent = Liam , ccomp = clean ( agent = * patient , theme = * cake ) ) , junct2 = like ( agent = Logan , ccomp = clean ( agent = * patient , theme = * cake ) ) )	elips_VPE_in_dist
+The king liked that Emma helped the girl and so did the dog .	and ( junct1 = like ( agent = * king , ccomp = help ( agent = Emma , theme = * girl ) ) , junct2 = like ( agent = * dog , ccomp = help ( agent = Emma , theme = * girl ) ) )	elips_VPE_in_dist
+Julian adored Isaac and so did Emma .	and ( junct1 = adore ( agent = Julian , theme = Isaac ) , junct2 = adore ( agent = Emma , theme = Isaac ) )	elips_VPE_in_dist
+A mouse liked that the king found the boy and so did the girl .	and ( junct1 = like ( agent = mouse , ccomp = find ( agent = * king , theme = * boy ) ) , junct2 = like ( agent = * girl , ccomp = find ( agent = * king , theme = * boy ) ) )	elips_VPE_in_dist
+The princess dreamed that Emma dusted a cake and so did the cat .	and ( junct1 = dream ( agent = * princess , ccomp = dust ( agent = Emma , theme = cake ) ) , junct2 = dream ( agent = * cat , ccomp = dust ( agent = Emma , theme = cake ) ) )	elips_VPE_in_dist
+Olivia painted a donut and so did a goose .	and ( junct1 = paint ( agent = Olivia , theme = donut ) , junct2 = paint ( agent = goose , theme = donut ) )	elips_VPE_in_dist
+William liked a boy and so did Emma .	and ( junct1 = like ( agent = William , theme = boy ) , junct2 = like ( agent = Emma , theme = boy ) )	elips_VPE_in_dist
+Emma said that Zoe liked a cake and so did Olivia .	and ( junct1 = say ( agent = Emma , ccomp = like ( agent = Zoe , theme = cake ) ) , junct2 = say ( agent = Olivia , ccomp = like ( agent = Zoe , theme = cake ) ) )	elips_VPE_in_dist
+A sailor found the cake and so did a baby .	and ( junct1 = find ( agent = sailor , theme = * cake ) , junct2 = find ( agent = baby , theme = * cake ) )	elips_VPE_in_dist
+Liam liked the cake and so did a girl .	and ( junct1 = like ( agent = Liam , theme = * cake ) , junct2 = like ( agent = girl , theme = * cake ) )	elips_VPE_in_dist
+Ava liked a boy and so did Lucas .	and ( junct1 = like ( agent = Ava , theme = boy ) , junct2 = like ( agent = Lucas , theme = boy ) )	elips_VPE_in_dist
+Emma confessed that the monster ate a cake and so did the bear .	and ( junct1 = confess ( agent = Emma , ccomp = eat ( agent = * monster , theme = cake ) ) , junct2 = confess ( agent = * bear , ccomp = eat ( agent = * monster , theme = cake ) ) )	elips_VPE_in_dist
+The governor cleaned Wyatt and so did a passenger .	and ( junct1 = clean ( agent = * governor , theme = Wyatt ) , junct2 = clean ( agent = passenger , theme = Wyatt ) )	elips_VPE_in_dist
+The girl cleaned a chicken and so did Emma .	and ( junct1 = clean ( agent = * girl , theme = chicken ) , junct2 = clean ( agent = Emma , theme = chicken ) )	elips_VPE_in_dist
+Liam cooked Layla and so did Dylan .	and ( junct1 = cook ( agent = Liam , theme = Layla ) , junct2 = cook ( agent = Dylan , theme = Layla ) )	elips_VPE_in_dist
+A landlord found the father and so did the girl .	and ( junct1 = find ( agent = landlord , theme = * father ) , junct2 = find ( agent = * girl , theme = * father ) )	elips_VPE_in_dist
+The girl confessed that a boy ate the hamburger and so did a driver .	and ( junct1 = confess ( agent = * girl , ccomp = eat ( agent = boy , theme = * hamburger ) ) , junct2 = confess ( agent = driver , ccomp = eat ( agent = boy , theme = * hamburger ) ) )	elips_VPE_in_dist
+A dog liked that the fly dusted the sandwich and so did the girl .	and ( junct1 = like ( agent = dog , ccomp = dust ( agent = * fly , theme = * sandwich ) ) , junct2 = like ( agent = * girl , ccomp = dust ( agent = * fly , theme = * sandwich ) ) )	elips_VPE_in_dist
+The baby helped the donut and so did Sophia .	and ( junct1 = help ( agent = * baby , theme = * donut ) , junct2 = help ( agent = Sophia , theme = * donut ) )	elips_VPE_in_dist
+Emma hunted the cake and so did a cat .	and ( junct1 = hunt ( agent = Emma , theme = * cake ) , junct2 = hunt ( agent = cat , theme = * cake ) )	elips_VPE_in_dist
+The boy ate the bucket and so did the girl .	and ( junct1 = eat ( agent = * boy , theme = * bucket ) , junct2 = eat ( agent = * girl , theme = * bucket ) )	elips_VPE_in_dist
+The customer liked a cat and so did the girl .	and ( junct1 = like ( agent = * customer , theme = cat ) , junct2 = like ( agent = * girl , theme = cat ) )	elips_VPE_in_dist
+The dog hoped that Charlotte appreciated Addison and so did Emma .	and ( junct1 = hope ( agent = * dog , ccomp = appreciate ( agent = Charlotte , theme = Addison ) ) , junct2 = hope ( agent = Emma , ccomp = appreciate ( agent = Charlotte , theme = Addison ) ) )	elips_VPE_in_dist
+Liam hoped that Ella loved a cake and so did a professor .	and ( junct1 = hope ( agent = Liam , ccomp = love ( agent = Ella , theme = cake ) ) , junct2 = hope ( agent = professor , ccomp = love ( agent = Ella , theme = cake ) ) )	elips_VPE_in_dist
+Emma drew the box and so did a boy .	and ( junct1 = draw ( agent = Emma , theme = * box ) , junct2 = draw ( agent = boy , theme = * box ) )	elips_VPE_in_dist
+Benjamin liked that Olivia admired a rose and so did the bear .	and ( junct1 = like ( agent = Benjamin , ccomp = admire ( agent = Olivia , theme = rose ) ) , junct2 = like ( agent = * bear , ccomp = admire ( agent = Olivia , theme = rose ) ) )	elips_VPE_in_dist
+The father painted a dog and so did Isabella .	and ( junct1 = paint ( agent = * father , theme = dog ) , junct2 = paint ( agent = Isabella , theme = dog ) )	elips_VPE_in_dist
+A kid missed the girl and so did Camila .	and ( junct1 = miss ( agent = kid , theme = * girl ) , junct2 = miss ( agent = Camila , theme = * girl ) )	elips_VPE_in_dist
+Emma said that a mouse liked Penelope and so did a dog .	and ( junct1 = say ( agent = Emma , ccomp = like ( agent = mouse , theme = Penelope ) ) , junct2 = say ( agent = dog , ccomp = like ( agent = mouse , theme = Penelope ) ) )	elips_VPE_in_dist
+The girl ate the raisin and so did Emma .	and ( junct1 = eat ( agent = * girl , theme = * raisin ) , junct2 = eat ( agent = Emma , theme = * raisin ) )	elips_VPE_in_dist
+Aria liked the beer and so did the girl .	and ( junct1 = like ( agent = Aria , theme = * beer ) , junct2 = like ( agent = * girl , theme = * beer ) )	elips_VPE_in_dist
+A boy ate the shoe and so did Liam .	and ( junct1 = eat ( agent = boy , theme = * shoe ) , junct2 = eat ( agent = Liam , theme = * shoe ) )	elips_VPE_in_dist
+A monster liked that a boy liked the dog and so did Aubrey .	and ( junct1 = like ( agent = monster , ccomp = like ( agent = boy , theme = * dog ) ) , junct2 = like ( agent = Aubrey , ccomp = like ( agent = boy , theme = * dog ) ) )	elips_VPE_in_dist
+Oliver hoped that Olivia liked a cake and so did a horse .	and ( junct1 = hope ( agent = Oliver , ccomp = like ( agent = Olivia , theme = cake ) ) , junct2 = hope ( agent = horse , ccomp = like ( agent = Olivia , theme = cake ) ) )	elips_VPE_in_dist
+Olivia loved a cake and so did Liam .	and ( junct1 = love ( agent = Olivia , theme = cake ) , junct2 = love ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+The girl adored the boy and so did Olivia .	and ( junct1 = adore ( agent = * girl , theme = * boy ) , junct2 = adore ( agent = Olivia , theme = * boy ) )	elips_VPE_in_dist
+Emma helped a girl and so did Daniel .	and ( junct1 = help ( agent = Emma , theme = girl ) , junct2 = help ( agent = Daniel , theme = girl ) )	elips_VPE_in_dist
+The chicken painted Nora and so did Aurora .	and ( junct1 = paint ( agent = * chicken , theme = Nora ) , junct2 = paint ( agent = Aurora , theme = Nora ) )	elips_VPE_in_dist
+The friend liked a cake and so did Ava .	and ( junct1 = like ( agent = * friend , theme = cake ) , junct2 = like ( agent = Ava , theme = cake ) )	elips_VPE_in_dist
+Victoria noticed that Levi ate Leo and so did Oliver .	and ( junct1 = notice ( agent = Victoria , ccomp = eat ( agent = Levi , theme = Leo ) ) , junct2 = notice ( agent = Oliver , ccomp = eat ( agent = Levi , theme = Leo ) ) )	elips_VPE_in_dist
+Emma ate a dog and so did a cat .	and ( junct1 = eat ( agent = Emma , theme = dog ) , junct2 = eat ( agent = cat , theme = dog ) )	elips_VPE_in_dist
+A girl liked a hat and so did Jacob .	and ( junct1 = like ( agent = girl , theme = hat ) , junct2 = like ( agent = Jacob , theme = hat ) )	elips_VPE_in_dist
+Emma loved the strawberry and so did Olivia .	and ( junct1 = love ( agent = Emma , theme = * strawberry ) , junct2 = love ( agent = Olivia , theme = * strawberry ) )	elips_VPE_in_dist
+Anthony confessed that the girl admired a seed and so did Evelyn .	and ( junct1 = confess ( agent = Anthony , ccomp = admire ( agent = * girl , theme = seed ) ) , junct2 = confess ( agent = Evelyn , ccomp = admire ( agent = * girl , theme = seed ) ) )	elips_VPE_in_dist
+A squirrel declared that Ava liked a cake and so did the girl .	and ( junct1 = declare ( agent = squirrel , ccomp = like ( agent = Ava , theme = cake ) ) , junct2 = declare ( agent = * girl , ccomp = like ( agent = Ava , theme = cake ) ) )	elips_VPE_in_dist
+Liam liked that Emma ate a donut and so did the visitor .	and ( junct1 = like ( agent = Liam , ccomp = eat ( agent = Emma , theme = donut ) ) , junct2 = like ( agent = * visitor , ccomp = eat ( agent = Emma , theme = donut ) ) )	elips_VPE_in_dist
+A girl hoped that the horse found Penelope and so did a cat .	and ( junct1 = hope ( agent = girl , ccomp = find ( agent = * horse , theme = Penelope ) ) , junct2 = hope ( agent = cat , ccomp = find ( agent = * horse , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma noticed that Mia helped the cat and so did the girl .	and ( junct1 = notice ( agent = Emma , ccomp = help ( agent = Mia , theme = * cat ) ) , junct2 = notice ( agent = * girl , ccomp = help ( agent = Mia , theme = * cat ) ) )	elips_VPE_in_dist
+A girl said that the dog sketched the beer and so did Emma .	and ( junct1 = say ( agent = girl , ccomp = sketch ( agent = * dog , theme = * beer ) ) , junct2 = say ( agent = Emma , ccomp = sketch ( agent = * dog , theme = * beer ) ) )	elips_VPE_in_dist
+The boy declared that Liam adored a cake and so did Emma .	and ( junct1 = declare ( agent = * boy , ccomp = adore ( agent = Liam , theme = cake ) ) , junct2 = declare ( agent = Emma , ccomp = adore ( agent = Liam , theme = cake ) ) )	elips_VPE_in_dist
+A baby adored a cake and so did Benjamin .	and ( junct1 = adore ( agent = baby , theme = cake ) , junct2 = adore ( agent = Benjamin , theme = cake ) )	elips_VPE_in_dist
+The mouse painted Penelope and so did the giraffe .	and ( junct1 = paint ( agent = * mouse , theme = Penelope ) , junct2 = paint ( agent = * giraffe , theme = Penelope ) )	elips_VPE_in_dist
+Olivia believed that Emma helped the manager and so did a bunny .	and ( junct1 = believe ( agent = Olivia , ccomp = help ( agent = Emma , theme = * manager ) ) , junct2 = believe ( agent = bunny , ccomp = help ( agent = Emma , theme = * manager ) ) )	elips_VPE_in_dist
+The king liked Penelope and so did Benjamin .	and ( junct1 = like ( agent = * king , theme = Penelope ) , junct2 = like ( agent = Benjamin , theme = Penelope ) )	elips_VPE_in_dist
+A boy painted the cake and so did Liam .	and ( junct1 = paint ( agent = boy , theme = * cake ) , junct2 = paint ( agent = Liam , theme = * cake ) )	elips_VPE_in_dist
+The chicken hoped that a sailor hunted a flag and so did a hero .	and ( junct1 = hope ( agent = * chicken , ccomp = hunt ( agent = sailor , theme = flag ) ) , junct2 = hope ( agent = hero , ccomp = hunt ( agent = sailor , theme = flag ) ) )	elips_VPE_in_dist
+Emma liked the box and so did Liam .	and ( junct1 = like ( agent = Emma , theme = * box ) , junct2 = like ( agent = Liam , theme = * box ) )	elips_VPE_in_dist
+The boy said that the bear juggled Penelope and so did Emma .	and ( junct1 = say ( agent = * boy , ccomp = juggle ( agent = * bear , theme = Penelope ) ) , junct2 = say ( agent = Emma , ccomp = juggle ( agent = * bear , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma thought that Julian helped the ball and so did Olivia .	and ( junct1 = think ( agent = Emma , ccomp = help ( agent = Julian , theme = * ball ) ) , junct2 = think ( agent = Olivia , ccomp = help ( agent = Julian , theme = * ball ) ) )	elips_VPE_in_dist
+Ava liked that a student painted the block and so did Liam .	and ( junct1 = like ( agent = Ava , ccomp = paint ( agent = student , theme = * block ) ) , junct2 = like ( agent = Liam , ccomp = paint ( agent = student , theme = * block ) ) )	elips_VPE_in_dist
+A girl valued that Emma drew a cake and so did Liam .	and ( junct1 = value ( agent = girl , ccomp = draw ( agent = Emma , theme = cake ) ) , junct2 = value ( agent = Liam , ccomp = draw ( agent = Emma , theme = cake ) ) )	elips_VPE_in_dist
+A pupil ate a girl and so did a chicken .	and ( junct1 = eat ( agent = pupil , theme = girl ) , junct2 = eat ( agent = chicken , theme = girl ) )	elips_VPE_in_dist
+The frog liked a cake and so did a girl .	and ( junct1 = like ( agent = * frog , theme = cake ) , junct2 = like ( agent = girl , theme = cake ) )	elips_VPE_in_dist
+A customer ate the book and so did Joseph .	and ( junct1 = eat ( agent = customer , theme = * book ) , junct2 = eat ( agent = Joseph , theme = * book ) )	elips_VPE_in_dist
+Isabella painted a cake and so did a girl .	and ( junct1 = paint ( agent = Isabella , theme = cake ) , junct2 = paint ( agent = girl , theme = cake ) )	elips_VPE_in_dist
+A girl painted Christopher and so did the boy .	and ( junct1 = paint ( agent = girl , theme = Christopher ) , junct2 = paint ( agent = * boy , theme = Christopher ) )	elips_VPE_in_dist
+Liam found the cake and so did the girl .	and ( junct1 = find ( agent = Liam , theme = * cake ) , junct2 = find ( agent = * girl , theme = * cake ) )	elips_VPE_in_dist
+A baby ate the raisin and so did the cat .	and ( junct1 = eat ( agent = baby , theme = * raisin ) , junct2 = eat ( agent = * cat , theme = * raisin ) )	elips_VPE_in_dist
+The turtle liked a cake and so did Isabella .	and ( junct1 = like ( agent = * turtle , theme = cake ) , junct2 = like ( agent = Isabella , theme = cake ) )	elips_VPE_in_dist
+The boy appreciated that Victoria juggled the drink and so did Noah .	and ( junct1 = appreciate ( agent = * boy , ccomp = juggle ( agent = Victoria , theme = * drink ) ) , junct2 = appreciate ( agent = Noah , ccomp = juggle ( agent = Victoria , theme = * drink ) ) )	elips_VPE_in_dist
+The mouse supported that a baby helped a cake and so did the girl .	and ( junct1 = support ( agent = * mouse , ccomp = help ( agent = baby , theme = cake ) ) , junct2 = support ( agent = * girl , ccomp = help ( agent = baby , theme = cake ) ) )	elips_VPE_in_dist
+Claire meant that a baby found a bean and so did the mouse .	and ( junct1 = mean ( agent = Claire , ccomp = find ( agent = baby , theme = bean ) ) , junct2 = mean ( agent = * mouse , ccomp = find ( agent = baby , theme = bean ) ) )	elips_VPE_in_dist
+Oliver liked that Henry sketched the cookie and so did a duck .	and ( junct1 = like ( agent = Oliver , ccomp = sketch ( agent = Henry , theme = * cookie ) ) , junct2 = like ( agent = duck , ccomp = sketch ( agent = Henry , theme = * cookie ) ) )	elips_VPE_in_dist
+Emma painted the bucket and so did the girl .	and ( junct1 = paint ( agent = Emma , theme = * bucket ) , junct2 = paint ( agent = * girl , theme = * bucket ) )	elips_VPE_in_dist
+Logan poked a balloon and so did the cow .	and ( junct1 = poke ( agent = Logan , theme = balloon ) , junct2 = poke ( agent = * cow , theme = balloon ) )	elips_VPE_in_dist
+Emma appreciated that a girl adored a raisin and so did Olivia .	and ( junct1 = appreciate ( agent = Emma , ccomp = adore ( agent = girl , theme = raisin ) ) , junct2 = appreciate ( agent = Olivia , ccomp = adore ( agent = girl , theme = raisin ) ) )	elips_VPE_in_dist
+Nora hunted the donut and so did the girl .	and ( junct1 = hunt ( agent = Nora , theme = * donut ) , junct2 = hunt ( agent = * girl , theme = * donut ) )	elips_VPE_in_dist
+The cat admired a cake and so did Emma .	and ( junct1 = admire ( agent = * cat , theme = cake ) , junct2 = admire ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+Emma missed a child and so did Olivia .	and ( junct1 = miss ( agent = Emma , theme = child ) , junct2 = miss ( agent = Olivia , theme = child ) )	elips_VPE_in_dist
+Emma expected that Liam sketched the bell and so did a girl .	and ( junct1 = expect ( agent = Emma , ccomp = sketch ( agent = Liam , theme = * bell ) ) , junct2 = expect ( agent = girl , ccomp = sketch ( agent = Liam , theme = * bell ) ) )	elips_VPE_in_dist
+A soldier nursed the baby and so did the butterfly .	and ( junct1 = nurse ( agent = soldier , theme = * baby ) , junct2 = nurse ( agent = * butterfly , theme = * baby ) )	elips_VPE_in_dist
+Liam cleaned Penelope and so did a soldier .	and ( junct1 = clean ( agent = Liam , theme = Penelope ) , junct2 = clean ( agent = soldier , theme = Penelope ) )	elips_VPE_in_dist
+Liam nursed Penelope and so did Olivia .	and ( junct1 = nurse ( agent = Liam , theme = Penelope ) , junct2 = nurse ( agent = Olivia , theme = Penelope ) )	elips_VPE_in_dist
+Isaac dusted the girl and so did Grayson .	and ( junct1 = dust ( agent = Isaac , theme = * girl ) , junct2 = dust ( agent = Grayson , theme = * girl ) )	elips_VPE_in_dist
+Liam cleaned a rose and so did the boy .	and ( junct1 = clean ( agent = Liam , theme = rose ) , junct2 = clean ( agent = * boy , theme = rose ) )	elips_VPE_in_dist
+The crocodile respected a boy and so did the girl .	and ( junct1 = respect ( agent = * crocodile , theme = boy ) , junct2 = respect ( agent = * girl , theme = boy ) )	elips_VPE_in_dist
+Emma liked Layla and so did Jacob .	and ( junct1 = like ( agent = Emma , theme = Layla ) , junct2 = like ( agent = Jacob , theme = Layla ) )	elips_VPE_in_dist
+The baby adored the donut and so did Emma .	and ( junct1 = adore ( agent = * baby , theme = * donut ) , junct2 = adore ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+The lion loved the doll and so did the cat .	and ( junct1 = love ( agent = * lion , theme = * doll ) , junct2 = love ( agent = * cat , theme = * doll ) )	elips_VPE_in_dist
+A professor nursed Zoey and so did a boy .	and ( junct1 = nurse ( agent = professor , theme = Zoey ) , junct2 = nurse ( agent = boy , theme = Zoey ) )	elips_VPE_in_dist
+The teacher nursed a bat and so did Christopher .	and ( junct1 = nurse ( agent = * teacher , theme = bat ) , junct2 = nurse ( agent = Christopher , theme = bat ) )	elips_VPE_in_dist
+Grace ate the raisin and so did Noah .	and ( junct1 = eat ( agent = Grace , theme = * raisin ) , junct2 = eat ( agent = Noah , theme = * raisin ) )	elips_VPE_in_dist
+Olivia drew the cookie and so did Emma .	and ( junct1 = draw ( agent = Olivia , theme = * cookie ) , junct2 = draw ( agent = Emma , theme = * cookie ) )	elips_VPE_in_dist
+A child cleaned the box and so did a teacher .	and ( junct1 = clean ( agent = child , theme = * box ) , junct2 = clean ( agent = teacher , theme = * box ) )	elips_VPE_in_dist
+The cat loved a hammer and so did the frog .	and ( junct1 = love ( agent = * cat , theme = hammer ) , junct2 = love ( agent = * frog , theme = hammer ) )	elips_VPE_in_dist
+Lucas sketched a box and so did a chicken .	and ( junct1 = sketch ( agent = Lucas , theme = box ) , junct2 = sketch ( agent = chicken , theme = box ) )	elips_VPE_in_dist
+Emma nursed a cow and so did a girl .	and ( junct1 = nurse ( agent = Emma , theme = cow ) , junct2 = nurse ( agent = girl , theme = cow ) )	elips_VPE_in_dist
+James thought that Anthony ate the cake and so did Emma .	and ( junct1 = think ( agent = James , ccomp = eat ( agent = Anthony , theme = * cake ) ) , junct2 = think ( agent = Emma , ccomp = eat ( agent = Anthony , theme = * cake ) ) )	elips_VPE_in_dist
+Olivia found a cake and so did a boy .	and ( junct1 = find ( agent = Olivia , theme = cake ) , junct2 = find ( agent = boy , theme = cake ) )	elips_VPE_in_dist
+A girl ate Wyatt and so did the boy .	and ( junct1 = eat ( agent = girl , theme = Wyatt ) , junct2 = eat ( agent = * boy , theme = Wyatt ) )	elips_VPE_in_dist
+A girl poked a box and so did Liam .	and ( junct1 = poke ( agent = girl , theme = box ) , junct2 = poke ( agent = Liam , theme = box ) )	elips_VPE_in_dist
+Noah dusted the cake and so did a princess .	and ( junct1 = dust ( agent = Noah , theme = * cake ) , junct2 = dust ( agent = princess , theme = * cake ) )	elips_VPE_in_dist
+Emma liked that Camila ate the cake and so did Isabella .	and ( junct1 = like ( agent = Emma , ccomp = eat ( agent = Camila , theme = * cake ) ) , junct2 = like ( agent = Isabella , ccomp = eat ( agent = Camila , theme = * cake ) ) )	elips_VPE_in_dist
+Aria hunted a customer and so did Grace .	and ( junct1 = hunt ( agent = Aria , theme = customer ) , junct2 = hunt ( agent = Grace , theme = customer ) )	elips_VPE_in_dist
+The bee liked a boy and so did Scarlett .	and ( junct1 = like ( agent = * bee , theme = boy ) , junct2 = like ( agent = Scarlett , theme = boy ) )	elips_VPE_in_dist
+Isabella helped Penelope and so did Emma .	and ( junct1 = help ( agent = Isabella , theme = Penelope ) , junct2 = help ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+A child valued that a frog painted a raisin and so did a boy .	and ( junct1 = value ( agent = child , ccomp = paint ( agent = frog , theme = raisin ) ) , junct2 = value ( agent = boy , ccomp = paint ( agent = frog , theme = raisin ) ) )	elips_VPE_in_dist
+William valued that Olivia liked Layla and so did Emma .	and ( junct1 = value ( agent = William , ccomp = like ( agent = Olivia , theme = Layla ) ) , junct2 = value ( agent = Emma , ccomp = like ( agent = Olivia , theme = Layla ) ) )	elips_VPE_in_dist
+A guard dreamed that the guy poked a cake and so did the baby .	and ( junct1 = dream ( agent = guard , ccomp = poke ( agent = * guy , theme = cake ) ) , junct2 = dream ( agent = * baby , ccomp = poke ( agent = * guy , theme = cake ) ) )	elips_VPE_in_dist
+Emma liked that Liam found the cake and so did Aubrey .	and ( junct1 = like ( agent = Emma , ccomp = find ( agent = Liam , theme = * cake ) ) , junct2 = like ( agent = Aubrey , ccomp = find ( agent = Liam , theme = * cake ) ) )	elips_VPE_in_dist
+A hen adored the cat and so did the lion .	and ( junct1 = adore ( agent = hen , theme = * cat ) , junct2 = adore ( agent = * lion , theme = * cat ) )	elips_VPE_in_dist
+A girl adored a cake and so did Oliver .	and ( junct1 = adore ( agent = girl , theme = cake ) , junct2 = adore ( agent = Oliver , theme = cake ) )	elips_VPE_in_dist
+Victoria ate Lily and so did the boy .	and ( junct1 = eat ( agent = Victoria , theme = Lily ) , junct2 = eat ( agent = * boy , theme = Lily ) )	elips_VPE_in_dist
+Samuel tolerated that Ava hunted a cake and so did a teacher .	and ( junct1 = tolerate ( agent = Samuel , ccomp = hunt ( agent = Ava , theme = cake ) ) , junct2 = tolerate ( agent = teacher , ccomp = hunt ( agent = Ava , theme = cake ) ) )	elips_VPE_in_dist
+The girl juggled Luke and so did Sofia .	and ( junct1 = juggle ( agent = * girl , theme = Luke ) , junct2 = juggle ( agent = Sofia , theme = Luke ) )	elips_VPE_in_dist
+Mia cleaned a donut and so did Noah .	and ( junct1 = clean ( agent = Mia , theme = donut ) , junct2 = clean ( agent = Noah , theme = donut ) )	elips_VPE_in_dist
+Olivia sketched a cat and so did the boy .	and ( junct1 = sketch ( agent = Olivia , theme = cat ) , junct2 = sketch ( agent = * boy , theme = cat ) )	elips_VPE_in_dist
+Emma found the banana and so did Olivia .	and ( junct1 = find ( agent = Emma , theme = * banana ) , junct2 = find ( agent = Olivia , theme = * banana ) )	elips_VPE_in_dist
+Charlotte ate Wyatt and so did the child .	and ( junct1 = eat ( agent = Charlotte , theme = Wyatt ) , junct2 = eat ( agent = * child , theme = Wyatt ) )	elips_VPE_in_dist
+Harper adored Penelope and so did Emma .	and ( junct1 = adore ( agent = Harper , theme = Penelope ) , junct2 = adore ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+The girl ate a cake and so did Christopher .	and ( junct1 = eat ( agent = * girl , theme = cake ) , junct2 = eat ( agent = Christopher , theme = cake ) )	elips_VPE_in_dist
+A cat appreciated the cookie and so did a teacher .	and ( junct1 = appreciate ( agent = cat , theme = * cookie ) , junct2 = appreciate ( agent = teacher , theme = * cookie ) )	elips_VPE_in_dist
+A guest hoped that the teacher juggled Isaac and so did Noah .	and ( junct1 = hope ( agent = guest , ccomp = juggle ( agent = * teacher , theme = Isaac ) ) , junct2 = hope ( agent = Noah , ccomp = juggle ( agent = * teacher , theme = Isaac ) ) )	elips_VPE_in_dist
+The teacher helped a director and so did the girl .	and ( junct1 = help ( agent = * teacher , theme = director ) , junct2 = help ( agent = * girl , theme = director ) )	elips_VPE_in_dist
+The squirrel liked a girl and so did the citizen .	and ( junct1 = like ( agent = * squirrel , theme = girl ) , junct2 = like ( agent = * citizen , theme = girl ) )	elips_VPE_in_dist
+Evelyn dusted a spoon and so did the boy .	and ( junct1 = dust ( agent = Evelyn , theme = spoon ) , junct2 = dust ( agent = * boy , theme = spoon ) )	elips_VPE_in_dist
+The girl helped Zoey and so did Olivia .	and ( junct1 = help ( agent = * girl , theme = Zoey ) , junct2 = help ( agent = Olivia , theme = Zoey ) )	elips_VPE_in_dist
+A butterfly admired Penelope and so did a writer .	and ( junct1 = admire ( agent = butterfly , theme = Penelope ) , junct2 = admire ( agent = writer , theme = Penelope ) )	elips_VPE_in_dist
+Sofia respected Penelope and so did a monkey .	and ( junct1 = respect ( agent = Sofia , theme = Penelope ) , junct2 = respect ( agent = monkey , theme = Penelope ) )	elips_VPE_in_dist
+A girl sketched a cake and so did Olivia .	and ( junct1 = sketch ( agent = girl , theme = cake ) , junct2 = sketch ( agent = Olivia , theme = cake ) )	elips_VPE_in_dist
+Emma respected the spoon and so did a scientist .	and ( junct1 = respect ( agent = Emma , theme = * spoon ) , junct2 = respect ( agent = scientist , theme = * spoon ) )	elips_VPE_in_dist
+The girl cooked Wyatt and so did William .	and ( junct1 = cook ( agent = * girl , theme = Wyatt ) , junct2 = cook ( agent = William , theme = Wyatt ) )	elips_VPE_in_dist
+Abigail hoped that Carter adored Ryan and so did a scientist .	and ( junct1 = hope ( agent = Abigail , ccomp = adore ( agent = Carter , theme = Ryan ) ) , junct2 = hope ( agent = scientist , ccomp = adore ( agent = Carter , theme = Ryan ) ) )	elips_VPE_in_dist
+A student juggled the dog and so did the girl .	and ( junct1 = juggle ( agent = student , theme = * dog ) , junct2 = juggle ( agent = * girl , theme = * dog ) )	elips_VPE_in_dist
+A boy admired a donut and so did the monkey .	and ( junct1 = admire ( agent = boy , theme = donut ) , junct2 = admire ( agent = * monkey , theme = donut ) )	elips_VPE_in_dist
+The captain ate Ryan and so did Sophia .	and ( junct1 = eat ( agent = * captain , theme = Ryan ) , junct2 = eat ( agent = Sophia , theme = Ryan ) )	elips_VPE_in_dist
+The frog valued that Emma liked a bear and so did a boy .	and ( junct1 = value ( agent = * frog , ccomp = like ( agent = Emma , theme = bear ) ) , junct2 = value ( agent = boy , ccomp = like ( agent = Emma , theme = bear ) ) )	elips_VPE_in_dist
+Emma painted Penelope and so did the girl .	and ( junct1 = paint ( agent = Emma , theme = Penelope ) , junct2 = paint ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+Emma hoped that the child liked a yogurt and so did a giraffe .	and ( junct1 = hope ( agent = Emma , ccomp = like ( agent = * child , theme = yogurt ) ) , junct2 = hope ( agent = giraffe , ccomp = like ( agent = * child , theme = yogurt ) ) )	elips_VPE_in_dist
+A girl ate Penelope and so did a bunny .	and ( junct1 = eat ( agent = girl , theme = Penelope ) , junct2 = eat ( agent = bunny , theme = Penelope ) )	elips_VPE_in_dist
+The girl liked the rose and so did Liam .	and ( junct1 = like ( agent = * girl , theme = * rose ) , junct2 = like ( agent = Liam , theme = * rose ) )	elips_VPE_in_dist
+Avery found the melon and so did Jacob .	and ( junct1 = find ( agent = Avery , theme = * melon ) , junct2 = find ( agent = Jacob , theme = * melon ) )	elips_VPE_in_dist
+Emma appreciated Penelope and so did Oliver .	and ( junct1 = appreciate ( agent = Emma , theme = Penelope ) , junct2 = appreciate ( agent = Oliver , theme = Penelope ) )	elips_VPE_in_dist
+The girl proved that the cat adored a tiger and so did a dog .	and ( junct1 = prove ( agent = * girl , ccomp = adore ( agent = * cat , theme = tiger ) ) , junct2 = prove ( agent = dog , ccomp = adore ( agent = * cat , theme = tiger ) ) )	elips_VPE_in_dist
+A bear liked that Charlotte missed Penelope and so did Theodore .	and ( junct1 = like ( agent = bear , ccomp = miss ( agent = Charlotte , theme = Penelope ) ) , junct2 = like ( agent = Theodore , ccomp = miss ( agent = Charlotte , theme = Penelope ) ) )	elips_VPE_in_dist
+The dog found the baby and so did Liam .	and ( junct1 = find ( agent = * dog , theme = * baby ) , junct2 = find ( agent = Liam , theme = * baby ) )	elips_VPE_in_dist
+Emma liked that Amelia liked Lily and so did a baby .	and ( junct1 = like ( agent = Emma , ccomp = like ( agent = Amelia , theme = Lily ) ) , junct2 = like ( agent = baby , ccomp = like ( agent = Amelia , theme = Lily ) ) )	elips_VPE_in_dist
+Emma liked a spoon and so did Scarlett .	and ( junct1 = like ( agent = Emma , theme = spoon ) , junct2 = like ( agent = Scarlett , theme = spoon ) )	elips_VPE_in_dist
+Ethan said that a bear ate Andrew and so did Emma .	and ( junct1 = say ( agent = Ethan , ccomp = eat ( agent = bear , theme = Andrew ) ) , junct2 = say ( agent = Emma , ccomp = eat ( agent = bear , theme = Andrew ) ) )	elips_VPE_in_dist
+The researcher helped a cake and so did Alexander .	and ( junct1 = help ( agent = * researcher , theme = cake ) , junct2 = help ( agent = Alexander , theme = cake ) )	elips_VPE_in_dist
+The teacher helped a monkey and so did Emma .	and ( junct1 = help ( agent = * teacher , theme = monkey ) , junct2 = help ( agent = Emma , theme = monkey ) )	elips_VPE_in_dist
+Leo found a donut and so did Olivia .	and ( junct1 = find ( agent = Leo , theme = donut ) , junct2 = find ( agent = Olivia , theme = donut ) )	elips_VPE_in_dist
+A father liked Leah and so did Emma .	and ( junct1 = like ( agent = father , theme = Leah ) , junct2 = like ( agent = Emma , theme = Leah ) )	elips_VPE_in_dist
+Emma cooked a pizza and so did Mia .	and ( junct1 = cook ( agent = Emma , theme = pizza ) , junct2 = cook ( agent = Mia , theme = pizza ) )	elips_VPE_in_dist
+Mia ate a cake and so did Henry .	and ( junct1 = eat ( agent = Mia , theme = cake ) , junct2 = eat ( agent = Henry , theme = cake ) )	elips_VPE_in_dist
+Emma drew a glue and so did a boy .	and ( junct1 = draw ( agent = Emma , theme = glue ) , junct2 = draw ( agent = boy , theme = glue ) )	elips_VPE_in_dist
+A guest ate Penelope and so did the frog .	and ( junct1 = eat ( agent = guest , theme = Penelope ) , junct2 = eat ( agent = * frog , theme = Penelope ) )	elips_VPE_in_dist
+A cat ate a cake and so did Emma .	and ( junct1 = eat ( agent = cat , theme = cake ) , junct2 = eat ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+The turtle liked a potato and so did Emma .	and ( junct1 = like ( agent = * turtle , theme = potato ) , junct2 = like ( agent = Emma , theme = potato ) )	elips_VPE_in_dist
+Lucas hoped that Charlotte ate Penelope and so did David .	and ( junct1 = hope ( agent = Lucas , ccomp = eat ( agent = Charlotte , theme = Penelope ) ) , junct2 = hope ( agent = David , ccomp = eat ( agent = Charlotte , theme = Penelope ) ) )	elips_VPE_in_dist
+Noah liked the dog and so did Emma .	and ( junct1 = like ( agent = Noah , theme = * dog ) , junct2 = like ( agent = Emma , theme = * dog ) )	elips_VPE_in_dist
+Emma found the girl and so did the boy .	and ( junct1 = find ( agent = Emma , theme = * girl ) , junct2 = find ( agent = * boy , theme = * girl ) )	elips_VPE_in_dist
+Emma found a cake and so did a bird .	and ( junct1 = find ( agent = Emma , theme = cake ) , junct2 = find ( agent = bird , theme = cake ) )	elips_VPE_in_dist
+Noah nursed the cookie and so did Olivia .	and ( junct1 = nurse ( agent = Noah , theme = * cookie ) , junct2 = nurse ( agent = Olivia , theme = * cookie ) )	elips_VPE_in_dist
+The cat ate a box and so did the girl .	and ( junct1 = eat ( agent = * cat , theme = box ) , junct2 = eat ( agent = * girl , theme = box ) )	elips_VPE_in_dist
+Emma appreciated Penelope and so did the wolf .	and ( junct1 = appreciate ( agent = Emma , theme = Penelope ) , junct2 = appreciate ( agent = * wolf , theme = Penelope ) )	elips_VPE_in_dist
+The child noticed that Mila poked Jayden and so did Liam .	and ( junct1 = notice ( agent = * child , ccomp = poke ( agent = Mila , theme = Jayden ) ) , junct2 = notice ( agent = Liam , ccomp = poke ( agent = Mila , theme = Jayden ) ) )	elips_VPE_in_dist
+Scarlett confessed that a citizen painted a cake and so did a frog .	and ( junct1 = confess ( agent = Scarlett , ccomp = paint ( agent = citizen , theme = cake ) ) , junct2 = confess ( agent = frog , ccomp = paint ( agent = citizen , theme = cake ) ) )	elips_VPE_in_dist
+Liam proved that the girl liked Layla and so did the boy .	and ( junct1 = prove ( agent = Liam , ccomp = like ( agent = * girl , theme = Layla ) ) , junct2 = prove ( agent = * boy , ccomp = like ( agent = * girl , theme = Layla ) ) )	elips_VPE_in_dist
+Aiden admired that Ava liked a teacher and so did Emma .	and ( junct1 = admire ( agent = Aiden , ccomp = like ( agent = Ava , theme = teacher ) ) , junct2 = admire ( agent = Emma , ccomp = like ( agent = Ava , theme = teacher ) ) )	elips_VPE_in_dist
+Emma liked that Abigail appreciated a donut and so did the girl .	and ( junct1 = like ( agent = Emma , ccomp = appreciate ( agent = Abigail , theme = donut ) ) , junct2 = like ( agent = * girl , ccomp = appreciate ( agent = Abigail , theme = donut ) ) )	elips_VPE_in_dist
+A girl ate a cake and so did a cat .	and ( junct1 = eat ( agent = girl , theme = cake ) , junct2 = eat ( agent = cat , theme = cake ) )	elips_VPE_in_dist
+Oliver wished that a professor loved a boy and so did the girl .	and ( junct1 = wish ( agent = Oliver , ccomp = love ( agent = professor , theme = boy ) ) , junct2 = wish ( agent = * girl , ccomp = love ( agent = professor , theme = boy ) ) )	elips_VPE_in_dist
+The cow ate the donut and so did Emma .	and ( junct1 = eat ( agent = * cow , theme = * donut ) , junct2 = eat ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+Isabella liked Levi and so did a girl .	and ( junct1 = like ( agent = Isabella , theme = Levi ) , junct2 = like ( agent = girl , theme = Levi ) )	elips_VPE_in_dist
+The girl dusted Eleanor and so did the dog .	and ( junct1 = dust ( agent = * girl , theme = Eleanor ) , junct2 = dust ( agent = * dog , theme = Eleanor ) )	elips_VPE_in_dist
+Oliver meant that Noah ate the raisin and so did the hen .	and ( junct1 = mean ( agent = Oliver , ccomp = eat ( agent = Noah , theme = * raisin ) ) , junct2 = mean ( agent = * hen , ccomp = eat ( agent = Noah , theme = * raisin ) ) )	elips_VPE_in_dist
+A girl hunted a rose and so did Elijah .	and ( junct1 = hunt ( agent = girl , theme = rose ) , junct2 = hunt ( agent = Elijah , theme = rose ) )	elips_VPE_in_dist
+Emma ate a bear and so did the girl .	and ( junct1 = eat ( agent = Emma , theme = bear ) , junct2 = eat ( agent = * girl , theme = bear ) )	elips_VPE_in_dist
+Isabella thought that the girl ate the box and so did Sebastian .	and ( junct1 = think ( agent = Isabella , ccomp = eat ( agent = * girl , theme = * box ) ) , junct2 = think ( agent = Sebastian , ccomp = eat ( agent = * girl , theme = * box ) ) )	elips_VPE_in_dist
+Olivia juggled Bella and so did the hero .	and ( junct1 = juggle ( agent = Olivia , theme = Bella ) , junct2 = juggle ( agent = * hero , theme = Bella ) )	elips_VPE_in_dist
+Jayden drew a boy and so did Emma .	and ( junct1 = draw ( agent = Jayden , theme = boy ) , junct2 = draw ( agent = Emma , theme = boy ) )	elips_VPE_in_dist
+The kitty ate Layla and so did a boy .	and ( junct1 = eat ( agent = * kitty , theme = Layla ) , junct2 = eat ( agent = boy , theme = Layla ) )	elips_VPE_in_dist
+Alexander liked that a soldier liked Penelope and so did Emma .	and ( junct1 = like ( agent = Alexander , ccomp = like ( agent = soldier , theme = Penelope ) ) , junct2 = like ( agent = Emma , ccomp = like ( agent = soldier , theme = Penelope ) ) )	elips_VPE_in_dist
+A bird helped a box and so did a baby .	and ( junct1 = help ( agent = bird , theme = box ) , junct2 = help ( agent = baby , theme = box ) )	elips_VPE_in_dist
+Abigail cooked Riley and so did Charlotte .	and ( junct1 = cook ( agent = Abigail , theme = Riley ) , junct2 = cook ( agent = Charlotte , theme = Riley ) )	elips_VPE_in_dist
+Ella ate the donut and so did Isabella .	and ( junct1 = eat ( agent = Ella , theme = * donut ) , junct2 = eat ( agent = Isabella , theme = * donut ) )	elips_VPE_in_dist
+A girl sketched the mouse and so did Emma .	and ( junct1 = sketch ( agent = girl , theme = * mouse ) , junct2 = sketch ( agent = Emma , theme = * mouse ) )	elips_VPE_in_dist
+The girl drew a pretzel and so did Aiden .	and ( junct1 = draw ( agent = * girl , theme = pretzel ) , junct2 = draw ( agent = Aiden , theme = pretzel ) )	elips_VPE_in_dist
+The lion respected that Carter liked John and so did the monkey .	and ( junct1 = respect ( agent = * lion , ccomp = like ( agent = Carter , theme = John ) ) , junct2 = respect ( agent = * monkey , ccomp = like ( agent = Carter , theme = John ) ) )	elips_VPE_in_dist
+The girl cooked a cake and so did Eleanor .	and ( junct1 = cook ( agent = * girl , theme = cake ) , junct2 = cook ( agent = Eleanor , theme = cake ) )	elips_VPE_in_dist
+Emma wished that the boy ate Penelope and so did a girl .	and ( junct1 = wish ( agent = Emma , ccomp = eat ( agent = * boy , theme = Penelope ) ) , junct2 = wish ( agent = girl , ccomp = eat ( agent = * boy , theme = Penelope ) ) )	elips_VPE_in_dist
+The girl liked Penelope and so did the frog .	and ( junct1 = like ( agent = * girl , theme = Penelope ) , junct2 = like ( agent = * frog , theme = Penelope ) )	elips_VPE_in_dist
+Emma confessed that a horse ate Layla and so did a tiger .	and ( junct1 = confess ( agent = Emma , ccomp = eat ( agent = horse , theme = Layla ) ) , junct2 = confess ( agent = tiger , ccomp = eat ( agent = horse , theme = Layla ) ) )	elips_VPE_in_dist
+The servant liked the cat and so did the champion .	and ( junct1 = like ( agent = * servant , theme = * cat ) , junct2 = like ( agent = * champion , theme = * cat ) )	elips_VPE_in_dist
+Benjamin liked Penelope and so did the dog .	and ( junct1 = like ( agent = Benjamin , theme = Penelope ) , junct2 = like ( agent = * dog , theme = Penelope ) )	elips_VPE_in_dist
+The boy liked the cat and so did Emma .	and ( junct1 = like ( agent = * boy , theme = * cat ) , junct2 = like ( agent = Emma , theme = * cat ) )	elips_VPE_in_dist
+Scarlett painted the crayon and so did a cat .	and ( junct1 = paint ( agent = Scarlett , theme = * crayon ) , junct2 = paint ( agent = cat , theme = * crayon ) )	elips_VPE_in_dist
+Madison thought that Isabella ate a girl and so did a boy .	and ( junct1 = think ( agent = Madison , ccomp = eat ( agent = Isabella , theme = girl ) ) , junct2 = think ( agent = boy , ccomp = eat ( agent = Isabella , theme = girl ) ) )	elips_VPE_in_dist
+The president liked Penelope and so did a girl .	and ( junct1 = like ( agent = * president , theme = Penelope ) , junct2 = like ( agent = girl , theme = Penelope ) )	elips_VPE_in_dist
+Olivia drew the strawberry and so did the girl .	and ( junct1 = draw ( agent = Olivia , theme = * strawberry ) , junct2 = draw ( agent = * girl , theme = * strawberry ) )	elips_VPE_in_dist
+The teacher liked that the girl liked the present and so did William .	and ( junct1 = like ( agent = * teacher , ccomp = like ( agent = * girl , theme = * present ) ) , junct2 = like ( agent = William , ccomp = like ( agent = * girl , theme = * present ) ) )	elips_VPE_in_dist
+Elijah liked the donut and so did Emma .	and ( junct1 = like ( agent = Elijah , theme = * donut ) , junct2 = like ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+Emma hunted the towel and so did the chief .	and ( junct1 = hunt ( agent = Emma , theme = * towel ) , junct2 = hunt ( agent = * chief , theme = * towel ) )	elips_VPE_in_dist
+Olivia painted the monkey and so did the boy .	and ( junct1 = paint ( agent = Olivia , theme = * monkey ) , junct2 = paint ( agent = * boy , theme = * monkey ) )	elips_VPE_in_dist
+A teacher helped a cat and so did a girl .	and ( junct1 = help ( agent = teacher , theme = cat ) , junct2 = help ( agent = girl , theme = cat ) )	elips_VPE_in_dist
+Emma liked a cake and so did the frog .	and ( junct1 = like ( agent = Emma , theme = cake ) , junct2 = like ( agent = * frog , theme = cake ) )	elips_VPE_in_dist
+Lucas ate a sandwich and so did Ava .	and ( junct1 = eat ( agent = Lucas , theme = sandwich ) , junct2 = eat ( agent = Ava , theme = sandwich ) )	elips_VPE_in_dist
+Oliver poked a bear and so did a baby .	and ( junct1 = poke ( agent = Oliver , theme = bear ) , junct2 = poke ( agent = baby , theme = bear ) )	elips_VPE_in_dist
+Sebastian hunted Riley and so did Noah .	and ( junct1 = hunt ( agent = Sebastian , theme = Riley ) , junct2 = hunt ( agent = Noah , theme = Riley ) )	elips_VPE_in_dist
+James believed that Evelyn respected Penelope and so did a dog .	and ( junct1 = believe ( agent = James , ccomp = respect ( agent = Evelyn , theme = Penelope ) ) , junct2 = believe ( agent = dog , ccomp = respect ( agent = Evelyn , theme = Penelope ) ) )	elips_VPE_in_dist
+A girl meant that the boy cleaned the sweetcorn and so did a teacher .	and ( junct1 = mean ( agent = girl , ccomp = clean ( agent = * boy , theme = * sweetcorn ) ) , junct2 = mean ( agent = teacher , ccomp = clean ( agent = * boy , theme = * sweetcorn ) ) )	elips_VPE_in_dist
+A teacher liked that Oliver drew a strawberry and so did the girl .	and ( junct1 = like ( agent = teacher , ccomp = draw ( agent = Oliver , theme = strawberry ) ) , junct2 = like ( agent = * girl , ccomp = draw ( agent = Oliver , theme = strawberry ) ) )	elips_VPE_in_dist
+The cat hoped that Hannah appreciated the crown and so did Julian .	and ( junct1 = hope ( agent = * cat , ccomp = appreciate ( agent = Hannah , theme = * crown ) ) , junct2 = hope ( agent = Julian , ccomp = appreciate ( agent = Hannah , theme = * crown ) ) )	elips_VPE_in_dist
+Amelia dusted a bat and so did Liam .	and ( junct1 = dust ( agent = Amelia , theme = bat ) , junct2 = dust ( agent = Liam , theme = bat ) )	elips_VPE_in_dist
+The dog adored the girl and so did the monkey .	and ( junct1 = adore ( agent = * dog , theme = * girl ) , junct2 = adore ( agent = * monkey , theme = * girl ) )	elips_VPE_in_dist
+James hoped that Harper liked the donut and so did the girl .	and ( junct1 = hope ( agent = James , ccomp = like ( agent = Harper , theme = * donut ) ) , junct2 = hope ( agent = * girl , ccomp = like ( agent = Harper , theme = * donut ) ) )	elips_VPE_in_dist
+The mouse proved that Emma found the donut and so did the cat .	and ( junct1 = prove ( agent = * mouse , ccomp = find ( agent = Emma , theme = * donut ) ) , junct2 = prove ( agent = * cat , ccomp = find ( agent = Emma , theme = * donut ) ) )	elips_VPE_in_dist
+A boy hoped that a turtle liked a cake and so did Ella .	and ( junct1 = hope ( agent = boy , ccomp = like ( agent = turtle , theme = cake ) ) , junct2 = hope ( agent = Ella , ccomp = like ( agent = turtle , theme = cake ) ) )	elips_VPE_in_dist
+Liam sketched the brick and so did the cat .	and ( junct1 = sketch ( agent = Liam , theme = * brick ) , junct2 = sketch ( agent = * cat , theme = * brick ) )	elips_VPE_in_dist
+Emma said that Liam cooked a cake and so did Ava .	and ( junct1 = say ( agent = Emma , ccomp = cook ( agent = Liam , theme = cake ) ) , junct2 = say ( agent = Ava , ccomp = cook ( agent = Liam , theme = cake ) ) )	elips_VPE_in_dist
+Evelyn missed a ball and so did the chicken .	and ( junct1 = miss ( agent = Evelyn , theme = ball ) , junct2 = miss ( agent = * chicken , theme = ball ) )	elips_VPE_in_dist
+Layla liked that Liam missed a pancake and so did Emma .	and ( junct1 = like ( agent = Layla , ccomp = miss ( agent = Liam , theme = pancake ) ) , junct2 = like ( agent = Emma , ccomp = miss ( agent = Liam , theme = pancake ) ) )	elips_VPE_in_dist
+Harper missed the wolf and so did the frog .	and ( junct1 = miss ( agent = Harper , theme = * wolf ) , junct2 = miss ( agent = * frog , theme = * wolf ) )	elips_VPE_in_dist
+The girl liked the nail and so did Michael .	and ( junct1 = like ( agent = * girl , theme = * nail ) , junct2 = like ( agent = Michael , theme = * nail ) )	elips_VPE_in_dist
+A girl admired a melon and so did the boy .	and ( junct1 = admire ( agent = girl , theme = melon ) , junct2 = admire ( agent = * boy , theme = melon ) )	elips_VPE_in_dist
+Aubrey thought that Isabella adored the child and so did Liam .	and ( junct1 = think ( agent = Aubrey , ccomp = adore ( agent = Isabella , theme = * child ) ) , junct2 = think ( agent = Liam , ccomp = adore ( agent = Isabella , theme = * child ) ) )	elips_VPE_in_dist
+The girl admired the cake and so did the monster .	and ( junct1 = admire ( agent = * girl , theme = * cake ) , junct2 = admire ( agent = * monster , theme = * cake ) )	elips_VPE_in_dist
+Samuel liked that Liam liked Jack and so did Alexander .	and ( junct1 = like ( agent = Samuel , ccomp = like ( agent = Liam , theme = Jack ) ) , junct2 = like ( agent = Alexander , ccomp = like ( agent = Liam , theme = Jack ) ) )	elips_VPE_in_dist
+A girl hoped that the teacher found a boy and so did Emma .	and ( junct1 = hope ( agent = girl , ccomp = find ( agent = * teacher , theme = boy ) ) , junct2 = hope ( agent = Emma , ccomp = find ( agent = * teacher , theme = boy ) ) )	elips_VPE_in_dist
+The girl drew Grayson and so did the frog .	and ( junct1 = draw ( agent = * girl , theme = Grayson ) , junct2 = draw ( agent = * frog , theme = Grayson ) )	elips_VPE_in_dist
+David cooked Zoey and so did the cat .	and ( junct1 = cook ( agent = David , theme = Zoey ) , junct2 = cook ( agent = * cat , theme = Zoey ) )	elips_VPE_in_dist
+Charlotte ate the yogurt and so did Emma .	and ( junct1 = eat ( agent = Charlotte , theme = * yogurt ) , junct2 = eat ( agent = Emma , theme = * yogurt ) )	elips_VPE_in_dist
+William hoped that the girl appreciated a radio and so did Liam .	and ( junct1 = hope ( agent = William , ccomp = appreciate ( agent = * girl , theme = radio ) ) , junct2 = hope ( agent = Liam , ccomp = appreciate ( agent = * girl , theme = radio ) ) )	elips_VPE_in_dist
+Emma ate a cookie and so did Lincoln .	and ( junct1 = eat ( agent = Emma , theme = cookie ) , junct2 = eat ( agent = Lincoln , theme = cookie ) )	elips_VPE_in_dist
+Ava hunted Jack and so did Emma .	and ( junct1 = hunt ( agent = Ava , theme = Jack ) , junct2 = hunt ( agent = Emma , theme = Jack ) )	elips_VPE_in_dist
+Benjamin liked that a girl liked a cookie and so did Emma .	and ( junct1 = like ( agent = Benjamin , ccomp = like ( agent = girl , theme = cookie ) ) , junct2 = like ( agent = Emma , ccomp = like ( agent = girl , theme = cookie ) ) )	elips_VPE_in_dist
+A baby hoped that the boy ate a rose and so did Emma .	and ( junct1 = hope ( agent = baby , ccomp = eat ( agent = * boy , theme = rose ) ) , junct2 = hope ( agent = Emma , ccomp = eat ( agent = * boy , theme = rose ) ) )	elips_VPE_in_dist
+Ava painted a cat and so did the baby .	and ( junct1 = paint ( agent = Ava , theme = cat ) , junct2 = paint ( agent = * baby , theme = cat ) )	elips_VPE_in_dist
+The girl loved a bear and so did Lillian .	and ( junct1 = love ( agent = * girl , theme = bear ) , junct2 = love ( agent = Lillian , theme = bear ) )	elips_VPE_in_dist
+Amelia painted the baby and so did Emma .	and ( junct1 = paint ( agent = Amelia , theme = * baby ) , junct2 = paint ( agent = Emma , theme = * baby ) )	elips_VPE_in_dist
+A dog said that Charlotte liked a chalk and so did Liam .	and ( junct1 = say ( agent = dog , ccomp = like ( agent = Charlotte , theme = chalk ) ) , junct2 = say ( agent = Liam , ccomp = like ( agent = Charlotte , theme = chalk ) ) )	elips_VPE_in_dist
+Liam ate the ball and so did the queen .	and ( junct1 = eat ( agent = Liam , theme = * ball ) , junct2 = eat ( agent = * queen , theme = * ball ) )	elips_VPE_in_dist
+Jack liked a cake and so did a student .	and ( junct1 = like ( agent = Jack , theme = cake ) , junct2 = like ( agent = student , theme = cake ) )	elips_VPE_in_dist
+The giraffe helped the bunny and so did Emma .	and ( junct1 = help ( agent = * giraffe , theme = * bunny ) , junct2 = help ( agent = Emma , theme = * bunny ) )	elips_VPE_in_dist
+A monkey said that William ate Layla and so did the girl .	and ( junct1 = say ( agent = monkey , ccomp = eat ( agent = William , theme = Layla ) ) , junct2 = say ( agent = * girl , ccomp = eat ( agent = William , theme = Layla ) ) )	elips_VPE_in_dist
+A girl believed that a goose liked Penelope and so did the director .	and ( junct1 = believe ( agent = girl , ccomp = like ( agent = goose , theme = Penelope ) ) , junct2 = believe ( agent = * director , ccomp = like ( agent = goose , theme = Penelope ) ) )	elips_VPE_in_dist
+Olivia ate the monkey and so did a girl .	and ( junct1 = eat ( agent = Olivia , theme = * monkey ) , junct2 = eat ( agent = girl , theme = * monkey ) )	elips_VPE_in_dist
+Liam liked that a boy painted the hammer and so did the girl .	and ( junct1 = like ( agent = Liam , ccomp = paint ( agent = boy , theme = * hammer ) ) , junct2 = like ( agent = * girl , ccomp = paint ( agent = boy , theme = * hammer ) ) )	elips_VPE_in_dist
+The crocodile liked the donut and so did Oliver .	and ( junct1 = like ( agent = * crocodile , theme = * donut ) , junct2 = like ( agent = Oliver , theme = * donut ) )	elips_VPE_in_dist
+Ella painted a cake and so did a cat .	and ( junct1 = paint ( agent = Ella , theme = cake ) , junct2 = paint ( agent = cat , theme = cake ) )	elips_VPE_in_dist
+The boy loved Caleb and so did Emma .	and ( junct1 = love ( agent = * boy , theme = Caleb ) , junct2 = love ( agent = Emma , theme = Caleb ) )	elips_VPE_in_dist
+Emma loved a donut and so did a girl .	and ( junct1 = love ( agent = Emma , theme = donut ) , junct2 = love ( agent = girl , theme = donut ) )	elips_VPE_in_dist
+William painted the dog and so did Oliver .	and ( junct1 = paint ( agent = William , theme = * dog ) , junct2 = paint ( agent = Oliver , theme = * dog ) )	elips_VPE_in_dist
+The teacher hoped that a pupil found a box and so did Liam .	and ( junct1 = hope ( agent = * teacher , ccomp = find ( agent = pupil , theme = box ) ) , junct2 = hope ( agent = Liam , ccomp = find ( agent = pupil , theme = box ) ) )	elips_VPE_in_dist
+Emma appreciated that the cat helped Bella and so did a fly .	and ( junct1 = appreciate ( agent = Emma , ccomp = help ( agent = * cat , theme = Bella ) ) , junct2 = appreciate ( agent = fly , ccomp = help ( agent = * cat , theme = Bella ) ) )	elips_VPE_in_dist
+Emma liked that the lamb nursed the block and so did a girl .	and ( junct1 = like ( agent = Emma , ccomp = nurse ( agent = * lamb , theme = * block ) ) , junct2 = like ( agent = girl , ccomp = nurse ( agent = * lamb , theme = * block ) ) )	elips_VPE_in_dist
+Harper respected the girl and so did the boy .	and ( junct1 = respect ( agent = Harper , theme = * girl ) , junct2 = respect ( agent = * boy , theme = * girl ) )	elips_VPE_in_dist
+Emma helped the cake and so did Amelia .	and ( junct1 = help ( agent = Emma , theme = * cake ) , junct2 = help ( agent = Amelia , theme = * cake ) )	elips_VPE_in_dist
+Liam helped the boy and so did Emma .	and ( junct1 = help ( agent = Liam , theme = * boy ) , junct2 = help ( agent = Emma , theme = * boy ) )	elips_VPE_in_dist
+A squirrel liked Wyatt and so did the girl .	and ( junct1 = like ( agent = squirrel , theme = Wyatt ) , junct2 = like ( agent = * girl , theme = Wyatt ) )	elips_VPE_in_dist
+Violet ate the gumball and so did the host .	and ( junct1 = eat ( agent = Violet , theme = * gumball ) , junct2 = eat ( agent = * host , theme = * gumball ) )	elips_VPE_in_dist
+A baby loved Jayden and so did Abigail .	and ( junct1 = love ( agent = baby , theme = Jayden ) , junct2 = love ( agent = Abigail , theme = Jayden ) )	elips_VPE_in_dist
+The girl poked a cake and so did Liam .	and ( junct1 = poke ( agent = * girl , theme = cake ) , junct2 = poke ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+Olivia liked the cookie and so did William .	and ( junct1 = like ( agent = Olivia , theme = * cookie ) , junct2 = like ( agent = William , theme = * cookie ) )	elips_VPE_in_dist
+A scientist liked Penelope and so did a crocodile .	and ( junct1 = like ( agent = scientist , theme = Penelope ) , junct2 = like ( agent = crocodile , theme = Penelope ) )	elips_VPE_in_dist
+Emma nursed a raisin and so did the boy .	and ( junct1 = nurse ( agent = Emma , theme = raisin ) , junct2 = nurse ( agent = * boy , theme = raisin ) )	elips_VPE_in_dist
+Thomas hoped that a girl appreciated a dog and so did Audrey .	and ( junct1 = hope ( agent = Thomas , ccomp = appreciate ( agent = girl , theme = dog ) ) , junct2 = hope ( agent = Audrey , ccomp = appreciate ( agent = girl , theme = dog ) ) )	elips_VPE_in_dist
+The teacher liked that the horse ate a cake and so did Riley .	and ( junct1 = like ( agent = * teacher , ccomp = eat ( agent = * horse , theme = cake ) ) , junct2 = like ( agent = Riley , ccomp = eat ( agent = * horse , theme = cake ) ) )	elips_VPE_in_dist
+Sophia thought that Emma painted a girl and so did the guest .	and ( junct1 = think ( agent = Sophia , ccomp = paint ( agent = Emma , theme = girl ) ) , junct2 = think ( agent = * guest , ccomp = paint ( agent = Emma , theme = girl ) ) )	elips_VPE_in_dist
+Eleanor found the girl and so did the journalist .	and ( junct1 = find ( agent = Eleanor , theme = * girl ) , junct2 = find ( agent = * journalist , theme = * girl ) )	elips_VPE_in_dist
+The bunny liked that the cat juggled the bee and so did William .	and ( junct1 = like ( agent = * bunny , ccomp = juggle ( agent = * cat , theme = * bee ) ) , junct2 = like ( agent = William , ccomp = juggle ( agent = * cat , theme = * bee ) ) )	elips_VPE_in_dist
+The boy painted a block and so did a baby .	and ( junct1 = paint ( agent = * boy , theme = block ) , junct2 = paint ( agent = baby , theme = block ) )	elips_VPE_in_dist
+The baby liked the cake and so did the girl .	and ( junct1 = like ( agent = * baby , theme = * cake ) , junct2 = like ( agent = * girl , theme = * cake ) )	elips_VPE_in_dist
+The boy liked that Olivia poked a cookie and so did the girl .	and ( junct1 = like ( agent = * boy , ccomp = poke ( agent = Olivia , theme = cookie ) ) , junct2 = like ( agent = * girl , ccomp = poke ( agent = Olivia , theme = cookie ) ) )	elips_VPE_in_dist
+William liked Penelope and so did Emma .	and ( junct1 = like ( agent = William , theme = Penelope ) , junct2 = like ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+Oliver liked that Liam ate Aubrey and so did a kid .	and ( junct1 = like ( agent = Oliver , ccomp = eat ( agent = Liam , theme = Aubrey ) ) , junct2 = like ( agent = kid , ccomp = eat ( agent = Liam , theme = Aubrey ) ) )	elips_VPE_in_dist
+The boy juggled Penelope and so did Mia .	and ( junct1 = juggle ( agent = * boy , theme = Penelope ) , junct2 = juggle ( agent = Mia , theme = Penelope ) )	elips_VPE_in_dist
+The frog noticed that a girl dusted the cake and so did the puppy .	and ( junct1 = notice ( agent = * frog , ccomp = dust ( agent = girl , theme = * cake ) ) , junct2 = notice ( agent = * puppy , ccomp = dust ( agent = girl , theme = * cake ) ) )	elips_VPE_in_dist
+The queen hoped that Emma liked a jigsaw and so did Ava .	and ( junct1 = hope ( agent = * queen , ccomp = like ( agent = Emma , theme = jigsaw ) ) , junct2 = hope ( agent = Ava , ccomp = like ( agent = Emma , theme = jigsaw ) ) )	elips_VPE_in_dist
+A girl respected the jigsaw and so did Liam .	and ( junct1 = respect ( agent = girl , theme = * jigsaw ) , junct2 = respect ( agent = Liam , theme = * jigsaw ) )	elips_VPE_in_dist
+A girl juggled the drink and so did a mouse .	and ( junct1 = juggle ( agent = girl , theme = * drink ) , junct2 = juggle ( agent = mouse , theme = * drink ) )	elips_VPE_in_dist
+Ava liked that Olivia poked Brooklyn and so did Noah .	and ( junct1 = like ( agent = Ava , ccomp = poke ( agent = Olivia , theme = Brooklyn ) ) , junct2 = like ( agent = Noah , ccomp = poke ( agent = Olivia , theme = Brooklyn ) ) )	elips_VPE_in_dist
+Noah liked Penelope and so did Emma .	and ( junct1 = like ( agent = Noah , theme = Penelope ) , junct2 = like ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+Violet admired the cake and so did Sophia .	and ( junct1 = admire ( agent = Violet , theme = * cake ) , junct2 = admire ( agent = Sophia , theme = * cake ) )	elips_VPE_in_dist
+The boy liked a drink and so did a girl .	and ( junct1 = like ( agent = * boy , theme = drink ) , junct2 = like ( agent = girl , theme = drink ) )	elips_VPE_in_dist
+Liam liked that a dog found a cake and so did Logan .	and ( junct1 = like ( agent = Liam , ccomp = find ( agent = dog , theme = cake ) ) , junct2 = like ( agent = Logan , ccomp = find ( agent = dog , theme = cake ) ) )	elips_VPE_in_dist
+Isabella tolerated that a professor found Theodore and so did the penguin .	and ( junct1 = tolerate ( agent = Isabella , ccomp = find ( agent = professor , theme = Theodore ) ) , junct2 = tolerate ( agent = * penguin , ccomp = find ( agent = professor , theme = Theodore ) ) )	elips_VPE_in_dist
+The girl loved the book and so did Elizabeth .	and ( junct1 = love ( agent = * girl , theme = * book ) , junct2 = love ( agent = Elizabeth , theme = * book ) )	elips_VPE_in_dist
+A goose noticed that Emma juggled Wyatt and so did Liam .	and ( junct1 = notice ( agent = goose , ccomp = juggle ( agent = Emma , theme = Wyatt ) ) , junct2 = notice ( agent = Liam , ccomp = juggle ( agent = Emma , theme = Wyatt ) ) )	elips_VPE_in_dist
+Liam ate the raisin and so did a monkey .	and ( junct1 = eat ( agent = Liam , theme = * raisin ) , junct2 = eat ( agent = monkey , theme = * raisin ) )	elips_VPE_in_dist
+Emma ate a toy and so did Olivia .	and ( junct1 = eat ( agent = Emma , theme = toy ) , junct2 = eat ( agent = Olivia , theme = toy ) )	elips_VPE_in_dist
+Jackson helped the pumpkin and so did a queen .	and ( junct1 = help ( agent = Jackson , theme = * pumpkin ) , junct2 = help ( agent = queen , theme = * pumpkin ) )	elips_VPE_in_dist
+David confessed that Aria ate the boy and so did the coach .	and ( junct1 = confess ( agent = David , ccomp = eat ( agent = Aria , theme = * boy ) ) , junct2 = confess ( agent = * coach , ccomp = eat ( agent = Aria , theme = * boy ) ) )	elips_VPE_in_dist
+Olivia poked a cake and so did Emma .	and ( junct1 = poke ( agent = Olivia , theme = cake ) , junct2 = poke ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+Emma painted the girl and so did Luna .	and ( junct1 = paint ( agent = Emma , theme = * girl ) , junct2 = paint ( agent = Luna , theme = * girl ) )	elips_VPE_in_dist
+The baby loved a mouse and so did Mateo .	and ( junct1 = love ( agent = * baby , theme = mouse ) , junct2 = love ( agent = Mateo , theme = mouse ) )	elips_VPE_in_dist
+Sofia liked a girl and so did the giraffe .	and ( junct1 = like ( agent = Sofia , theme = girl ) , junct2 = like ( agent = * giraffe , theme = girl ) )	elips_VPE_in_dist
+The dog dusted a boy and so did the girl .	and ( junct1 = dust ( agent = * dog , theme = boy ) , junct2 = dust ( agent = * girl , theme = boy ) )	elips_VPE_in_dist
+A butterfly painted the box and so did a bunny .	and ( junct1 = paint ( agent = butterfly , theme = * box ) , junct2 = paint ( agent = bunny , theme = * box ) )	elips_VPE_in_dist
+A girl dusted Layla and so did Sofia .	and ( junct1 = dust ( agent = girl , theme = Layla ) , junct2 = dust ( agent = Sofia , theme = Layla ) )	elips_VPE_in_dist
+Olivia liked that Mia helped Layla and so did Emma .	and ( junct1 = like ( agent = Olivia , ccomp = help ( agent = Mia , theme = Layla ) ) , junct2 = like ( agent = Emma , ccomp = help ( agent = Mia , theme = Layla ) ) )	elips_VPE_in_dist
+Mateo painted Stella and so did Benjamin .	and ( junct1 = paint ( agent = Mateo , theme = Stella ) , junct2 = paint ( agent = Benjamin , theme = Stella ) )	elips_VPE_in_dist
+The monkey hoped that the dog ate Julian and so did a donkey .	and ( junct1 = hope ( agent = * monkey , ccomp = eat ( agent = * dog , theme = Julian ) ) , junct2 = hope ( agent = donkey , ccomp = eat ( agent = * dog , theme = Julian ) ) )	elips_VPE_in_dist
+A doctor ate Luke and so did a girl .	and ( junct1 = eat ( agent = doctor , theme = Luke ) , junct2 = eat ( agent = girl , theme = Luke ) )	elips_VPE_in_dist
+Liam ate Nathan and so did a boy .	and ( junct1 = eat ( agent = Liam , theme = Nathan ) , junct2 = eat ( agent = boy , theme = Nathan ) )	elips_VPE_in_dist
+A baby liked a dog and so did Oliver .	and ( junct1 = like ( agent = baby , theme = dog ) , junct2 = like ( agent = Oliver , theme = dog ) )	elips_VPE_in_dist
+Madison sketched a cake and so did Owen .	and ( junct1 = sketch ( agent = Madison , theme = cake ) , junct2 = sketch ( agent = Owen , theme = cake ) )	elips_VPE_in_dist
+The monkey liked the cat and so did the girl .	and ( junct1 = like ( agent = * monkey , theme = * cat ) , junct2 = like ( agent = * girl , theme = * cat ) )	elips_VPE_in_dist
+Noah cleaned a strawberry and so did Olivia .	and ( junct1 = clean ( agent = Noah , theme = strawberry ) , junct2 = clean ( agent = Olivia , theme = strawberry ) )	elips_VPE_in_dist
+A duck respected that Emma helped a bee and so did Noah .	and ( junct1 = respect ( agent = duck , ccomp = help ( agent = Emma , theme = bee ) ) , junct2 = respect ( agent = Noah , ccomp = help ( agent = Emma , theme = bee ) ) )	elips_VPE_in_dist
+Emma liked that a moose sketched the rose and so did the hero .	and ( junct1 = like ( agent = Emma , ccomp = sketch ( agent = moose , theme = * rose ) ) , junct2 = like ( agent = * hero , ccomp = sketch ( agent = moose , theme = * rose ) ) )	elips_VPE_in_dist
+The baby liked that Amelia helped the sandwich and so did a girl .	and ( junct1 = like ( agent = * baby , ccomp = help ( agent = Amelia , theme = * sandwich ) ) , junct2 = like ( agent = girl , ccomp = help ( agent = Amelia , theme = * sandwich ) ) )	elips_VPE_in_dist
+A monkey noticed that Emma sketched the donut and so did a coach .	and ( junct1 = notice ( agent = monkey , ccomp = sketch ( agent = Emma , theme = * donut ) ) , junct2 = notice ( agent = coach , ccomp = sketch ( agent = Emma , theme = * donut ) ) )	elips_VPE_in_dist
+A girl hoped that Emma dusted the baby and so did the hero .	and ( junct1 = hope ( agent = girl , ccomp = dust ( agent = Emma , theme = * baby ) ) , junct2 = hope ( agent = * hero , ccomp = dust ( agent = Emma , theme = * baby ) ) )	elips_VPE_in_dist
+The girl hoped that Mason ate Layla and so did David .	and ( junct1 = hope ( agent = * girl , ccomp = eat ( agent = Mason , theme = Layla ) ) , junct2 = hope ( agent = David , ccomp = eat ( agent = Mason , theme = Layla ) ) )	elips_VPE_in_dist
+The captain ate the donut and so did Harper .	and ( junct1 = eat ( agent = * captain , theme = * donut ) , junct2 = eat ( agent = Harper , theme = * donut ) )	elips_VPE_in_dist
+Emma said that a boy found the cake and so did a girl .	and ( junct1 = say ( agent = Emma , ccomp = find ( agent = boy , theme = * cake ) ) , junct2 = say ( agent = girl , ccomp = find ( agent = boy , theme = * cake ) ) )	elips_VPE_in_dist
+Emma tolerated that Isabella drew John and so did a girl .	and ( junct1 = tolerate ( agent = Emma , ccomp = draw ( agent = Isabella , theme = John ) ) , junct2 = tolerate ( agent = girl , ccomp = draw ( agent = Isabella , theme = John ) ) )	elips_VPE_in_dist
+Sophia respected that the child sketched Penelope and so did Emma .	and ( junct1 = respect ( agent = Sophia , ccomp = sketch ( agent = * child , theme = Penelope ) ) , junct2 = respect ( agent = Emma , ccomp = sketch ( agent = * child , theme = Penelope ) ) )	elips_VPE_in_dist
+The boy liked that a cat helped a box and so did James .	and ( junct1 = like ( agent = * boy , ccomp = help ( agent = cat , theme = box ) ) , junct2 = like ( agent = James , ccomp = help ( agent = cat , theme = box ) ) )	elips_VPE_in_dist
+A girl drew a chair and so did the cat .	and ( junct1 = draw ( agent = girl , theme = chair ) , junct2 = draw ( agent = * cat , theme = chair ) )	elips_VPE_in_dist
+The girl liked Layla and so did Liam .	and ( junct1 = like ( agent = * girl , theme = Layla ) , junct2 = like ( agent = Liam , theme = Layla ) )	elips_VPE_in_dist
+Mia proved that Emma dusted the drink and so did Isabella .	and ( junct1 = prove ( agent = Mia , ccomp = dust ( agent = Emma , theme = * drink ) ) , junct2 = prove ( agent = Isabella , ccomp = dust ( agent = Emma , theme = * drink ) ) )	elips_VPE_in_dist
+A baby said that Liam painted the gumball and so did the girl .	and ( junct1 = say ( agent = baby , ccomp = paint ( agent = Liam , theme = * gumball ) ) , junct2 = say ( agent = * girl , ccomp = paint ( agent = Liam , theme = * gumball ) ) )	elips_VPE_in_dist
+Emma helped a box and so did a chicken .	and ( junct1 = help ( agent = Emma , theme = box ) , junct2 = help ( agent = chicken , theme = box ) )	elips_VPE_in_dist
+The boy declared that a fish helped a chair and so did Emma .	and ( junct1 = declare ( agent = * boy , ccomp = help ( agent = fish , theme = chair ) ) , junct2 = declare ( agent = Emma , ccomp = help ( agent = fish , theme = chair ) ) )	elips_VPE_in_dist
+Liam helped a rose and so did Emma .	and ( junct1 = help ( agent = Liam , theme = rose ) , junct2 = help ( agent = Emma , theme = rose ) )	elips_VPE_in_dist
+A tenant helped Riley and so did a girl .	and ( junct1 = help ( agent = tenant , theme = Riley ) , junct2 = help ( agent = girl , theme = Riley ) )	elips_VPE_in_dist
+The teacher tolerated that the bird helped a cake and so did the professor .	and ( junct1 = tolerate ( agent = * teacher , ccomp = help ( agent = * bird , theme = cake ) ) , junct2 = tolerate ( agent = * professor , ccomp = help ( agent = * bird , theme = cake ) ) )	elips_VPE_in_dist
+Emma sketched the director and so did David .	and ( junct1 = sketch ( agent = Emma , theme = * director ) , junct2 = sketch ( agent = David , theme = * director ) )	elips_VPE_in_dist
+Isabella painted a melon and so did Mason .	and ( junct1 = paint ( agent = Isabella , theme = melon ) , junct2 = paint ( agent = Mason , theme = melon ) )	elips_VPE_in_dist
+Liam believed that a girl painted a cake and so did Emma .	and ( junct1 = believe ( agent = Liam , ccomp = paint ( agent = girl , theme = cake ) ) , junct2 = believe ( agent = Emma , ccomp = paint ( agent = girl , theme = cake ) ) )	elips_VPE_in_dist
+The baby drew the box and so did the bunny .	and ( junct1 = draw ( agent = * baby , theme = * box ) , junct2 = draw ( agent = * bunny , theme = * box ) )	elips_VPE_in_dist
+The lawyer appreciated Penelope and so did a bear .	and ( junct1 = appreciate ( agent = * lawyer , theme = Penelope ) , junct2 = appreciate ( agent = bear , theme = Penelope ) )	elips_VPE_in_dist
+Emma adored the ball and so did Liam .	and ( junct1 = adore ( agent = Emma , theme = * ball ) , junct2 = adore ( agent = Liam , theme = * ball ) )	elips_VPE_in_dist
+Liam missed Penelope and so did the girl .	and ( junct1 = miss ( agent = Liam , theme = Penelope ) , junct2 = miss ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+Olivia cooked the donut and so did Emma .	and ( junct1 = cook ( agent = Olivia , theme = * donut ) , junct2 = cook ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+James sketched a professor and so did a cat .	and ( junct1 = sketch ( agent = James , theme = professor ) , junct2 = sketch ( agent = cat , theme = professor ) )	elips_VPE_in_dist
+A boy painted Wyatt and so did Bella .	and ( junct1 = paint ( agent = boy , theme = Wyatt ) , junct2 = paint ( agent = Bella , theme = Wyatt ) )	elips_VPE_in_dist
+Emma sketched the cake and so did a girl .	and ( junct1 = sketch ( agent = Emma , theme = * cake ) , junct2 = sketch ( agent = girl , theme = * cake ) )	elips_VPE_in_dist
+Olivia hoped that Anthony cleaned the game and so did Noah .	and ( junct1 = hope ( agent = Olivia , ccomp = clean ( agent = Anthony , theme = * game ) ) , junct2 = hope ( agent = Noah , ccomp = clean ( agent = Anthony , theme = * game ) ) )	elips_VPE_in_dist
+The girl proved that Lillian hunted John and so did a cat .	and ( junct1 = prove ( agent = * girl , ccomp = hunt ( agent = Lillian , theme = John ) ) , junct2 = prove ( agent = cat , ccomp = hunt ( agent = Lillian , theme = John ) ) )	elips_VPE_in_dist
+The student drew the muffin and so did a boy .	and ( junct1 = draw ( agent = * student , theme = * muffin ) , junct2 = draw ( agent = boy , theme = * muffin ) )	elips_VPE_in_dist
+Abigail liked Lillian and so did the giraffe .	and ( junct1 = like ( agent = Abigail , theme = Lillian ) , junct2 = like ( agent = * giraffe , theme = Lillian ) )	elips_VPE_in_dist
+The boy found the father and so did William .	and ( junct1 = find ( agent = * boy , theme = * father ) , junct2 = find ( agent = William , theme = * father ) )	elips_VPE_in_dist
+The boy liked that Emma hunted Hazel and so did the girl .	and ( junct1 = like ( agent = * boy , ccomp = hunt ( agent = Emma , theme = Hazel ) ) , junct2 = like ( agent = * girl , ccomp = hunt ( agent = Emma , theme = Hazel ) ) )	elips_VPE_in_dist
+The child liked that the consumer cleaned a banana and so did the cat .	and ( junct1 = like ( agent = * child , ccomp = clean ( agent = * consumer , theme = banana ) ) , junct2 = like ( agent = * cat , ccomp = clean ( agent = * consumer , theme = banana ) ) )	elips_VPE_in_dist
+The boy liked the cake and so did a girl .	and ( junct1 = like ( agent = * boy , theme = * cake ) , junct2 = like ( agent = girl , theme = * cake ) )	elips_VPE_in_dist
+Liam liked that Emma painted Penelope and so did the girl .	and ( junct1 = like ( agent = Liam , ccomp = paint ( agent = Emma , theme = Penelope ) ) , junct2 = like ( agent = * girl , ccomp = paint ( agent = Emma , theme = Penelope ) ) )	elips_VPE_in_dist
+The girl tolerated that Olivia loved a cake and so did Ethan .	and ( junct1 = tolerate ( agent = * girl , ccomp = love ( agent = Olivia , theme = cake ) ) , junct2 = tolerate ( agent = Ethan , ccomp = love ( agent = Olivia , theme = cake ) ) )	elips_VPE_in_dist
+Olivia said that Camila found a cookie and so did the passenger .	and ( junct1 = say ( agent = Olivia , ccomp = find ( agent = Camila , theme = cookie ) ) , junct2 = say ( agent = * passenger , ccomp = find ( agent = Camila , theme = cookie ) ) )	elips_VPE_in_dist
+Isabella poked a cake and so did a customer .	and ( junct1 = poke ( agent = Isabella , theme = cake ) , junct2 = poke ( agent = customer , theme = cake ) )	elips_VPE_in_dist
+Oliver ate Penelope and so did Sofia .	and ( junct1 = eat ( agent = Oliver , theme = Penelope ) , junct2 = eat ( agent = Sofia , theme = Penelope ) )	elips_VPE_in_dist
+The boy liked Jack and so did Liam .	and ( junct1 = like ( agent = * boy , theme = Jack ) , junct2 = like ( agent = Liam , theme = Jack ) )	elips_VPE_in_dist
+Alexander hoped that the girl admired the cookie and so did Emma .	and ( junct1 = hope ( agent = Alexander , ccomp = admire ( agent = * girl , theme = * cookie ) ) , junct2 = hope ( agent = Emma , ccomp = admire ( agent = * girl , theme = * cookie ) ) )	elips_VPE_in_dist
+The dog juggled a frog and so did a boy .	and ( junct1 = juggle ( agent = * dog , theme = frog ) , junct2 = juggle ( agent = boy , theme = frog ) )	elips_VPE_in_dist
+The boy dusted a dog and so did Mason .	and ( junct1 = dust ( agent = * boy , theme = dog ) , junct2 = dust ( agent = Mason , theme = dog ) )	elips_VPE_in_dist
+Olivia ate the bat and so did Emma .	and ( junct1 = eat ( agent = Olivia , theme = * bat ) , junct2 = eat ( agent = Emma , theme = * bat ) )	elips_VPE_in_dist
+The pony ate a cake and so did a doctor .	and ( junct1 = eat ( agent = * pony , theme = cake ) , junct2 = eat ( agent = doctor , theme = cake ) )	elips_VPE_in_dist
+Mila tolerated that the guy appreciated the cake and so did Liam .	and ( junct1 = tolerate ( agent = Mila , ccomp = appreciate ( agent = * guy , theme = * cake ) ) , junct2 = tolerate ( agent = Liam , ccomp = appreciate ( agent = * guy , theme = * cake ) ) )	elips_VPE_in_dist
+Isabella said that Emma found the cat and so did James .	and ( junct1 = say ( agent = Isabella , ccomp = find ( agent = Emma , theme = * cat ) ) , junct2 = say ( agent = James , ccomp = find ( agent = Emma , theme = * cat ) ) )	elips_VPE_in_dist
+William liked the box and so did a resident .	and ( junct1 = like ( agent = William , theme = * box ) , junct2 = like ( agent = resident , theme = * box ) )	elips_VPE_in_dist
+The girl thought that Emma loved Penelope and so did Olivia .	and ( junct1 = think ( agent = * girl , ccomp = love ( agent = Emma , theme = Penelope ) ) , junct2 = think ( agent = Olivia , ccomp = love ( agent = Emma , theme = Penelope ) ) )	elips_VPE_in_dist
+The cow hoped that the creature appreciated a sandwich and so did Mia .	and ( junct1 = hope ( agent = * cow , ccomp = appreciate ( agent = * creature , theme = sandwich ) ) , junct2 = hope ( agent = Mia , ccomp = appreciate ( agent = * creature , theme = sandwich ) ) )	elips_VPE_in_dist
+A child loved the cake and so did a boy .	and ( junct1 = love ( agent = child , theme = * cake ) , junct2 = love ( agent = boy , theme = * cake ) )	elips_VPE_in_dist
+James liked the bear and so did Emma .	and ( junct1 = like ( agent = James , theme = * bear ) , junct2 = like ( agent = Emma , theme = * bear ) )	elips_VPE_in_dist
+A giraffe liked that Emma admired Penelope and so did William .	and ( junct1 = like ( agent = giraffe , ccomp = admire ( agent = Emma , theme = Penelope ) ) , junct2 = like ( agent = William , ccomp = admire ( agent = Emma , theme = Penelope ) ) )	elips_VPE_in_dist
+The bear ate Penelope and so did Mia .	and ( junct1 = eat ( agent = * bear , theme = Penelope ) , junct2 = eat ( agent = Mia , theme = Penelope ) )	elips_VPE_in_dist
+Mia liked the cake and so did Benjamin .	and ( junct1 = like ( agent = Mia , theme = * cake ) , junct2 = like ( agent = Benjamin , theme = * cake ) )	elips_VPE_in_dist
+Elijah liked that the cow ate the raisin and so did Emma .	and ( junct1 = like ( agent = Elijah , ccomp = eat ( agent = * cow , theme = * raisin ) ) , junct2 = like ( agent = Emma , ccomp = eat ( agent = * cow , theme = * raisin ) ) )	elips_VPE_in_dist
+Olivia liked that the lawyer painted Layla and so did Emma .	and ( junct1 = like ( agent = Olivia , ccomp = paint ( agent = * lawyer , theme = Layla ) ) , junct2 = like ( agent = Emma , ccomp = paint ( agent = * lawyer , theme = Layla ) ) )	elips_VPE_in_dist
+Noah hunted Nathan and so did Liam .	and ( junct1 = hunt ( agent = Noah , theme = Nathan ) , junct2 = hunt ( agent = Liam , theme = Nathan ) )	elips_VPE_in_dist
+Harper liked Jayden and so did a girl .	and ( junct1 = like ( agent = Harper , theme = Jayden ) , junct2 = like ( agent = girl , theme = Jayden ) )	elips_VPE_in_dist
+A boy cooked Penelope and so did the poet .	and ( junct1 = cook ( agent = boy , theme = Penelope ) , junct2 = cook ( agent = * poet , theme = Penelope ) )	elips_VPE_in_dist
+Emma liked that the baby ate the boy and so did Sophia .	and ( junct1 = like ( agent = Emma , ccomp = eat ( agent = * baby , theme = * boy ) ) , junct2 = like ( agent = Sophia , ccomp = eat ( agent = * baby , theme = * boy ) ) )	elips_VPE_in_dist
+Oliver poked the strawberry and so did the girl .	and ( junct1 = poke ( agent = Oliver , theme = * strawberry ) , junct2 = poke ( agent = * girl , theme = * strawberry ) )	elips_VPE_in_dist
+Noah cooked the rose and so did a girl .	and ( junct1 = cook ( agent = Noah , theme = * rose ) , junct2 = cook ( agent = girl , theme = * rose ) )	elips_VPE_in_dist
+Noah confessed that a girl ate the cat and so did Jackson .	and ( junct1 = confess ( agent = Noah , ccomp = eat ( agent = girl , theme = * cat ) ) , junct2 = confess ( agent = Jackson , ccomp = eat ( agent = girl , theme = * cat ) ) )	elips_VPE_in_dist
+The researcher liked the girl and so did the zebra .	and ( junct1 = like ( agent = * researcher , theme = * girl ) , junct2 = like ( agent = * zebra , theme = * girl ) )	elips_VPE_in_dist
+A dog ate a cookie and so did the farmer .	and ( junct1 = eat ( agent = dog , theme = cookie ) , junct2 = eat ( agent = * farmer , theme = cookie ) )	elips_VPE_in_dist
+The bunny liked the donut and so did Emma .	and ( junct1 = like ( agent = * bunny , theme = * donut ) , junct2 = like ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+A boy helped the monkey and so did Liam .	and ( junct1 = help ( agent = boy , theme = * monkey ) , junct2 = help ( agent = Liam , theme = * monkey ) )	elips_VPE_in_dist
+The boy found the girl and so did the child .	and ( junct1 = find ( agent = * boy , theme = * girl ) , junct2 = find ( agent = * child , theme = * girl ) )	elips_VPE_in_dist
+Emma helped the girl and so did Daniel .	and ( junct1 = help ( agent = Emma , theme = * girl ) , junct2 = help ( agent = Daniel , theme = * girl ) )	elips_VPE_in_dist
+A boy valued that Olivia juggled Layla and so did Emma .	and ( junct1 = value ( agent = boy , ccomp = juggle ( agent = Olivia , theme = Layla ) ) , junct2 = value ( agent = Emma , ccomp = juggle ( agent = Olivia , theme = Layla ) ) )	elips_VPE_in_dist
+The dog helped the cake and so did the writer .	and ( junct1 = help ( agent = * dog , theme = * cake ) , junct2 = help ( agent = * writer , theme = * cake ) )	elips_VPE_in_dist
+The girl ate Layla and so did the boy .	and ( junct1 = eat ( agent = * girl , theme = Layla ) , junct2 = eat ( agent = * boy , theme = Layla ) )	elips_VPE_in_dist
+Emma loved John and so did the girl .	and ( junct1 = love ( agent = Emma , theme = John ) , junct2 = love ( agent = * girl , theme = John ) )	elips_VPE_in_dist
+Emma liked Gabriel and so did the puppy .	and ( junct1 = like ( agent = Emma , theme = Gabriel ) , junct2 = like ( agent = * puppy , theme = Gabriel ) )	elips_VPE_in_dist
+A boy ate the chalk and so did the frog .	and ( junct1 = eat ( agent = boy , theme = * chalk ) , junct2 = eat ( agent = * frog , theme = * chalk ) )	elips_VPE_in_dist
+The child drew Jack and so did a mouse .	and ( junct1 = draw ( agent = * child , theme = Jack ) , junct2 = draw ( agent = mouse , theme = Jack ) )	elips_VPE_in_dist
+Grace said that Noah adored the cake and so did Liam .	and ( junct1 = say ( agent = Grace , ccomp = adore ( agent = Noah , theme = * cake ) ) , junct2 = say ( agent = Liam , ccomp = adore ( agent = Noah , theme = * cake ) ) )	elips_VPE_in_dist
+Emma ate Penelope and so did Sophia .	and ( junct1 = eat ( agent = Emma , theme = Penelope ) , junct2 = eat ( agent = Sophia , theme = Penelope ) )	elips_VPE_in_dist
+Amelia liked that Olivia missed a balloon and so did Charlotte .	and ( junct1 = like ( agent = Amelia , ccomp = miss ( agent = Olivia , theme = balloon ) ) , junct2 = like ( agent = Charlotte , ccomp = miss ( agent = Olivia , theme = balloon ) ) )	elips_VPE_in_dist
+Emma found a monster and so did Leah .	and ( junct1 = find ( agent = Emma , theme = monster ) , junct2 = find ( agent = Leah , theme = monster ) )	elips_VPE_in_dist
+James painted Wyatt and so did Emma .	and ( junct1 = paint ( agent = James , theme = Wyatt ) , junct2 = paint ( agent = Emma , theme = Wyatt ) )	elips_VPE_in_dist
+A girl cooked Natalie and so did a chicken .	and ( junct1 = cook ( agent = girl , theme = Natalie ) , junct2 = cook ( agent = chicken , theme = Natalie ) )	elips_VPE_in_dist
+David ate the cake and so did Ava .	and ( junct1 = eat ( agent = David , theme = * cake ) , junct2 = eat ( agent = Ava , theme = * cake ) )	elips_VPE_in_dist
+Emma dusted the drink and so did Ava .	and ( junct1 = dust ( agent = Emma , theme = * drink ) , junct2 = dust ( agent = Ava , theme = * drink ) )	elips_VPE_in_dist
+Liam liked that the wolf ate Jack and so did the bear .	and ( junct1 = like ( agent = Liam , ccomp = eat ( agent = * wolf , theme = Jack ) ) , junct2 = like ( agent = * bear , ccomp = eat ( agent = * wolf , theme = Jack ) ) )	elips_VPE_in_dist
+James liked a box and so did the giraffe .	and ( junct1 = like ( agent = James , theme = box ) , junct2 = like ( agent = * giraffe , theme = box ) )	elips_VPE_in_dist
+The customer helped the raisin and so did the girl .	and ( junct1 = help ( agent = * customer , theme = * raisin ) , junct2 = help ( agent = * girl , theme = * raisin ) )	elips_VPE_in_dist
+The chief cleaned a girl and so did Amelia .	and ( junct1 = clean ( agent = * chief , theme = girl ) , junct2 = clean ( agent = Amelia , theme = girl ) )	elips_VPE_in_dist
+The girl found the bag and so did Emma .	and ( junct1 = find ( agent = * girl , theme = * bag ) , junct2 = find ( agent = Emma , theme = * bag ) )	elips_VPE_in_dist
+The girl liked the donut and so did Emma .	and ( junct1 = like ( agent = * girl , theme = * donut ) , junct2 = like ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+Liam liked Penelope and so did Emma .	and ( junct1 = like ( agent = Liam , theme = Penelope ) , junct2 = like ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+A girl hoped that Olivia cleaned the donut and so did the bird .	and ( junct1 = hope ( agent = girl , ccomp = clean ( agent = Olivia , theme = * donut ) ) , junct2 = hope ( agent = * bird , ccomp = clean ( agent = Olivia , theme = * donut ) ) )	elips_VPE_in_dist
+The girl liked the donut and so did a lawyer .	and ( junct1 = like ( agent = * girl , theme = * donut ) , junct2 = like ( agent = lawyer , theme = * donut ) )	elips_VPE_in_dist
+Olivia liked a cookie and so did Liam .	and ( junct1 = like ( agent = Olivia , theme = cookie ) , junct2 = like ( agent = Liam , theme = cookie ) )	elips_VPE_in_dist
+The cat ate a girl and so did Liam .	and ( junct1 = eat ( agent = * cat , theme = girl ) , junct2 = eat ( agent = Liam , theme = girl ) )	elips_VPE_in_dist
+A lion helped the pen and so did a girl .	and ( junct1 = help ( agent = lion , theme = * pen ) , junct2 = help ( agent = girl , theme = * pen ) )	elips_VPE_in_dist
+Emily ate the lion and so did a girl .	and ( junct1 = eat ( agent = Emily , theme = * lion ) , junct2 = eat ( agent = girl , theme = * lion ) )	elips_VPE_in_dist
+Emma juggled the cookie and so did Olivia .	and ( junct1 = juggle ( agent = Emma , theme = * cookie ) , junct2 = juggle ( agent = Olivia , theme = * cookie ) )	elips_VPE_in_dist
+A boy believed that William ate a cake and so did a girl .	and ( junct1 = believe ( agent = boy , ccomp = eat ( agent = William , theme = cake ) ) , junct2 = believe ( agent = girl , ccomp = eat ( agent = William , theme = cake ) ) )	elips_VPE_in_dist
+A dog ate a girl and so did Noah .	and ( junct1 = eat ( agent = dog , theme = girl ) , junct2 = eat ( agent = Noah , theme = girl ) )	elips_VPE_in_dist
+Olivia ate Penelope and so did Noah .	and ( junct1 = eat ( agent = Olivia , theme = Penelope ) , junct2 = eat ( agent = Noah , theme = Penelope ) )	elips_VPE_in_dist
+The frog painted the dog and so did Logan .	and ( junct1 = paint ( agent = * frog , theme = * dog ) , junct2 = paint ( agent = Logan , theme = * dog ) )	elips_VPE_in_dist
+The scientist found a donut and so did the girl .	and ( junct1 = find ( agent = * scientist , theme = donut ) , junct2 = find ( agent = * girl , theme = donut ) )	elips_VPE_in_dist
+Logan cleaned a cake and so did a boy .	and ( junct1 = clean ( agent = Logan , theme = cake ) , junct2 = clean ( agent = boy , theme = cake ) )	elips_VPE_in_dist
+The scientist liked the cake and so did Emma .	and ( junct1 = like ( agent = * scientist , theme = * cake ) , junct2 = like ( agent = Emma , theme = * cake ) )	elips_VPE_in_dist
+A buyer ate a bird and so did Ava .	and ( junct1 = eat ( agent = buyer , theme = bird ) , junct2 = eat ( agent = Ava , theme = bird ) )	elips_VPE_in_dist
+A pig tolerated that the cat loved the strawberry and so did Emma .	and ( junct1 = tolerate ( agent = pig , ccomp = love ( agent = * cat , theme = * strawberry ) ) , junct2 = tolerate ( agent = Emma , ccomp = love ( agent = * cat , theme = * strawberry ) ) )	elips_VPE_in_dist
+Andrew loved a boy and so did Liam .	and ( junct1 = love ( agent = Andrew , theme = boy ) , junct2 = love ( agent = Liam , theme = boy ) )	elips_VPE_in_dist
+Ava painted the cookie and so did Emma .	and ( junct1 = paint ( agent = Ava , theme = * cookie ) , junct2 = paint ( agent = Emma , theme = * cookie ) )	elips_VPE_in_dist
+Emma wished that Noah sketched the beer and so did a mother .	and ( junct1 = wish ( agent = Emma , ccomp = sketch ( agent = Noah , theme = * beer ) ) , junct2 = wish ( agent = mother , ccomp = sketch ( agent = Noah , theme = * beer ) ) )	elips_VPE_in_dist
+Oliver painted the cow and so did Emma .	and ( junct1 = paint ( agent = Oliver , theme = * cow ) , junct2 = paint ( agent = Emma , theme = * cow ) )	elips_VPE_in_dist
+Emma found the dog and so did Aiden .	and ( junct1 = find ( agent = Emma , theme = * dog ) , junct2 = find ( agent = Aiden , theme = * dog ) )	elips_VPE_in_dist
+Liam respected a girl and so did Emma .	and ( junct1 = respect ( agent = Liam , theme = girl ) , junct2 = respect ( agent = Emma , theme = girl ) )	elips_VPE_in_dist
+The giraffe confessed that Noah appreciated John and so did the cat .	and ( junct1 = confess ( agent = * giraffe , ccomp = appreciate ( agent = Noah , theme = John ) ) , junct2 = confess ( agent = * cat , ccomp = appreciate ( agent = Noah , theme = John ) ) )	elips_VPE_in_dist
+Savannah found a box and so did the girl .	and ( junct1 = find ( agent = Savannah , theme = box ) , junct2 = find ( agent = * girl , theme = box ) )	elips_VPE_in_dist
+Emma appreciated a donut and so did a girl .	and ( junct1 = appreciate ( agent = Emma , theme = donut ) , junct2 = appreciate ( agent = girl , theme = donut ) )	elips_VPE_in_dist
+Emma liked a ball and so did a cat .	and ( junct1 = like ( agent = Emma , theme = ball ) , junct2 = like ( agent = cat , theme = ball ) )	elips_VPE_in_dist
+The sailor tolerated that Lillian hunted the baby and so did Emma .	and ( junct1 = tolerate ( agent = * sailor , ccomp = hunt ( agent = Lillian , theme = * baby ) ) , junct2 = tolerate ( agent = Emma , ccomp = hunt ( agent = Lillian , theme = * baby ) ) )	elips_VPE_in_dist
+Emma liked that James helped a toothbrush and so did Luke .	and ( junct1 = like ( agent = Emma , ccomp = help ( agent = James , theme = toothbrush ) ) , junct2 = like ( agent = Luke , ccomp = help ( agent = James , theme = toothbrush ) ) )	elips_VPE_in_dist
+A cat believed that Liam liked the donut and so did Lucas .	and ( junct1 = believe ( agent = cat , ccomp = like ( agent = Liam , theme = * donut ) ) , junct2 = believe ( agent = Lucas , ccomp = like ( agent = Liam , theme = * donut ) ) )	elips_VPE_in_dist
+Benjamin helped the block and so did Charlotte .	and ( junct1 = help ( agent = Benjamin , theme = * block ) , junct2 = help ( agent = Charlotte , theme = * block ) )	elips_VPE_in_dist
+The girl adored the box and so did Emma .	and ( junct1 = adore ( agent = * girl , theme = * box ) , junct2 = adore ( agent = Emma , theme = * box ) )	elips_VPE_in_dist
+Liam cleaned a cookie and so did a girl .	and ( junct1 = clean ( agent = Liam , theme = cookie ) , junct2 = clean ( agent = girl , theme = cookie ) )	elips_VPE_in_dist
+Emma declared that a buyer hunted a cow and so did a dog .	and ( junct1 = declare ( agent = Emma , ccomp = hunt ( agent = buyer , theme = cow ) ) , junct2 = declare ( agent = dog , ccomp = hunt ( agent = buyer , theme = cow ) ) )	elips_VPE_in_dist
+Luna juggled Layla and so did a child .	and ( junct1 = juggle ( agent = Luna , theme = Layla ) , junct2 = juggle ( agent = child , theme = Layla ) )	elips_VPE_in_dist
+A president liked that Wyatt found the cake and so did Emma .	and ( junct1 = like ( agent = president , ccomp = find ( agent = Wyatt , theme = * cake ) ) , junct2 = like ( agent = Emma , ccomp = find ( agent = Wyatt , theme = * cake ) ) )	elips_VPE_in_dist
+Emma ate a cake and so did Liam .	and ( junct1 = eat ( agent = Emma , theme = cake ) , junct2 = eat ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+A father ate a bear and so did Emma .	and ( junct1 = eat ( agent = father , theme = bear ) , junct2 = eat ( agent = Emma , theme = bear ) )	elips_VPE_in_dist
+Logan drew the pizza and so did the landlord .	and ( junct1 = draw ( agent = Logan , theme = * pizza ) , junct2 = draw ( agent = * landlord , theme = * pizza ) )	elips_VPE_in_dist
+The horse cooked a cake and so did Olivia .	and ( junct1 = cook ( agent = * horse , theme = cake ) , junct2 = cook ( agent = Olivia , theme = cake ) )	elips_VPE_in_dist
+Emma loved a drink and so did Olivia .	and ( junct1 = love ( agent = Emma , theme = drink ) , junct2 = love ( agent = Olivia , theme = drink ) )	elips_VPE_in_dist
+Emma liked a cake and so did Olivia .	and ( junct1 = like ( agent = Emma , theme = cake ) , junct2 = like ( agent = Olivia , theme = cake ) )	elips_VPE_in_dist
+Aria drew a block and so did Emma .	and ( junct1 = draw ( agent = Aria , theme = block ) , junct2 = draw ( agent = Emma , theme = block ) )	elips_VPE_in_dist
+The girl liked that Isabella nursed the cake and so did Carter .	and ( junct1 = like ( agent = * girl , ccomp = nurse ( agent = Isabella , theme = * cake ) ) , junct2 = like ( agent = Carter , ccomp = nurse ( agent = Isabella , theme = * cake ) ) )	elips_VPE_in_dist
+The giraffe ate a cake and so did Emma .	and ( junct1 = eat ( agent = * giraffe , theme = cake ) , junct2 = eat ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+Oliver hoped that a girl liked a kid and so did a doctor .	and ( junct1 = hope ( agent = Oliver , ccomp = like ( agent = girl , theme = kid ) ) , junct2 = hope ( agent = doctor , ccomp = like ( agent = girl , theme = kid ) ) )	elips_VPE_in_dist
+The student cleaned Zoey and so did the horse .	and ( junct1 = clean ( agent = * student , theme = Zoey ) , junct2 = clean ( agent = * horse , theme = Zoey ) )	elips_VPE_in_dist
+Jaxon found a box and so did the girl .	and ( junct1 = find ( agent = Jaxon , theme = box ) , junct2 = find ( agent = * girl , theme = box ) )	elips_VPE_in_dist
+Violet loved the manager and so did a scientist .	and ( junct1 = love ( agent = Violet , theme = * manager ) , junct2 = love ( agent = scientist , theme = * manager ) )	elips_VPE_in_dist
+The boy painted a mouse and so did Emma .	and ( junct1 = paint ( agent = * boy , theme = mouse ) , junct2 = paint ( agent = Emma , theme = mouse ) )	elips_VPE_in_dist
+Benjamin cooked the sandwich and so did Ethan .	and ( junct1 = cook ( agent = Benjamin , theme = * sandwich ) , junct2 = cook ( agent = Ethan , theme = * sandwich ) )	elips_VPE_in_dist
+Emma dusted the pretzel and so did Zoe .	and ( junct1 = dust ( agent = Emma , theme = * pretzel ) , junct2 = dust ( agent = Zoe , theme = * pretzel ) )	elips_VPE_in_dist
+Liam liked that Mia ate the donut and so did Aiden .	and ( junct1 = like ( agent = Liam , ccomp = eat ( agent = Mia , theme = * donut ) ) , junct2 = like ( agent = Aiden , ccomp = eat ( agent = Mia , theme = * donut ) ) )	elips_VPE_in_dist
+James helped Lillian and so did a girl .	and ( junct1 = help ( agent = James , theme = Lillian ) , junct2 = help ( agent = girl , theme = Lillian ) )	elips_VPE_in_dist
+Elijah noticed that Liam found a cookie and so did the mouse .	and ( junct1 = notice ( agent = Elijah , ccomp = find ( agent = Liam , theme = cookie ) ) , junct2 = notice ( agent = * mouse , ccomp = find ( agent = Liam , theme = cookie ) ) )	elips_VPE_in_dist
+Emma admired the boy and so did Liam .	and ( junct1 = admire ( agent = Emma , theme = * boy ) , junct2 = admire ( agent = Liam , theme = * boy ) )	elips_VPE_in_dist
+The lion liked a cake and so did the boy .	and ( junct1 = like ( agent = * lion , theme = cake ) , junct2 = like ( agent = * boy , theme = cake ) )	elips_VPE_in_dist
+Emma helped a cake and so did Ethan .	and ( junct1 = help ( agent = Emma , theme = cake ) , junct2 = help ( agent = Ethan , theme = cake ) )	elips_VPE_in_dist
+A manager painted a boy and so did Liam .	and ( junct1 = paint ( agent = manager , theme = boy ) , junct2 = paint ( agent = Liam , theme = boy ) )	elips_VPE_in_dist
+A boy painted a can and so did the girl .	and ( junct1 = paint ( agent = boy , theme = can ) , junct2 = paint ( agent = * girl , theme = can ) )	elips_VPE_in_dist
+Emma sketched the boy and so did a girl .	and ( junct1 = sketch ( agent = Emma , theme = * boy ) , junct2 = sketch ( agent = girl , theme = * boy ) )	elips_VPE_in_dist
+A butterfly ate the goose and so did the child .	and ( junct1 = eat ( agent = butterfly , theme = * goose ) , junct2 = eat ( agent = * child , theme = * goose ) )	elips_VPE_in_dist
+Ava meant that Emma ate a cake and so did a teacher .	and ( junct1 = mean ( agent = Ava , ccomp = eat ( agent = Emma , theme = cake ) ) , junct2 = mean ( agent = teacher , ccomp = eat ( agent = Emma , theme = cake ) ) )	elips_VPE_in_dist
+James ate the cake and so did a girl .	and ( junct1 = eat ( agent = James , theme = * cake ) , junct2 = eat ( agent = girl , theme = * cake ) )	elips_VPE_in_dist
+James loved the baby and so did the boy .	and ( junct1 = love ( agent = James , theme = * baby ) , junct2 = love ( agent = * boy , theme = * baby ) )	elips_VPE_in_dist
+Liam ate a cake and so did Emma .	and ( junct1 = eat ( agent = Liam , theme = cake ) , junct2 = eat ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+Liam appreciated the cookie and so did the girl .	and ( junct1 = appreciate ( agent = Liam , theme = * cookie ) , junct2 = appreciate ( agent = * girl , theme = * cookie ) )	elips_VPE_in_dist
+The girl helped a bunny and so did Emma .	and ( junct1 = help ( agent = * girl , theme = bunny ) , junct2 = help ( agent = Emma , theme = bunny ) )	elips_VPE_in_dist
+Emma liked the rose and so did Jackson .	and ( junct1 = like ( agent = Emma , theme = * rose ) , junct2 = like ( agent = Jackson , theme = * rose ) )	elips_VPE_in_dist
+The professor liked Penelope and so did the dog .	and ( junct1 = like ( agent = * professor , theme = Penelope ) , junct2 = like ( agent = * dog , theme = Penelope ) )	elips_VPE_in_dist
+Emma liked that Mia ate the brain and so did Olivia .	and ( junct1 = like ( agent = Emma , ccomp = eat ( agent = Mia , theme = * brain ) ) , junct2 = like ( agent = Olivia , ccomp = eat ( agent = Mia , theme = * brain ) ) )	elips_VPE_in_dist
+Victoria loved John and so did Benjamin .	and ( junct1 = love ( agent = Victoria , theme = John ) , junct2 = love ( agent = Benjamin , theme = John ) )	elips_VPE_in_dist
+The baby confessed that Liam painted a donut and so did Logan .	and ( junct1 = confess ( agent = * baby , ccomp = paint ( agent = Liam , theme = donut ) ) , junct2 = confess ( agent = Logan , ccomp = paint ( agent = Liam , theme = donut ) ) )	elips_VPE_in_dist
+Elizabeth cleaned the raisin and so did a girl .	and ( junct1 = clean ( agent = Elizabeth , theme = * raisin ) , junct2 = clean ( agent = girl , theme = * raisin ) )	elips_VPE_in_dist
+Isaac drew Caleb and so did Liam .	and ( junct1 = draw ( agent = Isaac , theme = Caleb ) , junct2 = draw ( agent = Liam , theme = Caleb ) )	elips_VPE_in_dist
+Elijah liked that the boy painted a lollipop and so did Liam .	and ( junct1 = like ( agent = Elijah , ccomp = paint ( agent = * boy , theme = lollipop ) ) , junct2 = like ( agent = Liam , ccomp = paint ( agent = * boy , theme = lollipop ) ) )	elips_VPE_in_dist
+Jack painted a baby and so did Emma .	and ( junct1 = paint ( agent = Jack , theme = baby ) , junct2 = paint ( agent = Emma , theme = baby ) )	elips_VPE_in_dist
+A driver drew a cookie and so did Emma .	and ( junct1 = draw ( agent = driver , theme = cookie ) , junct2 = draw ( agent = Emma , theme = cookie ) )	elips_VPE_in_dist
+Liam helped a rose and so did Andrew .	and ( junct1 = help ( agent = Liam , theme = rose ) , junct2 = help ( agent = Andrew , theme = rose ) )	elips_VPE_in_dist
+Emma drew the liver and so did Mila .	and ( junct1 = draw ( agent = Emma , theme = * liver ) , junct2 = draw ( agent = Mila , theme = * liver ) )	elips_VPE_in_dist
+Liam helped the boy and so did a girl .	and ( junct1 = help ( agent = Liam , theme = * boy ) , junct2 = help ( agent = girl , theme = * boy ) )	elips_VPE_in_dist
+A child cooked the cake and so did a baby .	and ( junct1 = cook ( agent = child , theme = * cake ) , junct2 = cook ( agent = baby , theme = * cake ) )	elips_VPE_in_dist
+A lawyer said that the monster adored the flag and so did the boy .	and ( junct1 = say ( agent = lawyer , ccomp = adore ( agent = * monster , theme = * flag ) ) , junct2 = say ( agent = * boy , ccomp = adore ( agent = * monster , theme = * flag ) ) )	elips_VPE_in_dist
+Wyatt said that the pony liked a cat and so did the frog .	and ( junct1 = say ( agent = Wyatt , ccomp = like ( agent = * pony , theme = cat ) ) , junct2 = say ( agent = * frog , ccomp = like ( agent = * pony , theme = cat ) ) )	elips_VPE_in_dist
+Abigail liked Penelope and so did Emma .	and ( junct1 = like ( agent = Abigail , theme = Penelope ) , junct2 = like ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+A girl poked a key and so did Emma .	and ( junct1 = poke ( agent = girl , theme = key ) , junct2 = poke ( agent = Emma , theme = key ) )	elips_VPE_in_dist
+The boy ate the cake and so did the bird .	and ( junct1 = eat ( agent = * boy , theme = * cake ) , junct2 = eat ( agent = * bird , theme = * cake ) )	elips_VPE_in_dist
+A girl ate a bottle and so did Emma .	and ( junct1 = eat ( agent = girl , theme = bottle ) , junct2 = eat ( agent = Emma , theme = bottle ) )	elips_VPE_in_dist
+Christopher ate a student and so did Eleanor .	and ( junct1 = eat ( agent = Christopher , theme = student ) , junct2 = eat ( agent = Eleanor , theme = student ) )	elips_VPE_in_dist
+Emma respected that John hunted the cake and so did a boy .	and ( junct1 = respect ( agent = Emma , ccomp = hunt ( agent = John , theme = * cake ) ) , junct2 = respect ( agent = boy , ccomp = hunt ( agent = John , theme = * cake ) ) )	elips_VPE_in_dist
+Elizabeth painted a cake and so did Oliver .	and ( junct1 = paint ( agent = Elizabeth , theme = cake ) , junct2 = paint ( agent = Oliver , theme = cake ) )	elips_VPE_in_dist
+Olivia ate a baby and so did Lincoln .	and ( junct1 = eat ( agent = Olivia , theme = baby ) , junct2 = eat ( agent = Lincoln , theme = baby ) )	elips_VPE_in_dist
+Isabella liked that the driver ate the mother and so did the tiger .	and ( junct1 = like ( agent = Isabella , ccomp = eat ( agent = * driver , theme = * mother ) ) , junct2 = like ( agent = * tiger , ccomp = eat ( agent = * driver , theme = * mother ) ) )	elips_VPE_in_dist
+The cat liked the raisin and so did the frog .	and ( junct1 = like ( agent = * cat , theme = * raisin ) , junct2 = like ( agent = * frog , theme = * raisin ) )	elips_VPE_in_dist
+The doctor appreciated the girl and so did Liam .	and ( junct1 = appreciate ( agent = * doctor , theme = * girl ) , junct2 = appreciate ( agent = Liam , theme = * girl ) )	elips_VPE_in_dist
+A cat cleaned a cookie and so did a boy .	and ( junct1 = clean ( agent = cat , theme = cookie ) , junct2 = clean ( agent = boy , theme = cookie ) )	elips_VPE_in_dist
+Luke liked a ball and so did Sophia .	and ( junct1 = like ( agent = Luke , theme = ball ) , junct2 = like ( agent = Sophia , theme = ball ) )	elips_VPE_in_dist
+A baby appreciated Zoey and so did Logan .	and ( junct1 = appreciate ( agent = baby , theme = Zoey ) , junct2 = appreciate ( agent = Logan , theme = Zoey ) )	elips_VPE_in_dist
+Benjamin drew Penelope and so did Emma .	and ( junct1 = draw ( agent = Benjamin , theme = Penelope ) , junct2 = draw ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+A tenant hoped that Liam liked the cake and so did Emma .	and ( junct1 = hope ( agent = tenant , ccomp = like ( agent = Liam , theme = * cake ) ) , junct2 = hope ( agent = Emma , ccomp = like ( agent = Liam , theme = * cake ) ) )	elips_VPE_in_dist
+Emma imagined that Sebastian painted Penelope and so did a prince .	and ( junct1 = imagine ( agent = Emma , ccomp = paint ( agent = Sebastian , theme = Penelope ) ) , junct2 = imagine ( agent = prince , ccomp = paint ( agent = Sebastian , theme = Penelope ) ) )	elips_VPE_in_dist
+The frog ate Christopher and so did Emma .	and ( junct1 = eat ( agent = * frog , theme = Christopher ) , junct2 = eat ( agent = Emma , theme = Christopher ) )	elips_VPE_in_dist
+A bear adored the donut and so did a girl .	and ( junct1 = adore ( agent = bear , theme = * donut ) , junct2 = adore ( agent = girl , theme = * donut ) )	elips_VPE_in_dist
+The cat painted Dylan and so did a driver .	and ( junct1 = paint ( agent = * cat , theme = Dylan ) , junct2 = paint ( agent = driver , theme = Dylan ) )	elips_VPE_in_dist
+Hannah ate a tool and so did Noah .	and ( junct1 = eat ( agent = Hannah , theme = tool ) , junct2 = eat ( agent = Noah , theme = tool ) )	elips_VPE_in_dist
+William liked that the zebra nursed the cake and so did Olivia .	and ( junct1 = like ( agent = William , ccomp = nurse ( agent = * zebra , theme = * cake ) ) , junct2 = like ( agent = Olivia , ccomp = nurse ( agent = * zebra , theme = * cake ) ) )	elips_VPE_in_dist
+Emma painted Luke and so did a bear .	and ( junct1 = paint ( agent = Emma , theme = Luke ) , junct2 = paint ( agent = bear , theme = Luke ) )	elips_VPE_in_dist
+A boy appreciated a bird and so did a bunny .	and ( junct1 = appreciate ( agent = boy , theme = bird ) , junct2 = appreciate ( agent = bunny , theme = bird ) )	elips_VPE_in_dist
+The baby nursed a cake and so did Liam .	and ( junct1 = nurse ( agent = * baby , theme = cake ) , junct2 = nurse ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+Liam ate the donut and so did Levi .	and ( junct1 = eat ( agent = Liam , theme = * donut ) , junct2 = eat ( agent = Levi , theme = * donut ) )	elips_VPE_in_dist
+Emma liked that Noah cooked the box and so did Elijah .	and ( junct1 = like ( agent = Emma , ccomp = cook ( agent = Noah , theme = * box ) ) , junct2 = like ( agent = Elijah , ccomp = cook ( agent = Noah , theme = * box ) ) )	elips_VPE_in_dist
+The doctor liked the cake and so did Liam .	and ( junct1 = like ( agent = * doctor , theme = * cake ) , junct2 = like ( agent = Liam , theme = * cake ) )	elips_VPE_in_dist
+A girl drew a pizza and so did Liam .	and ( junct1 = draw ( agent = girl , theme = pizza ) , junct2 = draw ( agent = Liam , theme = pizza ) )	elips_VPE_in_dist
+A bee drew a melon and so did Sophia .	and ( junct1 = draw ( agent = bee , theme = melon ) , junct2 = draw ( agent = Sophia , theme = melon ) )	elips_VPE_in_dist
+Liam nursed the drink and so did a girl .	and ( junct1 = nurse ( agent = Liam , theme = * drink ) , junct2 = nurse ( agent = girl , theme = * drink ) )	elips_VPE_in_dist
+A pupil painted the cake and so did Emma .	and ( junct1 = paint ( agent = pupil , theme = * cake ) , junct2 = paint ( agent = Emma , theme = * cake ) )	elips_VPE_in_dist
+Emma cleaned the ring and so did Liam .	and ( junct1 = clean ( agent = Emma , theme = * ring ) , junct2 = clean ( agent = Liam , theme = * ring ) )	elips_VPE_in_dist
+Theodore respected that the girl painted a flag and so did Emma .	and ( junct1 = respect ( agent = Theodore , ccomp = paint ( agent = * girl , theme = flag ) ) , junct2 = respect ( agent = Emma , ccomp = paint ( agent = * girl , theme = flag ) ) )	elips_VPE_in_dist
+The girl cleaned the rose and so did a boy .	and ( junct1 = clean ( agent = * girl , theme = * rose ) , junct2 = clean ( agent = boy , theme = * rose ) )	elips_VPE_in_dist
+Ava found the jigsaw and so did a sailor .	and ( junct1 = find ( agent = Ava , theme = * jigsaw ) , junct2 = find ( agent = sailor , theme = * jigsaw ) )	elips_VPE_in_dist
+Liam loved Natalie and so did Emma .	and ( junct1 = love ( agent = Liam , theme = Natalie ) , junct2 = love ( agent = Emma , theme = Natalie ) )	elips_VPE_in_dist
+Mia helped a customer and so did Emma .	and ( junct1 = help ( agent = Mia , theme = customer ) , junct2 = help ( agent = Emma , theme = customer ) )	elips_VPE_in_dist
+The cat liked a donut and so did Lucas .	and ( junct1 = like ( agent = * cat , theme = donut ) , junct2 = like ( agent = Lucas , theme = donut ) )	elips_VPE_in_dist
+Alexander noticed that Oliver liked a block and so did Emma .	and ( junct1 = notice ( agent = Alexander , ccomp = like ( agent = Oliver , theme = block ) ) , junct2 = notice ( agent = Emma , ccomp = like ( agent = Oliver , theme = block ) ) )	elips_VPE_in_dist
+The boy ate a cake and so did a cat .	and ( junct1 = eat ( agent = * boy , theme = cake ) , junct2 = eat ( agent = cat , theme = cake ) )	elips_VPE_in_dist
+James liked that the girl liked a donut and so did Aiden .	and ( junct1 = like ( agent = James , ccomp = like ( agent = * girl , theme = donut ) ) , junct2 = like ( agent = Aiden , ccomp = like ( agent = * girl , theme = donut ) ) )	elips_VPE_in_dist
+A bear said that Liam admired Zoey and so did Amelia .	and ( junct1 = say ( agent = bear , ccomp = admire ( agent = Liam , theme = Zoey ) ) , junct2 = say ( agent = Amelia , ccomp = admire ( agent = Liam , theme = Zoey ) ) )	elips_VPE_in_dist
+The girl liked a cake and so did the cat .	and ( junct1 = like ( agent = * girl , theme = cake ) , junct2 = like ( agent = * cat , theme = cake ) )	elips_VPE_in_dist
+Olivia appreciated a cookie and so did Dylan .	and ( junct1 = appreciate ( agent = Olivia , theme = cookie ) , junct2 = appreciate ( agent = Dylan , theme = cookie ) )	elips_VPE_in_dist
+Emma said that the bird ate a cake and so did Isabella .	and ( junct1 = say ( agent = Emma , ccomp = eat ( agent = * bird , theme = cake ) ) , junct2 = say ( agent = Isabella , ccomp = eat ( agent = * bird , theme = cake ) ) )	elips_VPE_in_dist
+Emma dusted the girl and so did a giraffe .	and ( junct1 = dust ( agent = Emma , theme = * girl ) , junct2 = dust ( agent = giraffe , theme = * girl ) )	elips_VPE_in_dist
+Lillian liked a raisin and so did Harper .	and ( junct1 = like ( agent = Lillian , theme = raisin ) , junct2 = like ( agent = Harper , theme = raisin ) )	elips_VPE_in_dist
+A girl nursed a pencil and so did a director .	and ( junct1 = nurse ( agent = girl , theme = pencil ) , junct2 = nurse ( agent = director , theme = pencil ) )	elips_VPE_in_dist
+A boy ate a girl and so did Noah .	and ( junct1 = eat ( agent = boy , theme = girl ) , junct2 = eat ( agent = Noah , theme = girl ) )	elips_VPE_in_dist
+Andrew poked Wyatt and so did a dog .	and ( junct1 = poke ( agent = Andrew , theme = Wyatt ) , junct2 = poke ( agent = dog , theme = Wyatt ) )	elips_VPE_in_dist
+Emma hoped that the girl liked the lawyer and so did the boy .	and ( junct1 = hope ( agent = Emma , ccomp = like ( agent = * girl , theme = * lawyer ) ) , junct2 = hope ( agent = * boy , ccomp = like ( agent = * girl , theme = * lawyer ) ) )	elips_VPE_in_dist
+Emma liked Anthony and so did Lucas .	and ( junct1 = like ( agent = Emma , theme = Anthony ) , junct2 = like ( agent = Lucas , theme = Anthony ) )	elips_VPE_in_dist
+Ava liked that the cat painted a towel and so did Emma .	and ( junct1 = like ( agent = Ava , ccomp = paint ( agent = * cat , theme = towel ) ) , junct2 = like ( agent = Emma , ccomp = paint ( agent = * cat , theme = towel ) ) )	elips_VPE_in_dist
+Dylan drew the raisin and so did Emma .	and ( junct1 = draw ( agent = Dylan , theme = * raisin ) , junct2 = draw ( agent = Emma , theme = * raisin ) )	elips_VPE_in_dist
+Liam cooked Penelope and so did the cat .	and ( junct1 = cook ( agent = Liam , theme = Penelope ) , junct2 = cook ( agent = * cat , theme = Penelope ) )	elips_VPE_in_dist
+Emma proved that Liam missed the jacket and so did Ellie .	and ( junct1 = prove ( agent = Emma , ccomp = miss ( agent = Liam , theme = * jacket ) ) , junct2 = prove ( agent = Ellie , ccomp = miss ( agent = Liam , theme = * jacket ) ) )	elips_VPE_in_dist
+Isabella found the donut and so did the baby .	and ( junct1 = find ( agent = Isabella , theme = * donut ) , junct2 = find ( agent = * baby , theme = * donut ) )	elips_VPE_in_dist
+A boy thought that Bella painted a donut and so did the girl .	and ( junct1 = think ( agent = boy , ccomp = paint ( agent = Bella , theme = donut ) ) , junct2 = think ( agent = * girl , ccomp = paint ( agent = Bella , theme = donut ) ) )	elips_VPE_in_dist
+Emma hoped that Liam helped the chicken and so did Isaac .	and ( junct1 = hope ( agent = Emma , ccomp = help ( agent = Liam , theme = * chicken ) ) , junct2 = hope ( agent = Isaac , ccomp = help ( agent = Liam , theme = * chicken ) ) )	elips_VPE_in_dist
+The chicken painted Wyatt and so did Isaac .	and ( junct1 = paint ( agent = * chicken , theme = Wyatt ) , junct2 = paint ( agent = Isaac , theme = Wyatt ) )	elips_VPE_in_dist
+Olivia drew a sandwich and so did a girl .	and ( junct1 = draw ( agent = Olivia , theme = sandwich ) , junct2 = draw ( agent = girl , theme = sandwich ) )	elips_VPE_in_dist
+The girl cleaned a butterfly and so did the cat .	and ( junct1 = clean ( agent = * girl , theme = butterfly ) , junct2 = clean ( agent = * cat , theme = butterfly ) )	elips_VPE_in_dist
+Grace appreciated Penelope and so did Emma .	and ( junct1 = appreciate ( agent = Grace , theme = Penelope ) , junct2 = appreciate ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+The girl hoped that Sophia liked a rose and so did Olivia .	and ( junct1 = hope ( agent = * girl , ccomp = like ( agent = Sophia , theme = rose ) ) , junct2 = hope ( agent = Olivia , ccomp = like ( agent = Sophia , theme = rose ) ) )	elips_VPE_in_dist
+A dog liked that the boy poked a monkey and so did Mason .	and ( junct1 = like ( agent = dog , ccomp = poke ( agent = * boy , theme = monkey ) ) , junct2 = like ( agent = Mason , ccomp = poke ( agent = * boy , theme = monkey ) ) )	elips_VPE_in_dist
+James cleaned a girl and so did Mia .	and ( junct1 = clean ( agent = James , theme = girl ) , junct2 = clean ( agent = Mia , theme = girl ) )	elips_VPE_in_dist
+Hazel declared that Charlotte helped the mandarin and so did Emma .	and ( junct1 = declare ( agent = Hazel , ccomp = help ( agent = Charlotte , theme = * mandarin ) ) , junct2 = declare ( agent = Emma , ccomp = help ( agent = Charlotte , theme = * mandarin ) ) )	elips_VPE_in_dist
+A cat dreamed that a bunny ate a glue and so did a hen .	and ( junct1 = dream ( agent = cat , ccomp = eat ( agent = bunny , theme = glue ) ) , junct2 = dream ( agent = hen , ccomp = eat ( agent = bunny , theme = glue ) ) )	elips_VPE_in_dist
+A donkey liked that a cat sketched the dog and so did Aria .	and ( junct1 = like ( agent = donkey , ccomp = sketch ( agent = cat , theme = * dog ) ) , junct2 = like ( agent = Aria , ccomp = sketch ( agent = cat , theme = * dog ) ) )	elips_VPE_in_dist
+Carter poked the patient and so did a boy .	and ( junct1 = poke ( agent = Carter , theme = * patient ) , junct2 = poke ( agent = boy , theme = * patient ) )	elips_VPE_in_dist
+Olivia liked a cake and so did a puppy .	and ( junct1 = like ( agent = Olivia , theme = cake ) , junct2 = like ( agent = puppy , theme = cake ) )	elips_VPE_in_dist
+The girl liked that Jackson loved Wyatt and so did Olivia .	and ( junct1 = like ( agent = * girl , ccomp = love ( agent = Jackson , theme = Wyatt ) ) , junct2 = like ( agent = Olivia , ccomp = love ( agent = Jackson , theme = Wyatt ) ) )	elips_VPE_in_dist
+The child noticed that the queen ate a cookie and so did Emma .	and ( junct1 = notice ( agent = * child , ccomp = eat ( agent = * queen , theme = cookie ) ) , junct2 = notice ( agent = Emma , ccomp = eat ( agent = * queen , theme = cookie ) ) )	elips_VPE_in_dist
+The girl liked a cake and so did Liam .	and ( junct1 = like ( agent = * girl , theme = cake ) , junct2 = like ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+A cat expected that a girl liked a boy and so did Emma .	and ( junct1 = expect ( agent = cat , ccomp = like ( agent = girl , theme = boy ) ) , junct2 = expect ( agent = Emma , ccomp = like ( agent = girl , theme = boy ) ) )	elips_VPE_in_dist
+Emma liked the jar and so did Olivia .	and ( junct1 = like ( agent = Emma , theme = * jar ) , junct2 = like ( agent = Olivia , theme = * jar ) )	elips_VPE_in_dist
+Emma ate a ring and so did Olivia .	and ( junct1 = eat ( agent = Emma , theme = ring ) , junct2 = eat ( agent = Olivia , theme = ring ) )	elips_VPE_in_dist
+Sophia painted the boy and so did the girl .	and ( junct1 = paint ( agent = Sophia , theme = * boy ) , junct2 = paint ( agent = * girl , theme = * boy ) )	elips_VPE_in_dist
+Elijah cooked Aurora and so did a boy .	and ( junct1 = cook ( agent = Elijah , theme = Aurora ) , junct2 = cook ( agent = boy , theme = Aurora ) )	elips_VPE_in_dist
+A bear admired a nail and so did Nora .	and ( junct1 = admire ( agent = bear , theme = nail ) , junct2 = admire ( agent = Nora , theme = nail ) )	elips_VPE_in_dist
+Emma liked the box and so did a cat .	and ( junct1 = like ( agent = Emma , theme = * box ) , junct2 = like ( agent = cat , theme = * box ) )	elips_VPE_in_dist
+Olivia liked the donut and so did Mason .	and ( junct1 = like ( agent = Olivia , theme = * donut ) , junct2 = like ( agent = Mason , theme = * donut ) )	elips_VPE_in_dist
+James said that a prisoner ate the girl and so did the boy .	and ( junct1 = say ( agent = James , ccomp = eat ( agent = prisoner , theme = * girl ) ) , junct2 = say ( agent = * boy , ccomp = eat ( agent = prisoner , theme = * girl ) ) )	elips_VPE_in_dist
+Evelyn poked the penguin and so did a boy .	and ( junct1 = poke ( agent = Evelyn , theme = * penguin ) , junct2 = poke ( agent = boy , theme = * penguin ) )	elips_VPE_in_dist
+Hannah ate a deer and so did Noah .	and ( junct1 = eat ( agent = Hannah , theme = deer ) , junct2 = eat ( agent = Noah , theme = deer ) )	elips_VPE_in_dist
+The dog confessed that a professor helped a bat and so did a customer .	and ( junct1 = confess ( agent = * dog , ccomp = help ( agent = professor , theme = bat ) ) , junct2 = confess ( agent = customer , ccomp = help ( agent = professor , theme = bat ) ) )	elips_VPE_in_dist
+The butterfly nursed the cookie and so did Emma .	and ( junct1 = nurse ( agent = * butterfly , theme = * cookie ) , junct2 = nurse ( agent = Emma , theme = * cookie ) )	elips_VPE_in_dist
+The fly liked that the monkey liked a cake and so did the girl .	and ( junct1 = like ( agent = * fly , ccomp = like ( agent = * monkey , theme = cake ) ) , junct2 = like ( agent = * girl , ccomp = like ( agent = * monkey , theme = cake ) ) )	elips_VPE_in_dist
+A cat said that Luna hunted the girl and so did Emma .	and ( junct1 = say ( agent = cat , ccomp = hunt ( agent = Luna , theme = * girl ) ) , junct2 = say ( agent = Emma , ccomp = hunt ( agent = Luna , theme = * girl ) ) )	elips_VPE_in_dist
+Emma ate the child and so did a boy .	and ( junct1 = eat ( agent = Emma , theme = * child ) , junct2 = eat ( agent = boy , theme = * child ) )	elips_VPE_in_dist
+The bunny nursed Bella and so did William .	and ( junct1 = nurse ( agent = * bunny , theme = Bella ) , junct2 = nurse ( agent = William , theme = Bella ) )	elips_VPE_in_dist
+Emma cleaned Wyatt and so did the baby .	and ( junct1 = clean ( agent = Emma , theme = Wyatt ) , junct2 = clean ( agent = * baby , theme = Wyatt ) )	elips_VPE_in_dist
+Evelyn painted the cloud and so did Liam .	and ( junct1 = paint ( agent = Evelyn , theme = * cloud ) , junct2 = paint ( agent = Liam , theme = * cloud ) )	elips_VPE_in_dist
+A girl painted the raisin and so did Ava .	and ( junct1 = paint ( agent = girl , theme = * raisin ) , junct2 = paint ( agent = Ava , theme = * raisin ) )	elips_VPE_in_dist
+The baby dusted Nora and so did Emma .	and ( junct1 = dust ( agent = * baby , theme = Nora ) , junct2 = dust ( agent = Emma , theme = Nora ) )	elips_VPE_in_dist
+A giraffe supported that a kitty dusted a president and so did Emma .	and ( junct1 = support ( agent = giraffe , ccomp = dust ( agent = kitty , theme = president ) ) , junct2 = support ( agent = Emma , ccomp = dust ( agent = kitty , theme = president ) ) )	elips_VPE_in_dist
+Emma liked that a girl loved the baby and so did Benjamin .	and ( junct1 = like ( agent = Emma , ccomp = love ( agent = girl , theme = * baby ) ) , junct2 = like ( agent = Benjamin , ccomp = love ( agent = girl , theme = * baby ) ) )	elips_VPE_in_dist
+Zoe nursed the cake and so did the dog .	and ( junct1 = nurse ( agent = Zoe , theme = * cake ) , junct2 = nurse ( agent = * dog , theme = * cake ) )	elips_VPE_in_dist
+A teacher liked that a girl cleaned Wyatt and so did Emma .	and ( junct1 = like ( agent = teacher , ccomp = clean ( agent = girl , theme = Wyatt ) ) , junct2 = like ( agent = Emma , ccomp = clean ( agent = girl , theme = Wyatt ) ) )	elips_VPE_in_dist
+A donkey drew a penny and so did Emma .	and ( junct1 = draw ( agent = donkey , theme = penny ) , junct2 = draw ( agent = Emma , theme = penny ) )	elips_VPE_in_dist
+The cat nursed a director and so did the girl .	and ( junct1 = nurse ( agent = * cat , theme = director ) , junct2 = nurse ( agent = * girl , theme = director ) )	elips_VPE_in_dist
+Olivia supported that the baby liked the clock and so did the donkey .	and ( junct1 = support ( agent = Olivia , ccomp = like ( agent = * baby , theme = * clock ) ) , junct2 = support ( agent = * donkey , ccomp = like ( agent = * baby , theme = * clock ) ) )	elips_VPE_in_dist
+Isabella liked Penelope and so did a turtle .	and ( junct1 = like ( agent = Isabella , theme = Penelope ) , junct2 = like ( agent = turtle , theme = Penelope ) )	elips_VPE_in_dist
+Emma poked the knife and so did Carter .	and ( junct1 = poke ( agent = Emma , theme = * knife ) , junct2 = poke ( agent = Carter , theme = * knife ) )	elips_VPE_in_dist
+The boy appreciated that Jacob liked Violet and so did the lawyer .	and ( junct1 = appreciate ( agent = * boy , ccomp = like ( agent = Jacob , theme = Violet ) ) , junct2 = appreciate ( agent = * lawyer , ccomp = like ( agent = Jacob , theme = Violet ) ) )	elips_VPE_in_dist
+Oliver tolerated that a penguin helped the pen and so did Emma .	and ( junct1 = tolerate ( agent = Oliver , ccomp = help ( agent = penguin , theme = * pen ) ) , junct2 = tolerate ( agent = Emma , ccomp = help ( agent = penguin , theme = * pen ) ) )	elips_VPE_in_dist
+The frog helped a cake and so did a girl .	and ( junct1 = help ( agent = * frog , theme = cake ) , junct2 = help ( agent = girl , theme = cake ) )	elips_VPE_in_dist
+Emma said that Liam liked Zoey and so did Sophia .	and ( junct1 = say ( agent = Emma , ccomp = like ( agent = Liam , theme = Zoey ) ) , junct2 = say ( agent = Sophia , ccomp = like ( agent = Liam , theme = Zoey ) ) )	elips_VPE_in_dist
+Emma tolerated that a girl liked a rose and so did William .	and ( junct1 = tolerate ( agent = Emma , ccomp = like ( agent = girl , theme = rose ) ) , junct2 = tolerate ( agent = William , ccomp = like ( agent = girl , theme = rose ) ) )	elips_VPE_in_dist
+William liked that Jacob ate the present and so did the girl .	and ( junct1 = like ( agent = William , ccomp = eat ( agent = Jacob , theme = * present ) ) , junct2 = like ( agent = * girl , ccomp = eat ( agent = Jacob , theme = * present ) ) )	elips_VPE_in_dist
+The boy ate a dog and so did the cat .	and ( junct1 = eat ( agent = * boy , theme = dog ) , junct2 = eat ( agent = * cat , theme = dog ) )	elips_VPE_in_dist
+Emma ate Penelope and so did Christopher .	and ( junct1 = eat ( agent = Emma , theme = Penelope ) , junct2 = eat ( agent = Christopher , theme = Penelope ) )	elips_VPE_in_dist
+Olivia said that Emma nursed a cake and so did the girl .	and ( junct1 = say ( agent = Olivia , ccomp = nurse ( agent = Emma , theme = cake ) ) , junct2 = say ( agent = * girl , ccomp = nurse ( agent = Emma , theme = cake ) ) )	elips_VPE_in_dist
+Emma poked a box and so did Mia .	and ( junct1 = poke ( agent = Emma , theme = box ) , junct2 = poke ( agent = Mia , theme = box ) )	elips_VPE_in_dist
+A girl admired the cake and so did Liam .	and ( junct1 = admire ( agent = girl , theme = * cake ) , junct2 = admire ( agent = Liam , theme = * cake ) )	elips_VPE_in_dist
+A hen ate the girl and so did a boy .	and ( junct1 = eat ( agent = hen , theme = * girl ) , junct2 = eat ( agent = boy , theme = * girl ) )	elips_VPE_in_dist
+A dog drew a purse and so did the bee .	and ( junct1 = draw ( agent = dog , theme = purse ) , junct2 = draw ( agent = * bee , theme = purse ) )	elips_VPE_in_dist
+William liked that a boy juggled the dog and so did Emma .	and ( junct1 = like ( agent = William , ccomp = juggle ( agent = boy , theme = * dog ) ) , junct2 = like ( agent = Emma , ccomp = juggle ( agent = boy , theme = * dog ) ) )	elips_VPE_in_dist
+A consumer liked that a child liked a cake and so did Isabella .	and ( junct1 = like ( agent = consumer , ccomp = like ( agent = child , theme = cake ) ) , junct2 = like ( agent = Isabella , ccomp = like ( agent = child , theme = cake ) ) )	elips_VPE_in_dist
+Benjamin helped Layla and so did Emma .	and ( junct1 = help ( agent = Benjamin , theme = Layla ) , junct2 = help ( agent = Emma , theme = Layla ) )	elips_VPE_in_dist
+Olivia helped Thomas and so did William .	and ( junct1 = help ( agent = Olivia , theme = Thomas ) , junct2 = help ( agent = William , theme = Thomas ) )	elips_VPE_in_dist
+Mia juggled a cookie and so did Ryan .	and ( junct1 = juggle ( agent = Mia , theme = cookie ) , junct2 = juggle ( agent = Ryan , theme = cookie ) )	elips_VPE_in_dist
+A child helped the rose and so did Emma .	and ( junct1 = help ( agent = child , theme = * rose ) , junct2 = help ( agent = Emma , theme = * rose ) )	elips_VPE_in_dist
+The girl painted a box and so did Emma .	and ( junct1 = paint ( agent = * girl , theme = box ) , junct2 = paint ( agent = Emma , theme = box ) )	elips_VPE_in_dist
+A captain juggled the boy and so did the girl .	and ( junct1 = juggle ( agent = captain , theme = * boy ) , junct2 = juggle ( agent = * girl , theme = * boy ) )	elips_VPE_in_dist
+Zoey admired a monkey and so did a girl .	and ( junct1 = admire ( agent = Zoey , theme = monkey ) , junct2 = admire ( agent = girl , theme = monkey ) )	elips_VPE_in_dist
+Isabella admired the raisin and so did the girl .	and ( junct1 = admire ( agent = Isabella , theme = * raisin ) , junct2 = admire ( agent = * girl , theme = * raisin ) )	elips_VPE_in_dist
+Mason adored Penelope and so did the girl .	and ( junct1 = adore ( agent = Mason , theme = Penelope ) , junct2 = adore ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+Sophia drew the melon and so did Noah .	and ( junct1 = draw ( agent = Sophia , theme = * melon ) , junct2 = draw ( agent = Noah , theme = * melon ) )	elips_VPE_in_dist
+Violet ate a cat and so did the girl .	and ( junct1 = eat ( agent = Violet , theme = cat ) , junct2 = eat ( agent = * girl , theme = cat ) )	elips_VPE_in_dist
+The cat liked that a monster cooked the sandwich and so did a girl .	and ( junct1 = like ( agent = * cat , ccomp = cook ( agent = monster , theme = * sandwich ) ) , junct2 = like ( agent = girl , ccomp = cook ( agent = monster , theme = * sandwich ) ) )	elips_VPE_in_dist
+A girl missed the baby and so did Owen .	and ( junct1 = miss ( agent = girl , theme = * baby ) , junct2 = miss ( agent = Owen , theme = * baby ) )	elips_VPE_in_dist
+A girl respected that Emma respected the ring and so did Avery .	and ( junct1 = respect ( agent = girl , ccomp = respect ( agent = Emma , theme = * ring ) ) , junct2 = respect ( agent = Avery , ccomp = respect ( agent = Emma , theme = * ring ) ) )	elips_VPE_in_dist
+Emma juggled Penelope and so did Isabella .	and ( junct1 = juggle ( agent = Emma , theme = Penelope ) , junct2 = juggle ( agent = Isabella , theme = Penelope ) )	elips_VPE_in_dist
+The bee believed that the butterfly ate a toy and so did Liam .	and ( junct1 = believe ( agent = * bee , ccomp = eat ( agent = * butterfly , theme = toy ) ) , junct2 = believe ( agent = Liam , ccomp = eat ( agent = * butterfly , theme = toy ) ) )	elips_VPE_in_dist
+A girl cooked Penelope and so did Emma .	and ( junct1 = cook ( agent = girl , theme = Penelope ) , junct2 = cook ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+The mother liked that the dog painted a boy and so did Emma .	and ( junct1 = like ( agent = * mother , ccomp = paint ( agent = * dog , theme = boy ) ) , junct2 = like ( agent = Emma , ccomp = paint ( agent = * dog , theme = boy ) ) )	elips_VPE_in_dist
+Charlotte adored a cake and so did Liam .	and ( junct1 = adore ( agent = Charlotte , theme = cake ) , junct2 = adore ( agent = Liam , theme = cake ) )	elips_VPE_in_dist
+A frog helped the cake and so did Elijah .	and ( junct1 = help ( agent = frog , theme = * cake ) , junct2 = help ( agent = Elijah , theme = * cake ) )	elips_VPE_in_dist
+Audrey admired Penelope and so did the girl .	and ( junct1 = admire ( agent = Audrey , theme = Penelope ) , junct2 = admire ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+A teacher liked that the professor poked a cake and so did the dog .	and ( junct1 = like ( agent = teacher , ccomp = poke ( agent = * professor , theme = cake ) ) , junct2 = like ( agent = * dog , ccomp = poke ( agent = * professor , theme = cake ) ) )	elips_VPE_in_dist
+Oliver liked Penelope and so did a cat .	and ( junct1 = like ( agent = Oliver , theme = Penelope ) , junct2 = like ( agent = cat , theme = Penelope ) )	elips_VPE_in_dist
+A monkey drew the pencil and so did the boy .	and ( junct1 = draw ( agent = monkey , theme = * pencil ) , junct2 = draw ( agent = * boy , theme = * pencil ) )	elips_VPE_in_dist
+Emma liked the cake and so did a goose .	and ( junct1 = like ( agent = Emma , theme = * cake ) , junct2 = like ( agent = goose , theme = * cake ) )	elips_VPE_in_dist
+Abigail hoped that Mateo liked a cake and so did the boy .	and ( junct1 = hope ( agent = Abigail , ccomp = like ( agent = Mateo , theme = cake ) ) , junct2 = hope ( agent = * boy , ccomp = like ( agent = Mateo , theme = cake ) ) )	elips_VPE_in_dist
+The boy said that the girl cooked a mirror and so did a professor .	and ( junct1 = say ( agent = * boy , ccomp = cook ( agent = * girl , theme = mirror ) ) , junct2 = say ( agent = professor , ccomp = cook ( agent = * girl , theme = mirror ) ) )	elips_VPE_in_dist
+Natalie dusted a donut and so did the boy .	and ( junct1 = dust ( agent = Natalie , theme = donut ) , junct2 = dust ( agent = * boy , theme = donut ) )	elips_VPE_in_dist
+Emma poked a cake and so did the frog .	and ( junct1 = poke ( agent = Emma , theme = cake ) , junct2 = poke ( agent = * frog , theme = cake ) )	elips_VPE_in_dist
+A girl said that Alexander sketched the cake and so did Abigail .	and ( junct1 = say ( agent = girl , ccomp = sketch ( agent = Alexander , theme = * cake ) ) , junct2 = say ( agent = Abigail , ccomp = sketch ( agent = Alexander , theme = * cake ) ) )	elips_VPE_in_dist
+A girl proved that Benjamin ate a donut and so did the dog .	and ( junct1 = prove ( agent = girl , ccomp = eat ( agent = Benjamin , theme = donut ) ) , junct2 = prove ( agent = * dog , ccomp = eat ( agent = Benjamin , theme = donut ) ) )	elips_VPE_in_dist
+Evelyn liked a cake and so did Sophia .	and ( junct1 = like ( agent = Evelyn , theme = cake ) , junct2 = like ( agent = Sophia , theme = cake ) )	elips_VPE_in_dist
+A prisoner painted a raisin and so did Emma .	and ( junct1 = paint ( agent = prisoner , theme = raisin ) , junct2 = paint ( agent = Emma , theme = raisin ) )	elips_VPE_in_dist
+Olivia admired a chicken and so did the girl .	and ( junct1 = admire ( agent = Olivia , theme = chicken ) , junct2 = admire ( agent = * girl , theme = chicken ) )	elips_VPE_in_dist
+Abigail painted Penelope and so did the girl .	and ( junct1 = paint ( agent = Abigail , theme = Penelope ) , junct2 = paint ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+A dog liked that Olivia helped the bowl and so did a pony .	and ( junct1 = like ( agent = dog , ccomp = help ( agent = Olivia , theme = * bowl ) ) , junct2 = like ( agent = pony , ccomp = help ( agent = Olivia , theme = * bowl ) ) )	elips_VPE_in_dist
+Noah painted a cake and so did the child .	and ( junct1 = paint ( agent = Noah , theme = cake ) , junct2 = paint ( agent = * child , theme = cake ) )	elips_VPE_in_dist
+Emma ate a raisin and so did the pig .	and ( junct1 = eat ( agent = Emma , theme = raisin ) , junct2 = eat ( agent = * pig , theme = raisin ) )	elips_VPE_in_dist
+Liam drew the clock and so did a girl .	and ( junct1 = draw ( agent = Liam , theme = * clock ) , junct2 = draw ( agent = girl , theme = * clock ) )	elips_VPE_in_dist
+The host respected that a boy loved a girl and so did the giraffe .	and ( junct1 = respect ( agent = * host , ccomp = love ( agent = boy , theme = girl ) ) , junct2 = respect ( agent = * giraffe , ccomp = love ( agent = boy , theme = girl ) ) )	elips_VPE_in_dist
+Benjamin painted the girl and so did a judge .	and ( junct1 = paint ( agent = Benjamin , theme = * girl ) , junct2 = paint ( agent = judge , theme = * girl ) )	elips_VPE_in_dist
+Emily helped Grayson and so did Liam .	and ( junct1 = help ( agent = Emily , theme = Grayson ) , junct2 = help ( agent = Liam , theme = Grayson ) )	elips_VPE_in_dist
+The girl found Lily and so did the cat .	and ( junct1 = find ( agent = * girl , theme = Lily ) , junct2 = find ( agent = * cat , theme = Lily ) )	elips_VPE_in_dist
+Lucas liked that the fish liked a donut and so did Michael .	and ( junct1 = like ( agent = Lucas , ccomp = like ( agent = * fish , theme = donut ) ) , junct2 = like ( agent = Michael , ccomp = like ( agent = * fish , theme = donut ) ) )	elips_VPE_in_dist
+Aria ate the boy and so did the citizen .	and ( junct1 = eat ( agent = Aria , theme = * boy ) , junct2 = eat ( agent = * citizen , theme = * boy ) )	elips_VPE_in_dist
+A baby hoped that Daniel ate Dylan and so did Emma .	and ( junct1 = hope ( agent = baby , ccomp = eat ( agent = Daniel , theme = Dylan ) ) , junct2 = hope ( agent = Emma , ccomp = eat ( agent = Daniel , theme = Dylan ) ) )	elips_VPE_in_dist
+Emma respected that the boy helped the cake and so did Isabella .	and ( junct1 = respect ( agent = Emma , ccomp = help ( agent = * boy , theme = * cake ) ) , junct2 = respect ( agent = Isabella , ccomp = help ( agent = * boy , theme = * cake ) ) )	elips_VPE_in_dist
+Emma liked the donut and so did Noah .	and ( junct1 = like ( agent = Emma , theme = * donut ) , junct2 = like ( agent = Noah , theme = * donut ) )	elips_VPE_in_dist
+The girl liked that James loved Penelope and so did Mia .	and ( junct1 = like ( agent = * girl , ccomp = love ( agent = James , theme = Penelope ) ) , junct2 = like ( agent = Mia , ccomp = love ( agent = James , theme = Penelope ) ) )	elips_VPE_in_dist
+A boy helped Penelope and so did Noah .	and ( junct1 = help ( agent = boy , theme = Penelope ) , junct2 = help ( agent = Noah , theme = Penelope ) )	elips_VPE_in_dist
+Abigail missed a cake and so did Isabella .	and ( junct1 = miss ( agent = Abigail , theme = cake ) , junct2 = miss ( agent = Isabella , theme = cake ) )	elips_VPE_in_dist
+A bear painted a doll and so did Hannah .	and ( junct1 = paint ( agent = bear , theme = doll ) , junct2 = paint ( agent = Hannah , theme = doll ) )	elips_VPE_in_dist
+Ava meant that Emma cleaned the dog and so did John .	and ( junct1 = mean ( agent = Ava , ccomp = clean ( agent = Emma , theme = * dog ) ) , junct2 = mean ( agent = John , ccomp = clean ( agent = Emma , theme = * dog ) ) )	elips_VPE_in_dist
+A girl noticed that William sketched Wyatt and so did a duke .	and ( junct1 = notice ( agent = girl , ccomp = sketch ( agent = William , theme = Wyatt ) ) , junct2 = notice ( agent = duke , ccomp = sketch ( agent = William , theme = Wyatt ) ) )	elips_VPE_in_dist
+The cat helped the sandwich and so did Emma .	and ( junct1 = help ( agent = * cat , theme = * sandwich ) , junct2 = help ( agent = Emma , theme = * sandwich ) )	elips_VPE_in_dist
+The cat liked that Benjamin liked a cake and so did a girl .	and ( junct1 = like ( agent = * cat , ccomp = like ( agent = Benjamin , theme = cake ) ) , junct2 = like ( agent = girl , ccomp = like ( agent = Benjamin , theme = cake ) ) )	elips_VPE_in_dist
+Natalie helped a girl and so did Harper .	and ( junct1 = help ( agent = Natalie , theme = girl ) , junct2 = help ( agent = Harper , theme = girl ) )	elips_VPE_in_dist
+A monkey hoped that the baby drew Penelope and so did the boy .	and ( junct1 = hope ( agent = monkey , ccomp = draw ( agent = * baby , theme = Penelope ) ) , junct2 = hope ( agent = * boy , ccomp = draw ( agent = * baby , theme = Penelope ) ) )	elips_VPE_in_dist
+A consumer painted a donut and so did Ava .	and ( junct1 = paint ( agent = consumer , theme = donut ) , junct2 = paint ( agent = Ava , theme = donut ) )	elips_VPE_in_dist
+Benjamin confessed that the bird respected a rose and so did a professor .	and ( junct1 = confess ( agent = Benjamin , ccomp = respect ( agent = * bird , theme = rose ) ) , junct2 = confess ( agent = professor , ccomp = respect ( agent = * bird , theme = rose ) ) )	elips_VPE_in_dist
+The boy appreciated a rose and so did Emma .	and ( junct1 = appreciate ( agent = * boy , theme = rose ) , junct2 = appreciate ( agent = Emma , theme = rose ) )	elips_VPE_in_dist
+The chief liked that Emma drew Luke and so did the boy .	and ( junct1 = like ( agent = * chief , ccomp = draw ( agent = Emma , theme = Luke ) ) , junct2 = like ( agent = * boy , ccomp = draw ( agent = Emma , theme = Luke ) ) )	elips_VPE_in_dist
+Olivia hunted Lily and so did the girl .	and ( junct1 = hunt ( agent = Olivia , theme = Lily ) , junct2 = hunt ( agent = * girl , theme = Lily ) )	elips_VPE_in_dist
+A girl thought that the boy cleaned the child and so did a puppy .	and ( junct1 = think ( agent = girl , ccomp = clean ( agent = * boy , theme = * child ) ) , junct2 = think ( agent = puppy , ccomp = clean ( agent = * boy , theme = * child ) ) )	elips_VPE_in_dist
+Olivia ate the raisin and so did a boy .	and ( junct1 = eat ( agent = Olivia , theme = * raisin ) , junct2 = eat ( agent = boy , theme = * raisin ) )	elips_VPE_in_dist
+The bear hoped that the giraffe liked Layla and so did Liam .	and ( junct1 = hope ( agent = * bear , ccomp = like ( agent = * giraffe , theme = Layla ) ) , junct2 = hope ( agent = Liam , ccomp = like ( agent = * giraffe , theme = Layla ) ) )	elips_VPE_in_dist
+A teacher liked that the president liked Penelope and so did Emma .	and ( junct1 = like ( agent = teacher , ccomp = like ( agent = * president , theme = Penelope ) ) , junct2 = like ( agent = Emma , ccomp = like ( agent = * president , theme = Penelope ) ) )	elips_VPE_in_dist
+William hoped that Charlotte poked the lollipop and so did Emma .	and ( junct1 = hope ( agent = William , ccomp = poke ( agent = Charlotte , theme = * lollipop ) ) , junct2 = hope ( agent = Emma , ccomp = poke ( agent = Charlotte , theme = * lollipop ) ) )	elips_VPE_in_dist
+Emma helped the wine and so did the baby .	and ( junct1 = help ( agent = Emma , theme = * wine ) , junct2 = help ( agent = * baby , theme = * wine ) )	elips_VPE_in_dist
+A frog liked that the girl juggled a cake and so did the boy .	and ( junct1 = like ( agent = frog , ccomp = juggle ( agent = * girl , theme = cake ) ) , junct2 = like ( agent = * boy , ccomp = juggle ( agent = * girl , theme = cake ) ) )	elips_VPE_in_dist
+A baby ate the boy and so did a giraffe .	and ( junct1 = eat ( agent = baby , theme = * boy ) , junct2 = eat ( agent = giraffe , theme = * boy ) )	elips_VPE_in_dist
+Emma liked a cake and so did a boy .	and ( junct1 = like ( agent = Emma , theme = cake ) , junct2 = like ( agent = boy , theme = cake ) )	elips_VPE_in_dist
+Ava juggled Wyatt and so did a girl .	and ( junct1 = juggle ( agent = Ava , theme = Wyatt ) , junct2 = juggle ( agent = girl , theme = Wyatt ) )	elips_VPE_in_dist
+A girl found a crayon and so did Emma .	and ( junct1 = find ( agent = girl , theme = crayon ) , junct2 = find ( agent = Emma , theme = crayon ) )	elips_VPE_in_dist
+The boy liked a rose and so did a hero .	and ( junct1 = like ( agent = * boy , theme = rose ) , junct2 = like ( agent = hero , theme = rose ) )	elips_VPE_in_dist
+Emma confessed that the boy admired John and so did the chicken .	and ( junct1 = confess ( agent = Emma , ccomp = admire ( agent = * boy , theme = John ) ) , junct2 = confess ( agent = * chicken , ccomp = admire ( agent = * boy , theme = John ) ) )	elips_VPE_in_dist
+The girl helped a donut and so did Ava .	and ( junct1 = help ( agent = * girl , theme = donut ) , junct2 = help ( agent = Ava , theme = donut ) )	elips_VPE_in_dist
+Olivia liked a goose and so did the visitor .	and ( junct1 = like ( agent = Olivia , theme = goose ) , junct2 = like ( agent = * visitor , theme = goose ) )	elips_VPE_in_dist
+Liam valued that the girl painted Layla and so did Emma .	and ( junct1 = value ( agent = Liam , ccomp = paint ( agent = * girl , theme = Layla ) ) , junct2 = value ( agent = Emma , ccomp = paint ( agent = * girl , theme = Layla ) ) )	elips_VPE_in_dist
+A baby admired that Emma painted a girl and so did Noah .	and ( junct1 = admire ( agent = baby , ccomp = paint ( agent = Emma , theme = girl ) ) , junct2 = admire ( agent = Noah , ccomp = paint ( agent = Emma , theme = girl ) ) )	elips_VPE_in_dist
+A girl helped the cake and so did Emma .	and ( junct1 = help ( agent = girl , theme = * cake ) , junct2 = help ( agent = Emma , theme = * cake ) )	elips_VPE_in_dist
+The spokesman liked Skylar and so did Emma .	and ( junct1 = like ( agent = * spokesman , theme = Skylar ) , junct2 = like ( agent = Emma , theme = Skylar ) )	elips_VPE_in_dist
+A pony cleaned the cake and so did the mother .	and ( junct1 = clean ( agent = pony , theme = * cake ) , junct2 = clean ( agent = * mother , theme = * cake ) )	elips_VPE_in_dist
+The servant ate a block and so did Emma .	and ( junct1 = eat ( agent = * servant , theme = block ) , junct2 = eat ( agent = Emma , theme = block ) )	elips_VPE_in_dist
+A boy ate a melon and so did Emma .	and ( junct1 = eat ( agent = boy , theme = melon ) , junct2 = eat ( agent = Emma , theme = melon ) )	elips_VPE_in_dist
+The boy loved a child and so did the guest .	and ( junct1 = love ( agent = * boy , theme = child ) , junct2 = love ( agent = * guest , theme = child ) )	elips_VPE_in_dist
+The girl ate Bella and so did a politician .	and ( junct1 = eat ( agent = * girl , theme = Bella ) , junct2 = eat ( agent = politician , theme = Bella ) )	elips_VPE_in_dist
+A sheep imagined that Alexander juggled a cake and so did Emma .	and ( junct1 = imagine ( agent = sheep , ccomp = juggle ( agent = Alexander , theme = cake ) ) , junct2 = imagine ( agent = Emma , ccomp = juggle ( agent = Alexander , theme = cake ) ) )	elips_VPE_in_dist
+Natalie ate the biscuit and so did Olivia .	and ( junct1 = eat ( agent = Natalie , theme = * biscuit ) , junct2 = eat ( agent = Olivia , theme = * biscuit ) )	elips_VPE_in_dist
+Noah cleaned Penelope and so did Emma .	and ( junct1 = clean ( agent = Noah , theme = Penelope ) , junct2 = clean ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+Harper said that Emma liked a drink and so did the giraffe .	and ( junct1 = say ( agent = Harper , ccomp = like ( agent = Emma , theme = drink ) ) , junct2 = say ( agent = * giraffe , ccomp = like ( agent = Emma , theme = drink ) ) )	elips_VPE_in_dist
+Lucas hoped that a father liked the cake and so did Julian .	and ( junct1 = hope ( agent = Lucas , ccomp = like ( agent = father , theme = * cake ) ) , junct2 = hope ( agent = Julian , ccomp = like ( agent = father , theme = * cake ) ) )	elips_VPE_in_dist
+Joseph thought that James ate the donut and so did Violet .	and ( junct1 = think ( agent = Joseph , ccomp = eat ( agent = James , theme = * donut ) ) , junct2 = think ( agent = Violet , ccomp = eat ( agent = James , theme = * donut ) ) )	elips_VPE_in_dist
+Emma helped the cake and so did the cow .	and ( junct1 = help ( agent = Emma , theme = * cake ) , junct2 = help ( agent = * cow , theme = * cake ) )	elips_VPE_in_dist
+Olivia painted a cookie and so did a horse .	and ( junct1 = paint ( agent = Olivia , theme = cookie ) , junct2 = paint ( agent = horse , theme = cookie ) )	elips_VPE_in_dist
+William liked a bee and so did a girl .	and ( junct1 = like ( agent = William , theme = bee ) , junct2 = like ( agent = girl , theme = bee ) )	elips_VPE_in_dist
+Olivia liked that the goose helped Penelope and so did a giraffe .	and ( junct1 = like ( agent = Olivia , ccomp = help ( agent = * goose , theme = Penelope ) ) , junct2 = like ( agent = giraffe , ccomp = help ( agent = * goose , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma liked Luke and so did a child .	and ( junct1 = like ( agent = Emma , theme = Luke ) , junct2 = like ( agent = child , theme = Luke ) )	elips_VPE_in_dist
+Isabella thought that a boy appreciated a raisin and so did Ava .	and ( junct1 = think ( agent = Isabella , ccomp = appreciate ( agent = boy , theme = raisin ) ) , junct2 = think ( agent = Ava , ccomp = appreciate ( agent = boy , theme = raisin ) ) )	elips_VPE_in_dist
+Liam dreamed that William hunted Wyatt and so did the boy .	and ( junct1 = dream ( agent = Liam , ccomp = hunt ( agent = William , theme = Wyatt ) ) , junct2 = dream ( agent = * boy , ccomp = hunt ( agent = William , theme = Wyatt ) ) )	elips_VPE_in_dist
+Daniel drew the cake and so did the girl .	and ( junct1 = draw ( agent = Daniel , theme = * cake ) , junct2 = draw ( agent = * girl , theme = * cake ) )	elips_VPE_in_dist
+Zoe drew the boy and so did a judge .	and ( junct1 = draw ( agent = Zoe , theme = * boy ) , junct2 = draw ( agent = judge , theme = * boy ) )	elips_VPE_in_dist
+Noah respected the raisin and so did a girl .	and ( junct1 = respect ( agent = Noah , theme = * raisin ) , junct2 = respect ( agent = girl , theme = * raisin ) )	elips_VPE_in_dist
+The mouse proved that Liam ate John and so did a patient .	and ( junct1 = prove ( agent = * mouse , ccomp = eat ( agent = Liam , theme = John ) ) , junct2 = prove ( agent = patient , ccomp = eat ( agent = Liam , theme = John ) ) )	elips_VPE_in_dist
+Ethan ate the mouse and so did a teacher .	and ( junct1 = eat ( agent = Ethan , theme = * mouse ) , junct2 = eat ( agent = teacher , theme = * mouse ) )	elips_VPE_in_dist
+The dog sketched the donut and so did Liam .	and ( junct1 = sketch ( agent = * dog , theme = * donut ) , junct2 = sketch ( agent = Liam , theme = * donut ) )	elips_VPE_in_dist
+Ava loved the donut and so did the driver .	and ( junct1 = love ( agent = Ava , theme = * donut ) , junct2 = love ( agent = * driver , theme = * donut ) )	elips_VPE_in_dist
+The girl liked that Emma liked a dog and so did Layla .	and ( junct1 = like ( agent = * girl , ccomp = like ( agent = Emma , theme = dog ) ) , junct2 = like ( agent = Layla , ccomp = like ( agent = Emma , theme = dog ) ) )	elips_VPE_in_dist
+Liam liked Thomas and so did the child .	and ( junct1 = like ( agent = Liam , theme = Thomas ) , junct2 = like ( agent = * child , theme = Thomas ) )	elips_VPE_in_dist
+Ava liked a cup and so did the bear .	and ( junct1 = like ( agent = Ava , theme = cup ) , junct2 = like ( agent = * bear , theme = cup ) )	elips_VPE_in_dist
+The frog admired the box and so did the boy .	and ( junct1 = admire ( agent = * frog , theme = * box ) , junct2 = admire ( agent = * boy , theme = * box ) )	elips_VPE_in_dist
+The bird loved Penelope and so did the boy .	and ( junct1 = love ( agent = * bird , theme = Penelope ) , junct2 = love ( agent = * boy , theme = Penelope ) )	elips_VPE_in_dist
+The wolf liked that a boy ate a lion and so did Savannah .	and ( junct1 = like ( agent = * wolf , ccomp = eat ( agent = boy , theme = lion ) ) , junct2 = like ( agent = Savannah , ccomp = eat ( agent = boy , theme = lion ) ) )	elips_VPE_in_dist
+The baby liked Leo and so did a girl .	and ( junct1 = like ( agent = * baby , theme = Leo ) , junct2 = like ( agent = girl , theme = Leo ) )	elips_VPE_in_dist
+A soldier respected a ball and so did Olivia .	and ( junct1 = respect ( agent = soldier , theme = ball ) , junct2 = respect ( agent = Olivia , theme = ball ) )	elips_VPE_in_dist
+The cow ate the boy and so did a dog .	and ( junct1 = eat ( agent = * cow , theme = * boy ) , junct2 = eat ( agent = dog , theme = * boy ) )	elips_VPE_in_dist
+Liam juggled a donut and so did Emma .	and ( junct1 = juggle ( agent = Liam , theme = donut ) , junct2 = juggle ( agent = Emma , theme = donut ) )	elips_VPE_in_dist
+A teacher appreciated a girl and so did the fly .	and ( junct1 = appreciate ( agent = teacher , theme = girl ) , junct2 = appreciate ( agent = * fly , theme = girl ) )	elips_VPE_in_dist
+The cow ate Savannah and so did Liam .	and ( junct1 = eat ( agent = * cow , theme = Savannah ) , junct2 = eat ( agent = Liam , theme = Savannah ) )	elips_VPE_in_dist
+Noah ate the cake and so did a boy .	and ( junct1 = eat ( agent = Noah , theme = * cake ) , junct2 = eat ( agent = boy , theme = * cake ) )	elips_VPE_in_dist
+Nora said that a cat respected a rose and so did Sofia .	and ( junct1 = say ( agent = Nora , ccomp = respect ( agent = cat , theme = rose ) ) , junct2 = say ( agent = Sofia , ccomp = respect ( agent = cat , theme = rose ) ) )	elips_VPE_in_dist
+Mia juggled the strawberry and so did the girl .	and ( junct1 = juggle ( agent = Mia , theme = * strawberry ) , junct2 = juggle ( agent = * girl , theme = * strawberry ) )	elips_VPE_in_dist
+Emma hoped that a girl cleaned the cookie and so did Isabella .	and ( junct1 = hope ( agent = Emma , ccomp = clean ( agent = girl , theme = * cookie ) ) , junct2 = hope ( agent = Isabella , ccomp = clean ( agent = girl , theme = * cookie ) ) )	elips_VPE_in_dist
+The monkey cooked a cake and so did the girl .	and ( junct1 = cook ( agent = * monkey , theme = cake ) , junct2 = cook ( agent = * girl , theme = cake ) )	elips_VPE_in_dist
+Liam proved that William nursed the cake and so did a doctor .	and ( junct1 = prove ( agent = Liam , ccomp = nurse ( agent = William , theme = * cake ) ) , junct2 = prove ( agent = doctor , ccomp = nurse ( agent = William , theme = * cake ) ) )	elips_VPE_in_dist
+The guy painted the frog and so did a girl .	and ( junct1 = paint ( agent = * guy , theme = * frog ) , junct2 = paint ( agent = girl , theme = * frog ) )	elips_VPE_in_dist
+Oliver ate a radio and so did Emma .	and ( junct1 = eat ( agent = Oliver , theme = radio ) , junct2 = eat ( agent = Emma , theme = radio ) )	elips_VPE_in_dist
+A goose noticed that Olivia dusted Penelope and so did Emma .	and ( junct1 = notice ( agent = goose , ccomp = dust ( agent = Olivia , theme = Penelope ) ) , junct2 = notice ( agent = Emma , ccomp = dust ( agent = Olivia , theme = Penelope ) ) )	elips_VPE_in_dist
+Olivia ate a cat and so did Emma .	and ( junct1 = eat ( agent = Olivia , theme = cat ) , junct2 = eat ( agent = Emma , theme = cat ) )	elips_VPE_in_dist
+Luke liked that Emma cooked Penelope and so did the professor .	and ( junct1 = like ( agent = Luke , ccomp = cook ( agent = Emma , theme = Penelope ) ) , junct2 = like ( agent = * professor , ccomp = cook ( agent = Emma , theme = Penelope ) ) )	elips_VPE_in_dist
+Ethan painted Hannah and so did Noah .	and ( junct1 = paint ( agent = Ethan , theme = Hannah ) , junct2 = paint ( agent = Noah , theme = Hannah ) )	elips_VPE_in_dist
+Emma hunted the doll and so did a boy .	and ( junct1 = hunt ( agent = Emma , theme = * doll ) , junct2 = hunt ( agent = boy , theme = * doll ) )	elips_VPE_in_dist
+A tourist liked a donut and so did the boy .	and ( junct1 = like ( agent = tourist , theme = donut ) , junct2 = like ( agent = * boy , theme = donut ) )	elips_VPE_in_dist
+Isabella juggled the cake and so did a sailor .	and ( junct1 = juggle ( agent = Isabella , theme = * cake ) , junct2 = juggle ( agent = sailor , theme = * cake ) )	elips_VPE_in_dist
+The girl poked Penelope and so did Emma .	and ( junct1 = poke ( agent = * girl , theme = Penelope ) , junct2 = poke ( agent = Emma , theme = Penelope ) )	elips_VPE_in_dist
+Liam missed a donut and so did a turtle .	and ( junct1 = miss ( agent = Liam , theme = donut ) , junct2 = miss ( agent = turtle , theme = donut ) )	elips_VPE_in_dist
+Emma juggled Wyatt and so did Liam .	and ( junct1 = juggle ( agent = Emma , theme = Wyatt ) , junct2 = juggle ( agent = Liam , theme = Wyatt ) )	elips_VPE_in_dist
+A baby dusted Penelope and so did Noah .	and ( junct1 = dust ( agent = baby , theme = Penelope ) , junct2 = dust ( agent = Noah , theme = Penelope ) )	elips_VPE_in_dist
+A cat adored Layla and so did Mila .	and ( junct1 = adore ( agent = cat , theme = Layla ) , junct2 = adore ( agent = Mila , theme = Layla ) )	elips_VPE_in_dist
+William painted the cake and so did the boy .	and ( junct1 = paint ( agent = William , theme = * cake ) , junct2 = paint ( agent = * boy , theme = * cake ) )	elips_VPE_in_dist
+Evelyn sketched a cat and so did a bunny .	and ( junct1 = sketch ( agent = Evelyn , theme = cat ) , junct2 = sketch ( agent = bunny , theme = cat ) )	elips_VPE_in_dist
+The dog missed a cake and so did a boy .	and ( junct1 = miss ( agent = * dog , theme = cake ) , junct2 = miss ( agent = boy , theme = cake ) )	elips_VPE_in_dist
+Ava poked the baby and so did Olivia .	and ( junct1 = poke ( agent = Ava , theme = * baby ) , junct2 = poke ( agent = Olivia , theme = * baby ) )	elips_VPE_in_dist
+Isabella painted the cat and so did a duck .	and ( junct1 = paint ( agent = Isabella , theme = * cat ) , junct2 = paint ( agent = duck , theme = * cat ) )	elips_VPE_in_dist
+Emma helped the box and so did a boy .	and ( junct1 = help ( agent = Emma , theme = * box ) , junct2 = help ( agent = boy , theme = * box ) )	elips_VPE_in_dist
+A lion sketched a cake and so did the monkey .	and ( junct1 = sketch ( agent = lion , theme = cake ) , junct2 = sketch ( agent = * monkey , theme = cake ) )	elips_VPE_in_dist
+Emma liked the cake and so did William .	and ( junct1 = like ( agent = Emma , theme = * cake ) , junct2 = like ( agent = William , theme = * cake ) )	elips_VPE_in_dist
+A girl noticed that the dog found Dylan and so did a pony .	and ( junct1 = notice ( agent = girl , ccomp = find ( agent = * dog , theme = Dylan ) ) , junct2 = notice ( agent = pony , ccomp = find ( agent = * dog , theme = Dylan ) ) )	elips_VPE_in_dist
+Olivia respected Layla and so did a girl .	and ( junct1 = respect ( agent = Olivia , theme = Layla ) , junct2 = respect ( agent = girl , theme = Layla ) )	elips_VPE_in_dist
+Emma helped Eleanor and so did Liam .	and ( junct1 = help ( agent = Emma , theme = Eleanor ) , junct2 = help ( agent = Liam , theme = Eleanor ) )	elips_VPE_in_dist
+Evelyn ate Lily and so did Charlotte .	and ( junct1 = eat ( agent = Evelyn , theme = Lily ) , junct2 = eat ( agent = Charlotte , theme = Lily ) )	elips_VPE_in_dist
+Amelia liked that the friend helped a game and so did a goose .	and ( junct1 = like ( agent = Amelia , ccomp = help ( agent = * friend , theme = game ) ) , junct2 = like ( agent = goose , ccomp = help ( agent = * friend , theme = game ) ) )	elips_VPE_in_dist
+Mia liked Wyatt and so did Liam .	and ( junct1 = like ( agent = Mia , theme = Wyatt ) , junct2 = like ( agent = Liam , theme = Wyatt ) )	elips_VPE_in_dist
+The cat liked Wyatt and so did the girl .	and ( junct1 = like ( agent = * cat , theme = Wyatt ) , junct2 = like ( agent = * girl , theme = Wyatt ) )	elips_VPE_in_dist
+Ava admired Natalie and so did the squirrel .	and ( junct1 = admire ( agent = Ava , theme = Natalie ) , junct2 = admire ( agent = * squirrel , theme = Natalie ) )	elips_VPE_in_dist
+The girl imagined that Noah drew the liver and so did the bear .	and ( junct1 = imagine ( agent = * girl , ccomp = draw ( agent = Noah , theme = * liver ) ) , junct2 = imagine ( agent = * bear , ccomp = draw ( agent = Noah , theme = * liver ) ) )	elips_VPE_in_dist
+Jackson ate the cookie and so did Emma .	and ( junct1 = eat ( agent = Jackson , theme = * cookie ) , junct2 = eat ( agent = Emma , theme = * cookie ) )	elips_VPE_in_dist
+A giraffe dreamed that a guard drew a cake and so did Noah .	and ( junct1 = dream ( agent = giraffe , ccomp = draw ( agent = guard , theme = cake ) ) , junct2 = dream ( agent = Noah , ccomp = draw ( agent = guard , theme = cake ) ) )	elips_VPE_in_dist
+A girl respected the penny and so did Mila .	and ( junct1 = respect ( agent = girl , theme = * penny ) , junct2 = respect ( agent = Mila , theme = * penny ) )	elips_VPE_in_dist
+A cat poked the baby and so did Olivia .	and ( junct1 = poke ( agent = cat , theme = * baby ) , junct2 = poke ( agent = Olivia , theme = * baby ) )	elips_VPE_in_dist
+Emma ate the donut and so did Liam .	and ( junct1 = eat ( agent = Emma , theme = * donut ) , junct2 = eat ( agent = Liam , theme = * donut ) )	elips_VPE_in_dist
+A chicken painted a drink and so did the boy .	and ( junct1 = paint ( agent = chicken , theme = drink ) , junct2 = paint ( agent = * boy , theme = drink ) )	elips_VPE_in_dist
+Emma painted a cake and so did the girl .	and ( junct1 = paint ( agent = Emma , theme = cake ) , junct2 = paint ( agent = * girl , theme = cake ) )	elips_VPE_in_dist
+Liam liked that Emma cooked a drink and so did Evelyn .	and ( junct1 = like ( agent = Liam , ccomp = cook ( agent = Emma , theme = drink ) ) , junct2 = like ( agent = Evelyn , ccomp = cook ( agent = Emma , theme = drink ) ) )	elips_VPE_in_dist
+Liam painted the girl and so did Noah .	and ( junct1 = paint ( agent = Liam , theme = * girl ) , junct2 = paint ( agent = Noah , theme = * girl ) )	elips_VPE_in_dist
+Emma confessed that Evelyn ate a cake and so did Addison .	and ( junct1 = confess ( agent = Emma , ccomp = eat ( agent = Evelyn , theme = cake ) ) , junct2 = confess ( agent = Addison , ccomp = eat ( agent = Evelyn , theme = cake ) ) )	elips_VPE_in_dist
+A girl nursed Andrew and so did the frog .	and ( junct1 = nurse ( agent = girl , theme = Andrew ) , junct2 = nurse ( agent = * frog , theme = Andrew ) )	elips_VPE_in_dist
+Emma liked that Sophia liked the cake and so did a hero .	and ( junct1 = like ( agent = Emma , ccomp = like ( agent = Sophia , theme = * cake ) ) , junct2 = like ( agent = hero , ccomp = like ( agent = Sophia , theme = * cake ) ) )	elips_VPE_in_dist
+Mason hoped that the giraffe respected the boy and so did the cat .	and ( junct1 = hope ( agent = Mason , ccomp = respect ( agent = * giraffe , theme = * boy ) ) , junct2 = hope ( agent = * cat , ccomp = respect ( agent = * giraffe , theme = * boy ) ) )	elips_VPE_in_dist
+Benjamin respected that the girl cleaned a mouse and so did Isabella .	and ( junct1 = respect ( agent = Benjamin , ccomp = clean ( agent = * girl , theme = mouse ) ) , junct2 = respect ( agent = Isabella , ccomp = clean ( agent = * girl , theme = mouse ) ) )	elips_VPE_in_dist
+The customer said that Charlotte adored the clock and so did the boy .	and ( junct1 = say ( agent = * customer , ccomp = adore ( agent = Charlotte , theme = * clock ) ) , junct2 = say ( agent = * boy , ccomp = adore ( agent = Charlotte , theme = * clock ) ) )	elips_VPE_in_dist
+Noah appreciated a girl and so did Olivia .	and ( junct1 = appreciate ( agent = Noah , theme = girl ) , junct2 = appreciate ( agent = Olivia , theme = girl ) )	elips_VPE_in_dist
+Camila loved the cookie and so did a host .	and ( junct1 = love ( agent = Camila , theme = * cookie ) , junct2 = love ( agent = host , theme = * cookie ) )	elips_VPE_in_dist
+The queen ate a muffin and so did the child .	and ( junct1 = eat ( agent = * queen , theme = muffin ) , junct2 = eat ( agent = * child , theme = muffin ) )	elips_VPE_in_dist
+A dog cooked Wyatt and so did Liam .	and ( junct1 = cook ( agent = dog , theme = Wyatt ) , junct2 = cook ( agent = Liam , theme = Wyatt ) )	elips_VPE_in_dist
+Emma nursed a girl and so did Evelyn .	and ( junct1 = nurse ( agent = Emma , theme = girl ) , junct2 = nurse ( agent = Evelyn , theme = girl ) )	elips_VPE_in_dist
+The girl liked the sandwich and so did the cat .	and ( junct1 = like ( agent = * girl , theme = * sandwich ) , junct2 = like ( agent = * cat , theme = * sandwich ) )	elips_VPE_in_dist
+Liam hoped that the deer dusted a boy and so did William .	and ( junct1 = hope ( agent = Liam , ccomp = dust ( agent = * deer , theme = boy ) ) , junct2 = hope ( agent = William , ccomp = dust ( agent = * deer , theme = boy ) ) )	elips_VPE_in_dist
+Leah cleaned the girl and so did Liam .	and ( junct1 = clean ( agent = Leah , theme = * girl ) , junct2 = clean ( agent = Liam , theme = * girl ) )	elips_VPE_in_dist
+Madison loved the purse and so did Mia .	and ( junct1 = love ( agent = Madison , theme = * purse ) , junct2 = love ( agent = Mia , theme = * purse ) )	elips_VPE_in_dist
+Emma drew Andrew and so did a baby .	and ( junct1 = draw ( agent = Emma , theme = Andrew ) , junct2 = draw ( agent = baby , theme = Andrew ) )	elips_VPE_in_dist
+Liam dusted the drink and so did Emma .	and ( junct1 = dust ( agent = Liam , theme = * drink ) , junct2 = dust ( agent = Emma , theme = * drink ) )	elips_VPE_in_dist
+Emma nursed a cake and so did the human .	and ( junct1 = nurse ( agent = Emma , theme = cake ) , junct2 = nurse ( agent = * human , theme = cake ) )	elips_VPE_in_dist
+The dog poked the melon and so did Olivia .	and ( junct1 = poke ( agent = * dog , theme = * melon ) , junct2 = poke ( agent = Olivia , theme = * melon ) )	elips_VPE_in_dist
+The baby hunted the glue and so did Claire .	and ( junct1 = hunt ( agent = * baby , theme = * glue ) , junct2 = hunt ( agent = Claire , theme = * glue ) )	elips_VPE_in_dist
+The researcher drew a flag and so did the boy .	and ( junct1 = draw ( agent = * researcher , theme = flag ) , junct2 = draw ( agent = * boy , theme = flag ) )	elips_VPE_in_dist
+The journalist helped a donut and so did Noah .	and ( junct1 = help ( agent = * journalist , theme = donut ) , junct2 = help ( agent = Noah , theme = donut ) )	elips_VPE_in_dist
+Leah liked Riley and so did a customer .	and ( junct1 = like ( agent = Leah , theme = Riley ) , junct2 = like ( agent = customer , theme = Riley ) )	elips_VPE_in_dist
+The king liked that a horse liked a sweetcorn and so did a girl .	and ( junct1 = like ( agent = * king , ccomp = like ( agent = horse , theme = sweetcorn ) ) , junct2 = like ( agent = girl , ccomp = like ( agent = horse , theme = sweetcorn ) ) )	elips_VPE_in_dist
+A child ate the pizza and so did William .	and ( junct1 = eat ( agent = child , theme = * pizza ) , junct2 = eat ( agent = William , theme = * pizza ) )	elips_VPE_in_dist
+Liam drew John and so did the child .	and ( junct1 = draw ( agent = Liam , theme = John ) , junct2 = draw ( agent = * child , theme = John ) )	elips_VPE_in_dist
+Emma valued that Liam helped a girl and so did Amelia .	and ( junct1 = value ( agent = Emma , ccomp = help ( agent = Liam , theme = girl ) ) , junct2 = value ( agent = Amelia , ccomp = help ( agent = Liam , theme = girl ) ) )	elips_VPE_in_dist
+Emma ate the cake and so did Olivia .	and ( junct1 = eat ( agent = Emma , theme = * cake ) , junct2 = eat ( agent = Olivia , theme = * cake ) )	elips_VPE_in_dist
+Grayson respected the donut and so did a duck .	and ( junct1 = respect ( agent = Grayson , theme = * donut ) , junct2 = respect ( agent = duck , theme = * donut ) )	elips_VPE_in_dist
+A girl missed the sandwich and so did a pony .	and ( junct1 = miss ( agent = girl , theme = * sandwich ) , junct2 = miss ( agent = pony , theme = * sandwich ) )	elips_VPE_in_dist
+Evelyn helped Levi and so did James .	and ( junct1 = help ( agent = Evelyn , theme = Levi ) , junct2 = help ( agent = James , theme = Levi ) )	elips_VPE_in_dist
+A monkey liked that Liam liked Wyatt and so did a girl .	and ( junct1 = like ( agent = monkey , ccomp = like ( agent = Liam , theme = Wyatt ) ) , junct2 = like ( agent = girl , ccomp = like ( agent = Liam , theme = Wyatt ) ) )	elips_VPE_in_dist
+James liked Penelope and so did a frog .	and ( junct1 = like ( agent = James , theme = Penelope ) , junct2 = like ( agent = frog , theme = Penelope ) )	elips_VPE_in_dist
+William poked Skylar and so did a girl .	and ( junct1 = poke ( agent = William , theme = Skylar ) , junct2 = poke ( agent = girl , theme = Skylar ) )	elips_VPE_in_dist
+Emma drew the cake and so did the scientist .	and ( junct1 = draw ( agent = Emma , theme = * cake ) , junct2 = draw ( agent = * scientist , theme = * cake ) )	elips_VPE_in_dist
+A cat respected the cake and so did Liam .	and ( junct1 = respect ( agent = cat , theme = * cake ) , junct2 = respect ( agent = Liam , theme = * cake ) )	elips_VPE_in_dist
+Emma liked that the girl hunted the boy and so did the dog .	and ( junct1 = like ( agent = Emma , ccomp = hunt ( agent = * girl , theme = * boy ) ) , junct2 = like ( agent = * dog , ccomp = hunt ( agent = * girl , theme = * boy ) ) )	elips_VPE_in_dist
+The penguin found a muffin and so did a dog .	and ( junct1 = find ( agent = * penguin , theme = muffin ) , junct2 = find ( agent = dog , theme = muffin ) )	elips_VPE_in_dist
+Carter loved the radio and so did Liam .	and ( junct1 = love ( agent = Carter , theme = * radio ) , junct2 = love ( agent = Liam , theme = * radio ) )	elips_VPE_in_dist
+Olivia cleaned the dog and so did a girl .	and ( junct1 = clean ( agent = Olivia , theme = * dog ) , junct2 = clean ( agent = girl , theme = * dog ) )	elips_VPE_in_dist
+A girl painted the president and so did Logan .	and ( junct1 = paint ( agent = girl , theme = * president ) , junct2 = paint ( agent = Logan , theme = * president ) )	elips_VPE_in_dist
+The frog adored the donut and so did Emma .	and ( junct1 = adore ( agent = * frog , theme = * donut ) , junct2 = adore ( agent = Emma , theme = * donut ) )	elips_VPE_in_dist
+Abigail liked a cake and so did Oliver .	and ( junct1 = like ( agent = Abigail , theme = cake ) , junct2 = like ( agent = Oliver , theme = cake ) )	elips_VPE_in_dist
+Liam helped Leo and so did Emma .	and ( junct1 = help ( agent = Liam , theme = Leo ) , junct2 = help ( agent = Emma , theme = Leo ) )	elips_VPE_in_dist
+Liam cooked Skylar and so did a father .	and ( junct1 = cook ( agent = Liam , theme = Skylar ) , junct2 = cook ( agent = father , theme = Skylar ) )	elips_VPE_in_dist
+Theodore admired that a girl found a chalk and so did Emma .	and ( junct1 = admire ( agent = Theodore , ccomp = find ( agent = girl , theme = chalk ) ) , junct2 = admire ( agent = Emma , ccomp = find ( agent = girl , theme = chalk ) ) )	elips_VPE_in_dist
+A zebra liked that Zoey liked Wyatt and so did Amelia .	and ( junct1 = like ( agent = zebra , ccomp = like ( agent = Zoey , theme = Wyatt ) ) , junct2 = like ( agent = Amelia , ccomp = like ( agent = Zoey , theme = Wyatt ) ) )	elips_VPE_in_dist
+The guard believed that Olivia ate a cake and so did Ethan .	and ( junct1 = believe ( agent = * guard , ccomp = eat ( agent = Olivia , theme = cake ) ) , junct2 = believe ( agent = Ethan , ccomp = eat ( agent = Olivia , theme = cake ) ) )	elips_VPE_in_dist
+A boy missed a balloon and so did the pony .	and ( junct1 = miss ( agent = boy , theme = balloon ) , junct2 = miss ( agent = * pony , theme = balloon ) )	elips_VPE_in_dist
+The cat helped the manager and so did the sailor .	and ( junct1 = help ( agent = * cat , theme = * manager ) , junct2 = help ( agent = * sailor , theme = * manager ) )	elips_VPE_in_dist
+The girl admired the cake and so did the giraffe .	and ( junct1 = admire ( agent = * girl , theme = * cake ) , junct2 = admire ( agent = * giraffe , theme = * cake ) )	elips_VPE_in_dist
+The bear sketched the donut and so did the girl .	and ( junct1 = sketch ( agent = * bear , theme = * donut ) , junct2 = sketch ( agent = * girl , theme = * donut ) )	elips_VPE_in_dist
+The cat imagined that the customer helped the guitar and so did Stella .	and ( junct1 = imagine ( agent = * cat , ccomp = help ( agent = * customer , theme = * guitar ) ) , junct2 = imagine ( agent = Stella , ccomp = help ( agent = * customer , theme = * guitar ) ) )	elips_VPE_in_dist
+A bird liked that Benjamin helped the cake and so did Mia .	and ( junct1 = like ( agent = bird , ccomp = help ( agent = Benjamin , theme = * cake ) ) , junct2 = like ( agent = Mia , ccomp = help ( agent = Benjamin , theme = * cake ) ) )	elips_VPE_in_dist
+Lucas found a brain and so did Emma .	and ( junct1 = find ( agent = Lucas , theme = brain ) , junct2 = find ( agent = Emma , theme = brain ) )	elips_VPE_in_dist
+Noah drew a lollipop and so did the cat .	and ( junct1 = draw ( agent = Noah , theme = lollipop ) , junct2 = draw ( agent = * cat , theme = lollipop ) )	elips_VPE_in_dist
+The boy liked a horse and so did the president .	and ( junct1 = like ( agent = * boy , theme = horse ) , junct2 = like ( agent = * president , theme = horse ) )	elips_VPE_in_dist
+Liam tolerated that the cat missed a glue and so did William .	and ( junct1 = tolerate ( agent = Liam , ccomp = miss ( agent = * cat , theme = glue ) ) , junct2 = tolerate ( agent = William , ccomp = miss ( agent = * cat , theme = glue ) ) )	elips_VPE_in_dist
+James drew Isaac and so did a girl .	and ( junct1 = draw ( agent = James , theme = Isaac ) , junct2 = draw ( agent = girl , theme = Isaac ) )	elips_VPE_in_dist
+Emma meant that the boy helped a doll and so did a butterfly .	and ( junct1 = mean ( agent = Emma , ccomp = help ( agent = * boy , theme = doll ) ) , junct2 = mean ( agent = butterfly , ccomp = help ( agent = * boy , theme = doll ) ) )	elips_VPE_in_dist
+The girl liked that the child drew the box and so did Charlotte .	and ( junct1 = like ( agent = * girl , ccomp = draw ( agent = * child , theme = * box ) ) , junct2 = like ( agent = Charlotte , ccomp = draw ( agent = * child , theme = * box ) ) )	elips_VPE_in_dist
+Liam liked a newspaper and so did the teacher .	and ( junct1 = like ( agent = Liam , theme = newspaper ) , junct2 = like ( agent = * teacher , theme = newspaper ) )	elips_VPE_in_dist
+A bear adored a bean and so did the cow .	and ( junct1 = adore ( agent = bear , theme = bean ) , junct2 = adore ( agent = * cow , theme = bean ) )	elips_VPE_in_dist
+Emma found the frog and so did the giraffe .	and ( junct1 = find ( agent = Emma , theme = * frog ) , junct2 = find ( agent = * giraffe , theme = * frog ) )	elips_VPE_in_dist
+A princess hoped that a sheep found a bowl and so did the horse .	and ( junct1 = hope ( agent = princess , ccomp = find ( agent = sheep , theme = bowl ) ) , junct2 = hope ( agent = * horse , ccomp = find ( agent = sheep , theme = bowl ) ) )	elips_VPE_in_dist
+The bunny liked a girl and so did a prince .	and ( junct1 = like ( agent = * bunny , theme = girl ) , junct2 = like ( agent = prince , theme = girl ) )	elips_VPE_in_dist
+Luke cleaned the girl and so did Emma .	and ( junct1 = clean ( agent = Luke , theme = * girl ) , junct2 = clean ( agent = Emma , theme = * girl ) )	elips_VPE_in_dist
+The boy ate a balloon and so did Liam .	and ( junct1 = eat ( agent = * boy , theme = balloon ) , junct2 = eat ( agent = Liam , theme = balloon ) )	elips_VPE_in_dist
+Emma imagined that a king respected Andrew and so did William .	and ( junct1 = imagine ( agent = Emma , ccomp = respect ( agent = king , theme = Andrew ) ) , junct2 = imagine ( agent = William , ccomp = respect ( agent = king , theme = Andrew ) ) )	elips_VPE_in_dist
+A professor cooked Penelope and so did the fly .	and ( junct1 = cook ( agent = professor , theme = Penelope ) , junct2 = cook ( agent = * fly , theme = Penelope ) )	elips_VPE_in_dist
+Emma cleaned Layla and so did Thomas .	and ( junct1 = clean ( agent = Emma , theme = Layla ) , junct2 = clean ( agent = Thomas , theme = Layla ) )	elips_VPE_in_dist
+Emma poked Wyatt and so did a zebra .	and ( junct1 = poke ( agent = Emma , theme = Wyatt ) , junct2 = poke ( agent = zebra , theme = Wyatt ) )	elips_VPE_in_dist
+The girl poked a donut and so did the baby .	and ( junct1 = poke ( agent = * girl , theme = donut ) , junct2 = poke ( agent = * baby , theme = donut ) )	elips_VPE_in_dist
+The consumer nursed a boy and so did a father .	and ( junct1 = nurse ( agent = * consumer , theme = boy ) , junct2 = nurse ( agent = father , theme = boy ) )	elips_VPE_in_dist
+Ava liked that Riley liked a box and so did the chicken .	and ( junct1 = like ( agent = Ava , ccomp = like ( agent = Riley , theme = box ) ) , junct2 = like ( agent = * chicken , ccomp = like ( agent = Riley , theme = box ) ) )	elips_VPE_in_dist
+A boy hoped that Elijah adored the can and so did the duck .	and ( junct1 = hope ( agent = boy , ccomp = adore ( agent = Elijah , theme = * can ) ) , junct2 = hope ( agent = * duck , ccomp = adore ( agent = Elijah , theme = * can ) ) )	elips_VPE_in_dist
+Audrey imagined that Olivia sketched Nathan and so did the frog .	and ( junct1 = imagine ( agent = Audrey , ccomp = sketch ( agent = Olivia , theme = Nathan ) ) , junct2 = imagine ( agent = * frog , ccomp = sketch ( agent = Olivia , theme = Nathan ) ) )	elips_VPE_in_dist
+William said that a bee dusted the flag and so did Liam .	and ( junct1 = say ( agent = William , ccomp = dust ( agent = bee , theme = * flag ) ) , junct2 = say ( agent = Liam , ccomp = dust ( agent = bee , theme = * flag ) ) )	elips_VPE_in_dist
+Benjamin appreciated Lily and so did Emma .	and ( junct1 = appreciate ( agent = Benjamin , theme = Lily ) , junct2 = appreciate ( agent = Emma , theme = Lily ) )	elips_VPE_in_dist
+A monkey ate a girl and so did Liam .	and ( junct1 = eat ( agent = monkey , theme = girl ) , junct2 = eat ( agent = Liam , theme = girl ) )	elips_VPE_in_dist
+David wished that Olivia liked Penelope and so did Liam .	and ( junct1 = wish ( agent = David , ccomp = like ( agent = Olivia , theme = Penelope ) ) , junct2 = wish ( agent = Liam , ccomp = like ( agent = Olivia , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma ate the drink and so did Liam .	and ( junct1 = eat ( agent = Emma , theme = * drink ) , junct2 = eat ( agent = Liam , theme = * drink ) )	elips_VPE_in_dist
+A tourist helped the bear and so did a boy .	and ( junct1 = help ( agent = tourist , theme = * bear ) , junct2 = help ( agent = boy , theme = * bear ) )	elips_VPE_in_dist
+Ellie cooked a cake and so did James .	and ( junct1 = cook ( agent = Ellie , theme = cake ) , junct2 = cook ( agent = James , theme = cake ) )	elips_VPE_in_dist
+Noah found Penelope and so did a dog .	and ( junct1 = find ( agent = Noah , theme = Penelope ) , junct2 = find ( agent = dog , theme = Penelope ) )	elips_VPE_in_dist
+The cat ate a duck and so did Emma .	and ( junct1 = eat ( agent = * cat , theme = duck ) , junct2 = eat ( agent = Emma , theme = duck ) )	elips_VPE_in_dist
+The girl painted John and so did Olivia .	and ( junct1 = paint ( agent = * girl , theme = John ) , junct2 = paint ( agent = Olivia , theme = John ) )	elips_VPE_in_dist
+The girl respected a bat and so did a professor .	and ( junct1 = respect ( agent = * girl , theme = bat ) , junct2 = respect ( agent = professor , theme = bat ) )	elips_VPE_in_dist
+The zebra found a game and so did James .	and ( junct1 = find ( agent = * zebra , theme = game ) , junct2 = find ( agent = James , theme = game ) )	elips_VPE_in_dist
+The father ate the rose and so did Addison .	and ( junct1 = eat ( agent = * father , theme = * rose ) , junct2 = eat ( agent = Addison , theme = * rose ) )	elips_VPE_in_dist
+Noah said that the girl loved a cake and so did the boy .	and ( junct1 = say ( agent = Noah , ccomp = love ( agent = * girl , theme = cake ) ) , junct2 = say ( agent = * boy , ccomp = love ( agent = * girl , theme = cake ) ) )	elips_VPE_in_dist
+The student liked a child and so did Liam .	and ( junct1 = like ( agent = * student , theme = child ) , junct2 = like ( agent = Liam , theme = child ) )	elips_VPE_in_dist
+Liam liked the girl and so did Lucas .	and ( junct1 = like ( agent = Liam , theme = * girl ) , junct2 = like ( agent = Lucas , theme = * girl ) )	elips_VPE_in_dist
+A dog loved John and so did the child .	and ( junct1 = love ( agent = dog , theme = John ) , junct2 = love ( agent = * child , theme = John ) )	elips_VPE_in_dist
+The dog noticed that Mia painted Penelope and so did a girl .	and ( junct1 = notice ( agent = * dog , ccomp = paint ( agent = Mia , theme = Penelope ) ) , junct2 = notice ( agent = girl , ccomp = paint ( agent = Mia , theme = Penelope ) ) )	elips_VPE_in_dist
+Mia missed a donut and so did the butterfly .	and ( junct1 = miss ( agent = Mia , theme = donut ) , junct2 = miss ( agent = * butterfly , theme = donut ) )	elips_VPE_in_dist
+The bird hunted a glue and so did Amelia .	and ( junct1 = hunt ( agent = * bird , theme = glue ) , junct2 = hunt ( agent = Amelia , theme = glue ) )	elips_VPE_in_dist
+A boy liked Dylan and so did Henry .	and ( junct1 = like ( agent = boy , theme = Dylan ) , junct2 = like ( agent = Henry , theme = Dylan ) )	elips_VPE_in_dist
+Liam wished that a mouse ate a girl and so did Mia .	and ( junct1 = wish ( agent = Liam , ccomp = eat ( agent = mouse , theme = girl ) ) , junct2 = wish ( agent = Mia , ccomp = eat ( agent = mouse , theme = girl ) ) )	elips_VPE_in_dist
+Samuel juggled the cookie and so did the girl .	and ( junct1 = juggle ( agent = Samuel , theme = * cookie ) , junct2 = juggle ( agent = * girl , theme = * cookie ) )	elips_VPE_in_dist
+Zoey juggled a cake and so did a boy .	and ( junct1 = juggle ( agent = Zoey , theme = cake ) , junct2 = juggle ( agent = boy , theme = cake ) )	elips_VPE_in_dist
+Mason liked a teacher and so did William .	and ( junct1 = like ( agent = Mason , theme = teacher ) , junct2 = like ( agent = William , theme = teacher ) )	elips_VPE_in_dist
+Olivia adored the pickle and so did a boy .	and ( junct1 = adore ( agent = Olivia , theme = * pickle ) , junct2 = adore ( agent = boy , theme = * pickle ) )	elips_VPE_in_dist
+The boy declared that a frog liked the cookie and so did Charlotte .	and ( junct1 = declare ( agent = * boy , ccomp = like ( agent = frog , theme = * cookie ) ) , junct2 = declare ( agent = Charlotte , ccomp = like ( agent = frog , theme = * cookie ) ) )	elips_VPE_in_dist
+A girl painted a child and so did a boy .	and ( junct1 = paint ( agent = girl , theme = child ) , junct2 = paint ( agent = boy , theme = child ) )	elips_VPE_in_dist
+A teacher adored Penelope and so did a horse .	and ( junct1 = adore ( agent = teacher , theme = Penelope ) , junct2 = adore ( agent = horse , theme = Penelope ) )	elips_VPE_in_dist
+Wyatt admired Penelope and so did the cat .	and ( junct1 = admire ( agent = Wyatt , theme = Penelope ) , junct2 = admire ( agent = * cat , theme = Penelope ) )	elips_VPE_in_dist
+Olivia proved that a coach sketched Mateo and so did Abigail .	and ( junct1 = prove ( agent = Olivia , ccomp = sketch ( agent = coach , theme = Mateo ) ) , junct2 = prove ( agent = Abigail , ccomp = sketch ( agent = coach , theme = Mateo ) ) )	elips_VPE_in_dist
+A boy liked Jayden and so did the girl .	and ( junct1 = like ( agent = boy , theme = Jayden ) , junct2 = like ( agent = * girl , theme = Jayden ) )	elips_VPE_in_dist
+A cat juggled a donut and so did the giraffe .	and ( junct1 = juggle ( agent = cat , theme = donut ) , junct2 = juggle ( agent = * giraffe , theme = donut ) )	elips_VPE_in_dist
+Liam admired the girl and so did a boy .	and ( junct1 = admire ( agent = Liam , theme = * girl ) , junct2 = admire ( agent = boy , theme = * girl ) )	elips_VPE_in_dist
+The guard found a molecule and so did Lillian .	and ( junct1 = find ( agent = * guard , theme = molecule ) , junct2 = find ( agent = Lillian , theme = molecule ) )	elips_VPE_in_dist
+Mia dreamed that Noah liked Penelope and so did the butterfly .	and ( junct1 = dream ( agent = Mia , ccomp = like ( agent = Noah , theme = Penelope ) ) , junct2 = dream ( agent = * butterfly , ccomp = like ( agent = Noah , theme = Penelope ) ) )	elips_VPE_in_dist
+Liam confessed that Michael ate the spoon and so did the cat .	and ( junct1 = confess ( agent = Liam , ccomp = eat ( agent = Michael , theme = * spoon ) ) , junct2 = confess ( agent = * cat , ccomp = eat ( agent = Michael , theme = * spoon ) ) )	elips_VPE_in_dist
+A father hoped that Grace cooked the girl and so did a bee .	and ( junct1 = hope ( agent = father , ccomp = cook ( agent = Grace , theme = * girl ) ) , junct2 = hope ( agent = bee , ccomp = cook ( agent = Grace , theme = * girl ) ) )	elips_VPE_in_dist
+A monster helped Penelope and so did the boy .	and ( junct1 = help ( agent = monster , theme = Penelope ) , junct2 = help ( agent = * boy , theme = Penelope ) )	elips_VPE_in_dist
+Emma wished that the cat ate the boy and so did the girl .	and ( junct1 = wish ( agent = Emma , ccomp = eat ( agent = * cat , theme = * boy ) ) , junct2 = wish ( agent = * girl , ccomp = eat ( agent = * cat , theme = * boy ) ) )	elips_VPE_in_dist
+The cat liked that Jacob liked a cake and so did Liam .	and ( junct1 = like ( agent = * cat , ccomp = like ( agent = Jacob , theme = cake ) ) , junct2 = like ( agent = Liam , ccomp = like ( agent = Jacob , theme = cake ) ) )	elips_VPE_in_dist
+Emma liked that a penguin painted the manager and so did the tenant .	and ( junct1 = like ( agent = Emma , ccomp = paint ( agent = penguin , theme = * manager ) ) , junct2 = like ( agent = * tenant , ccomp = paint ( agent = penguin , theme = * manager ) ) )	elips_VPE_in_dist
+The horse hoped that the cat ate a game and so did a girl .	and ( junct1 = hope ( agent = * horse , ccomp = eat ( agent = * cat , theme = game ) ) , junct2 = hope ( agent = girl , ccomp = eat ( agent = * cat , theme = game ) ) )	elips_VPE_in_dist
+A duck sketched a cake and so did the girl .	and ( junct1 = sketch ( agent = duck , theme = cake ) , junct2 = sketch ( agent = * girl , theme = cake ) )	elips_VPE_in_dist
+Liam painted Jayden and so did Benjamin .	and ( junct1 = paint ( agent = Liam , theme = Jayden ) , junct2 = paint ( agent = Benjamin , theme = Jayden ) )	elips_VPE_in_dist
+A boy liked that Mia cooked Jack and so did the girl .	and ( junct1 = like ( agent = boy , ccomp = cook ( agent = Mia , theme = Jack ) ) , junct2 = like ( agent = * girl , ccomp = cook ( agent = Mia , theme = Jack ) ) )	elips_VPE_in_dist
+James painted a cake and so did a girl .	and ( junct1 = paint ( agent = James , theme = cake ) , junct2 = paint ( agent = girl , theme = cake ) )	elips_VPE_in_dist
+Ava painted a lion and so did the girl .	and ( junct1 = paint ( agent = Ava , theme = lion ) , junct2 = paint ( agent = * girl , theme = lion ) )	elips_VPE_in_dist
+Noah ate the cake and so did a girl .	and ( junct1 = eat ( agent = Noah , theme = * cake ) , junct2 = eat ( agent = girl , theme = * cake ) )	elips_VPE_in_dist
+Liam hoped that Emma sketched the girl and so did a governor .	and ( junct1 = hope ( agent = Liam , ccomp = sketch ( agent = Emma , theme = * girl ) ) , junct2 = hope ( agent = governor , ccomp = sketch ( agent = Emma , theme = * girl ) ) )	elips_VPE_in_dist
+Elizabeth thought that the lion ate a cake and so did Liam .	and ( junct1 = think ( agent = Elizabeth , ccomp = eat ( agent = * lion , theme = cake ) ) , junct2 = think ( agent = Liam , ccomp = eat ( agent = * lion , theme = cake ) ) )	elips_VPE_in_dist
+The boy ate a mouse and so did the cat .	and ( junct1 = eat ( agent = * boy , theme = mouse ) , junct2 = eat ( agent = * cat , theme = mouse ) )	elips_VPE_in_dist
+Charlotte painted Layla and so did the cat .	and ( junct1 = paint ( agent = Charlotte , theme = Layla ) , junct2 = paint ( agent = * cat , theme = Layla ) )	elips_VPE_in_dist
+William appreciated a ball and so did a girl .	and ( junct1 = appreciate ( agent = William , theme = ball ) , junct2 = appreciate ( agent = girl , theme = ball ) )	elips_VPE_in_dist
+Noah meant that Emma cleaned Penelope and so did a boy .	and ( junct1 = mean ( agent = Noah , ccomp = clean ( agent = Emma , theme = Penelope ) ) , junct2 = mean ( agent = boy , ccomp = clean ( agent = Emma , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma confessed that a girl liked Penelope and so did the bear .	and ( junct1 = confess ( agent = Emma , ccomp = like ( agent = girl , theme = Penelope ) ) , junct2 = confess ( agent = * bear , ccomp = like ( agent = girl , theme = Penelope ) ) )	elips_VPE_in_dist
+Emma hoped that the girl loved a boy and so did David .	and ( junct1 = hope ( agent = Emma , ccomp = love ( agent = * girl , theme = boy ) ) , junct2 = hope ( agent = David , ccomp = love ( agent = * girl , theme = boy ) ) )	elips_VPE_in_dist
+The cat liked Penelope and so did the girl .	and ( junct1 = like ( agent = * cat , theme = Penelope ) , junct2 = like ( agent = * girl , theme = Penelope ) )	elips_VPE_in_dist
+Emma poked Addison and so did the duck .	and ( junct1 = poke ( agent = Emma , theme = Addison ) , junct2 = poke ( agent = * duck , theme = Addison ) )	elips_VPE_in_dist
+Victoria ate a cake and so did Emma .	and ( junct1 = eat ( agent = Victoria , theme = cake ) , junct2 = eat ( agent = Emma , theme = cake ) )	elips_VPE_in_dist
+William ate Penelope and so did the child .	and ( junct1 = eat ( agent = William , theme = Penelope ) , junct2 = eat ( agent = * child , theme = Penelope ) )	elips_VPE_in_dist
+Olivia valued that a cat found a cake and so did Liam .	and ( junct1 = value ( agent = Olivia , ccomp = find ( agent = cat , theme = cake ) ) , junct2 = value ( agent = Liam , ccomp = find ( agent = cat , theme = cake ) ) )	elips_VPE_in_dist
+A moose liked the mouse and so did Emily .	and ( junct1 = like ( agent = moose , theme = * mouse ) , junct2 = like ( agent = Emily , theme = * mouse ) )	elips_VPE_in_dist
+A girl cleaned a banana and so did Liam .	and ( junct1 = clean ( agent = girl , theme = banana ) , junct2 = clean ( agent = Liam , theme = banana ) )	elips_VPE_in_dist

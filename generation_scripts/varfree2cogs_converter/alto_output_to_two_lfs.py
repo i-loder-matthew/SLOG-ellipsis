@@ -2,6 +2,7 @@
 """Post-process Alto output to generate SLOG datasets in both variable-free and original COGS formats."""
 
 import convert_varfree_to_cogs
+import alternate_varfree_to_cogs
 import pandas as pd
 import sys
 from sklearn.model_selection import train_test_split
@@ -56,7 +57,24 @@ def main():
         df_alto[["source", "cogs_lf","types"]].to_csv("cogs_" + grammar_prefix + ".tsv", sep='\t', index=False, header=False)
         df_alto[["source", "varfree_lf", "types"]].to_csv("varfree_" + grammar_prefix + ".tsv", sep='\t', index=False,
                                                           header=False)
+    elif "elips_" in grammar_prefix:
+
+        # capitalize the first word of each sentence
+        df_alto.source = [" ".join([s.split()[0].capitalize()] + s.split()[1:]) for s in df_alto.source]
+
+        # add . to the end of each sentence
+        df_alto["source"] = df_alto["source"] + " ."
+
+        df_alto["cogs_lf"] = df_alto.apply(
+            lambda x: alternate_varfree_to_cogs.variable_free_to_cogs(x.varfree_lf), axis=1
+        )
+
+        df_alto[["source", "cogs_lf","types"]].to_csv(grammar_prefix + ".tsv", sep='\t', index=False, header=False)
+        # df_alto[["source", "varfree_lf", "types"]].to_csv("varfree_" + grammar_prefix + ".tsv", sep='\t', index=False,
+        #                                                   header=False)
+        
     else:
+
         # capitalize the first word of each sentence
         df_alto.source = [" ".join([s.split()[0].capitalize()] + s.split()[1:]) for s in df_alto.source]
 
@@ -68,14 +86,17 @@ def main():
             axis=1)
 
         df_alto[["source", "cogs_lf","types"]].to_csv("cogs_" + grammar_prefix + ".tsv", sep='\t', index=False, header=False)
-        df_alto[["source", "varfree_lf", "types"]].to_csv("varfree_" + grammar_prefix + ".tsv", sep='\t', index=False,
-                                                          header=False)
-    """train, temp, _, _ = train_test_split(df_alto, df_alto, test_size=0.2, random_state=42)
-    dev, test, _, _ = train_test_split(temp, temp, test_size=0.5, random_state=42)
-    # breakpoint()
-    train.to_csv(out_file + "_train.tsv", sep='\t', index=False, header=False)
-    dev.to_csv(out_file + "_dev.tsv", sep='\t', index=False, header=False)
-    test.to_csv(out_file + "_test.tsv", sep='\t', index=False, header=False)"""
+        # df_alto[["source", "varfree_lf", "types"]].to_csv("varfree_" + grammar_prefix + ".tsv", sep='\t', index=False,
+        #                                                   header=False)
+   
+    # train, temp, _, _ = train_test_split(df_alto, df_alto, test_size=0.2, random_state=42)
+    # dev, test, _, _ = train_test_split(temp, temp, test_size=0.5, random_state=42)
+    # # breakpoint()
+
+    # train[["source", "cogs_lf", "types"]].to_csv("./train/cogs_" + grammar_prefix + "_train.tsv", sep='\t', index = False, header = False)
+    # dev[["source", "cogs_lf", "types"]].to_csv("./dev/cogs_" + grammar_prefix + "_dev.tsv", sep='\t', index = False, header = False)
+    # test[["source", "cogs_lf", "types"]].to_csv("./test/cogs_" + grammar_prefix + "_test.tsv", sep='\t', index = False, header = False)
+
 
 
 if __name__ == "__main__":
