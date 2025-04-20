@@ -1,27 +1,43 @@
 {##
 VP Ellipsis:
-Transitive and intransitive verbs
+intransitive verbs and depth generalization
 ##}
 
 
 
-S! -> r{{ cnt.next() }}(NP_animate_nsubj, VP_external, AND, SO, AUX_did, NP_animate_nsubj) [1]
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, VP_external, AND, SO, AUX_did, NP_animate_nsubj) [0.5]
 [english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
 [semantics] junct2(junct1(?3, pre_agent(?2, ?1)), pre_agent(?2, ?6))
 
-VP_external -> r{{ cnt.next() }}(V_unerg) [0.25]
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, VP_CP, AND, SO, AUX_did, NP_animate_nsubj) [0.5]
+[english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
+[semantics] junct2(junct1(?3, pre_agent(?2, ?1)), pre_agent(?2, ?6))
+
+S2 -> r{{ cnt.next() }}(NP_animate_nsubj, VP_external) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_agent(?2, ?1)
+
+S2 -> r{{ cnt.next() }}(NP_animate_nsubj, VP_CP) [0.5]
+
+
+VP_CP -> S_embedded_cp_E{{ cnt.next() }}(V_cp_taking, C, S2) [1]
+[english] *(?1, *(?2, ?3))
+[semantics] ccomp(?1, ?3)
+
+
+VP_external -> r{{ cnt.next() }}(V_unerg) [0]
 [english] ?1
 [semantics] ?1
 
-VP_external -> r{{ cnt.next() }}(V_trans_omissible) [0.25]
+VP_external -> r{{ cnt.next() }}(V_trans_omissible) [0]
 [english] ?1
 [semantics] ?1
 
-VP_external -> r{{ cnt.next() }}(V_trans_omissible, NP_dobj) [0.25]
+VP_external -> r{{ cnt.next() }}(V_trans_omissible_ellipsis_train, NP_dobj) [0.5]
 [english] *(?1, ?2)
 [semantics] theme(?1, ?2)
 
-VP_external -> r{{ cnt.next() }}(V_trans_not_omissible, NP_dobj) [0.25]
+VP_external -> r{{ cnt.next() }}(V_trans_not_omissible_ellipsis_train, NP_dobj) [0.5]
 [english] *(?1, ?2)
 [semantics] theme(?1, ?2)
 
@@ -29,30 +45,23 @@ VP_external -> r{{ cnt.next() }}(V_trans_not_omissible, NP_dobj) [0.25]
 
 
 
-NP_dobj -> r{{ cnt.next() }}(NP_inanimate_dobj) [0]
+NP_dobj -> r{{ cnt.next() }}(NP_inanimate_dobj) [0.5]
 [english] ?1
 [semantics] ?1
 
-NP_dobj -> r{{ cnt.next() }}(NP_animate_dobj) [1]
+NP_dobj -> r{{ cnt.next() }}(NP_animate_dobj) [0.5]
 [english] ?1
 [semantics] ?1
 
 
 
-NP_animate_dobj -> r{{ cnt.next() }}(Det, N_common_animate_dobj) [0.5]
+NP_animate_dobj -> r{{ cnt.next() }}(Det, N_common_animate_dobj_ellipsis_train) [0.5]
 [english] *(?1, ?2)
 [semantics] pre_det(?2, ?1)
 
-{##
-NP_animate_dobj -> r{{ cnt.next() }}(Det, N_common_animate_dobj, PP_loc) [0.25]
-[english] *(*(?1, ?2), ?3)
-[semantics] nmod(pre_det(?2, ?1), ?3)
-##}
-
-NP_animate_dobj -> r{{ cnt.next() }}(N_prop_dobj) [0.5]
+NP_animate_dobj -> r{{ cnt.next() }}(N_prop_dobj_ellipsis_train) [0.5]
 [english] ?1
 [semantics] ?1
-
 
 
 
@@ -63,3 +72,8 @@ NP_animate_nsubj -> r{{ cnt.next() }}(Det, N_common_animate_nsubj) [0.5]
 NP_animate_nsubj -> r{{ cnt.next() }}(N_prop_nsubj) [0.5]
 [english] ?1
 [semantics] ?1
+
+
+NP_inanimate_dobj -> r{{ cnt.next() }}(Det, N_common_inanimate_dobj) [1]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)

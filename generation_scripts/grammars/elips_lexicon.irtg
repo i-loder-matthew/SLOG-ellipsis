@@ -1,0 +1,190 @@
+{##
+
+A lexicon with a generalization split for lexical generalization in ellipsis constructions
+
+
+##}
+
+
+{% set verbs_lemmas = {
+  'ate':'eat', 'painted':'paint', 'drew':'draw', 'cleaned':'clean',
+  'cooked':'cook', 'dusted':'dust', 'hunted':'hunt', 'nursed':'nurse',
+  'sketched':'sketch', 'washed':'wash', 'juggled':'juggle', 'called':'call',
+  'eaten':'eat', 'drawn':'draw', 'baked':'bake', 'liked':'like', 'knew':'know',
+  'helped':'help', 'saw':'see', 'found':'find', 'heard':'hear', 'noticed':'notice',
+  'loved':'love', 'admired':'admire', 'adored':'adore', 'appreciated':'appreciate',
+  'missed':'miss', 'respected':'respect', 'tolerated':'tolerate', 'valued':'value',
+  'worshipped':'worship', 'observed':'observe', 'discovered':'discover', 'held':'hold',
+  'stabbed':'stab', 'touched':'touch', 'pierced':'pierce', 'poked':'poke',
+  'known':'know', 'seen':'see', 'hit':'hit', 'hoped':'hope', 'said':'say',
+  'believed':'believe', 'confessed':'confess', 'declared':'declare', 'proved':'prove',
+  'thought':'think', 'supported':'support', 'wished':'wish', 'dreamed':'dream',
+  'expected':'expect', 'imagined':'imagine', 'envied':'envy', 'wanted':'want',
+  'preferred':'prefer', 'needed':'need', 'intended':'intend', 'tried':'try',
+  'attempted':'attempt', 'planned':'plan','craved':'crave','hated':'hate',
+  'enjoyed':'enjoy', 'rolled':'roll', 'froze':'freeze', 'burned':'burn', 'shortened':'shorten',
+  'floated':'float', 'grew':'grow', 'slid':'slide', 'broke':'break', 'crumpled':'crumple',
+  'split':'split', 'changed':'change', 'snapped':'snap', 'tore':'tear', 'collapsed':'collapse',
+  'decomposed':'decompose', 'doubled':'double', 'improved':'improve', 'inflated':'inflate',
+  'enlarged':'enlarge', 'reddened':'redden', 'popped':'pop', 'disintegrated':'disintegrate',
+  'expanded':'expand', 'cooled':'cool', 'soaked':'soak', 'frozen':'freeze', 'grown':'grow',
+  'broken':'break', 'torn':'tear', 'slept':'sleep', 'smiled':'smile', 'laughed':'laugh',
+  'sneezed':'sneeze', 'cried':'cry', 'talked':'talk', 'danced':'dance', 'jogged':'jog',
+  'walked':'walk', 'ran':'run', 'napped':'nap', 'snoozed':'snooze', 'screamed':'scream',
+  'stuttered':'stutter', 'frowned':'frown', 'giggled':'giggle', 'scoffed':'scoff',
+  'snored':'snore', 'snorted':'snort', 'smirked':'smirk', 'gasped':'gasp',
+  'gave':'give', 'lent':'lend', 'sold':'sell', 'offered':'offer', 'fed':'feed',
+  'passed':'pass', 'rented':'rent', 'served':'serve','awarded':'award', 'promised':'promise',
+  'brought':'bring', 'sent':'send', 'handed':'hand', 'forwarded':'forward', 'mailed':'mail',
+  'posted':'post','given':'give', 'shipped':'ship', 'packed':'pack', 'studied':'study',
+  'examined':'examine', 'investigated':'investigate', 'thrown':'throw', 'threw':'throw',
+  'tossed':'toss', 'meant':'mean', 'longed':'long', 'yearned':'yearn', 'itched':'itch',
+  'loaned':'loan', 'returned':'return', 'slipped':'slip', 'wired':'wire', 'crawled':'crawl',
+  'shattered':'shatter', 'bought':'buy', 'squeezed':'squeeze', 'teleported':'teleport',
+  'melted':'melt', 'blessed':'bless'
+} %}
+
+
+
+{% set V_trans_omissible_ellipsis_train = [
+  'ate', 'painted', 'drew', 'cleaned', 'cooked',
+  'dusted', 'hunted', 'nursed', 'sketched', 'juggled',
+] %}
+
+{% set V_trans_omissible_ellipsis_gen = [
+  'called', 'heard', 'packed', 'saw', 'noticed',
+  'studied', 'examined', 'observed', 'knew', 'investigated'
+] %}
+
+{% for word, prob in V_trans_omissible_ellipsis_train|zipf -%}
+V_trans_omissible_ellipsis_train -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ verbs_lemmas[word] }}
+{% endfor %}
+
+{% for word, prob in V_trans_omissible_ellipsis_gen|zipf -%}
+V_trans_omissible_ellipsis_gen -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ verbs_lemmas[word] }}
+{% endfor %}
+
+
+
+{% set V_trans_not_omissible_ellipsis_gen = [
+  'threw', 'tolerated', 'valued', 'worshipped', 'discovered',
+  'held', 'stabbed', 'touched', 'pierced', 'tossed'
+] %}
+
+{% set V_trans_not_omissible_ellipsis_train = [
+  'liked', 'helped', 'found', 'loved', 'poked',
+  'admired', 'adored', 'appreciated', 'missed', 'respected',
+] %}
+
+{% for word, prob in V_trans_not_omissible_ellipsis_train|zipf -%}
+V_trans_not_omissible_ellipsis_train -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ verbs_lemmas[word] }}
+{% endfor %}
+
+{% for word, prob in V_trans_not_omissible_ellipsis_gen|zipf -%}
+V_trans_not_omissible_ellipsis_gen -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ verbs_lemmas[word] }}
+{% endfor %}
+
+
+{% set
+animate_nouns_ellipsis_train = [
+    'girl', 'boy', 'cat', 'dog', 'baby', 'child', 'teacher', 'frog', 'chicken', 'mouse',
+    'lion', 'monkey', 'bear', 'giraffe', 'horse', 'bird', 'duck', 'bunny', 'butterfly', 'penguin',
+    'student', 'professor', 'monster', 'hero', 'sailor', 'lawyer', 'customer', 'scientist', 'princess', 'president',
+    'cow', 'crocodile', 'goose', 'hen', 'deer', 'donkey', 'bee', 'fly', 'kitty', 'tiger',
+    'wolf', 'zebra', 'mother', 'father', 'patient', 'manager', 'director', 'king', 'queen', 'kid'
+] %}
+
+{% set
+animate_nouns_ellipsis_gen = [
+    'fish', 'moose',  'pig', 'pony', 'puppy', 'sheep', 'squirrel', 'lamb', 'turkey', 'turtle',
+    'doctor', 'pupil', 'prince', 'driver', 'consumer', 'writer', 'farmer', 'friend', 'judge', 'visitor',
+    'guest', 'servant', 'chief', 'citizen', 'champion', 'prisoner', 'captain', 'soldier', 'passenger', 'tenant',
+    'politician', 'resident', 'buyer', 'spokesman', 'governor', 'guard', 'creature', 'coach', 'producer', 'researcher',
+    'guy', 'dealer', 'duke', 'tourist', 'landlord', 'human', 'host', 'priest', 'journalist', 'poet'
+] %}
+
+{% for word, prob in animate_nouns_ellipsis_train|zipf -%}
+{% for cat in ['N_common_animate_dobj_ellipsis_train'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}
+
+{% for word, prob in animate_nouns_ellipsis_gen|zipf -%}
+{% for cat in ['N_common_animate_dobj_ellipsis_gen'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}
+
+
+{% set
+inanimate_nouns_ellipsis_train = [
+    'gumball', 'scarf', 'shoe', 'jacket', 'hammer', 'bucket', 'knife', 'cup', 'plate', 'towel',
+    'bottle', 'bowl', 'can', 'clock', 'jar', 'penny', 'purse', 'soap', 'toothbrush', 'watch',
+    'newspaper', 'fig', 'bag', 'wine', 'key', 'weapon', 'brain', 'tool', 'crown', 'ring',
+    'leaf', 'fruit', 'mirror', 'beer', 'shirt', 'guitar', 'chemical', 'seed', 'shell', 'brick',
+    'bell', 'coin', 'button', 'needle', 'molecule', 'crystal', 'flag', 'nail', 'bean', 'liver'
+] %}
+
+{% set
+inanimate_nouns_ellipsis_gen = [
+    'cake', 'donut', 'cookie', 'box', 'rose', 'drink', 'raisin', 'melon', 'sandwich', 'strawberry',
+    'ball', 'balloon', 'bat', 'block', 'book', 'crayon', 'chalk', 'doll', 'game', 'glue',
+    'lollipop', 'hamburger', 'banana', 'biscuit', 'muffin', 'pancake', 'pizza', 'potato', 'pretzel', 'pumpkin',
+    'sweetcorn', 'yogurt', 'pickle', 'jigsaw', 'pen', 'pencil', 'present', 'toy', 'cracker', 'brush',
+    'radio', 'cloud', 'mandarin', 'hat', 'basket', 'plant', 'flower', 'chair', 'spoon', 'pillow'
+] %}
+
+{% for word, prob in inanimate_nouns_ellipsis_train|zipf -%}
+{% for cat in ['N_common_inanimate_dobj_ellipsis_train'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}
+
+{% for word, prob in inanimate_nouns_ellipsis_gen|zipf -%}
+{% for cat in ['N_common_inanimate_dobj_ellipsis_gen'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}
+
+{# 100 names, picked from https://www.ssa.gov/OACT/babynames/ #}
+{% set proper_nouns_ellipsis_train = [
+    'Penelope', 'Wyatt', 'Layla', 'John', 'Riley', 'Jack', 'Zoey', 'Luke', 'Nora', 'Jayden',
+    'Lily', 'Dylan', 'Eleanor', 'Grayson', 'Hannah', 'Levi', 'Lillian', 'Isaac', 'Addison', 'Gabriel',
+    'Aubrey', 'Julian', 'Ellie', 'Mateo', 'Stella', 'Anthony', 'Natalie', 'Jaxon', 'Zoe', 'Lincoln',
+    'Leah', 'Joshua', 'Hazel', 'Christopher', 'Violet', 'Andrew', 'Aurora', 'Theodore', 'Savannah', 'Caleb',
+    'Audrey', 'Ryan', 'Brooklyn', 'Asher', 'Bella', 'Nathan', 'Claire', 'Thomas', 'Skylar', 'Leo'
+]%}
+
+{% set proper_nouns_ellipsis_gen = [
+    'Emma', 'Liam', 'Olivia', 'Noah', 'Ava', 'William', 'Isabella', 'James', 'Sophia', 'Oliver',
+    'Charlotte', 'Benjamin', 'Mia', 'Elijah', 'Amelia', 'Lucas', 'Harper', 'Mason', 'Evelyn', 'Logan',
+    'Abigail', 'Alexander', 'Emily', 'Ethan', 'Elizabeth', 'Jacob', 'Mila', 'Michael', 'Ella', 'Daniel',
+    'Avery', 'Henry', 'Sofia', 'Jackson', 'Camila', 'Sebastian', 'Aria', 'Aiden', 'Scarlett', 'Matthew',
+    'Victoria', 'Samuel', 'Madison', 'David', 'Luna', 'Joseph', 'Grace', 'Carter', 'Chloe', 'Owen'
+]%}
+
+{% for word, prob in proper_nouns_ellipsis_train|zipf -%}
+{% for cat in ['N_prop_dobj_ellipsis_train'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}
+
+{% for word, prob in proper_nouns_ellipsis_gen|zipf -%}
+{% for cat in ['N_prop_dobj_ellipsis_gen'] -%}
+{{ cat }} -> r{{ cnt.next() }} [{{ prob }}]
+[english] {{ word }}
+[semantics] {{ word }}
+{% endfor %}{% endfor %}

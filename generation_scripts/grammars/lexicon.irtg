@@ -355,7 +355,7 @@ V_trans_not_omissible_inf -> r{{ cnt.next() }} [{{ prob }}]
 {% for word, prob in V_trans_not_omissible_pp|zipf -%}
 V_trans_not_omissible_pp -> r{{ cnt.next() }} [{{ prob }}]
 [english] {{ word }}
-[semantics] {{ verbs_lemmas[word] }}
+[semantics] {{ verbs_lemmas[word] }}{% include 'elips_lexicon.irtg' %}
 {% endfor %}
 
 {# Levin 29.4 Declare verbs, Levin 30. Verbs of Perception, VerbNet admire-31.2, VerbNet wish-62 #}

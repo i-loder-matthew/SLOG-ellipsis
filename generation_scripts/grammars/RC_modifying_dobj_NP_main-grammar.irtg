@@ -34,6 +34,7 @@ S! -> S_obj_modif_main_dat_theme_E{{ cnt.next() }}(NP_animate_nsubj_main, V_dat,
 S! -> S_obj_modif_main_passive_dat_theme_E{{ cnt.next() }}(NP_animate_nsubj_main, AUX, V_dat_pp, NP_inanimate_dobj_RC_modified) [0.1]
 [english] *(*(*(?1, ?2), ?3), ?4)
 [semantics] theme(recipient(?3, ?1),?4)
+
 {# dobj RC can end with by phrase, ambiguous attachement
 S! -> S_obj_modif_main_passive_dat_theme_E{{ cnt.next() }}(NP_animate_nsubj_main, AUX, V_dat_pp, NP_inanimate_dobj_RC_modified, BY, NP_animate_nsubj) [0.05]
 [english] *(*(*(*(?1, ?2), ?3), ?4),*(?5,?6))

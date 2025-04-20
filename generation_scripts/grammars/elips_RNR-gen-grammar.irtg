@@ -1,0 +1,43 @@
+{##
+Right node raising ellipsis constructions - for in_distribution dataset
+##}
+
+
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, V_trans_not_omissible, AND, NP_animate_nsubj, V_trans_not_omissible, NP_dobj) [0.5]
+[english] *(?1, *(?2, *(?3, *(?4, *(?5, ?6)))))
+[semantics] junct2(junct1(?3, theme(agent(?2, ?1), ?6)), theme(agent(?5, ?4), ?6))
+
+
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, V_trans_omissible, AND, NP_animate_nsubj, V_trans_not_omissible, NP_dobj) [0.5]
+[english] *(?1, *(?2, *(?3, *(?4, *(?5, ?6)))))
+[semantics] junct2(junct1(?3, theme(agent(?2, ?1), ?6)), theme(agent(?5, ?4), ?6))
+
+
+NP_dobj -> r{{ cnt.next() }}(NP_inanimate_dobj) [0.5]
+[english] ?1
+[semantics] ?1
+
+NP_dobj -> r{{ cnt.next() }}(NP_animate_dobj) [0.5]
+[english] ?1
+[semantics] ?1
+
+
+
+NP_animate_dobj -> r{{ cnt.next() }}(Det, N_common_animate_dobj_ellipsis_gen) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)
+
+NP_animate_dobj -> r{{ cnt.next() }}(N_prop_dobj_ellipsis_gen) [0.5]
+[english] ?1
+[semantics] ?1
+
+
+
+
+NP_animate_nsubj -> r{{ cnt.next() }}(Det, N_common_animate_nsubj) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)
+
+NP_animate_nsubj -> r{{ cnt.next() }}(N_prop_nsubj) [0.5]
+[english] ?1
+[semantics] ?1

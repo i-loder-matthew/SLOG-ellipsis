@@ -5,14 +5,20 @@ interpretation semantics: de.saar.coli.algebra.OrderedFeatureTreeAlgebra
 
 
 {% include 'lexicon.irtg' %}
-
+{% include 'elips_lexicon.irtg' %}
 {% include 'elips_gapping-grammar.irtg' %}
 
+{## 
 
-{##
-{% include 'elips_RNR-grammar.irtg' %}
+{% include 'elips_gapping-gen-grammar.irtg' %}
+{% include 'elips_RNR-gen-grammar.irtg' %}
+{% include 'elips_VPE-gen-grammar.irtg' %}
+{% include 'elips_VPE-depth-gen-grammar.irtg' %}
+{% include 'elips_VPE-intrans-gen-grammar.irtg' %}
+
 {% include 'elips_VPE-grammar.irtg' %}
+{% include 'elips_RNR-grammar.irtg' %}
+
+
 ##}
-
-
 

@@ -1,0 +1,82 @@
+{##
+VP Ellipsis:
+Intransitive constructions (0-1 embedding)
+##}
+
+
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, VP_external, AND, SO, AUX_did, NP_animate_nsubj) [0.5]
+[english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
+[semantics] junct2(junct1(?3, pre_agent(?2, ?1)), pre_agent(?2, ?6))
+
+S! -> r{{ cnt.next() }}(NP_animate_nsubj, VP_CP, AND, SO, AUX_did, NP_animate_nsubj) [0.5]
+[english] *(*(?1, ?2), *(?3, *(?4, *(?5, ?6))))
+[semantics] junct2(junct1(?3, pre_agent(?2, ?1)), pre_agent(?2, ?6))
+
+S2 -> r{{ cnt.next() }}(NP_animate_nsubj, VP_external) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_agent(?2, ?1)
+
+S2 -> r{{ cnt.next() }}(NP_animate_nsubj, VP_CP) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_agent(?2, ?1)
+
+
+VP_CP -> S_embedded_cp_E{{ cnt.next() }}(V_cp_taking, C, S2) [1]
+[english] *(?1, *(?2, ?3))
+[semantics] ccomp(?1, ?3)
+
+VP_external -> r{{ cnt.next() }}(V_unerg) [0]
+[english] ?1
+[semantics] ?1
+
+VP_external -> r{{ cnt.next() }}(V_trans_omissible) [0]
+[english] ?1
+[semantics] ?1
+
+VP_external -> r{{ cnt.next() }}(V_trans_not_omissible_ellipsis_train, NP_dobj) [0.5]
+[english] *(?1, ?2)
+[semantics] theme(?1, ?2)
+
+VP_external -> r{{ cnt.next() }}(V_trans_not_omissible_ellipsis_train, NP_dobj) [0.5] 
+[english] *(?1, ?2)
+[semantics] theme(?1, ?2)
+
+
+
+{## Noun phrases ##}
+
+NP_dobj -> r{{ cnt.next() }}(NP_inanimate_dobj) [0.5]
+[english] ?1
+[semantics] ?1
+
+NP_dobj -> r{{ cnt.next() }}(NP_animate_dobj) [0.5]
+[english] ?1
+[semantics] ?1
+
+
+
+NP_animate_dobj -> r{{ cnt.next() }}(Det, N_common_animate_dobj) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)
+
+NP_animate_dobj -> r{{ cnt.next() }}(N_prop_dobj) [0.5]
+[english] ?1
+[semantics] ?1
+
+
+NP_animate_nsubj -> r{{ cnt.next() }}(Det, N_common_animate_nsubj) [0.5]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)
+
+NP_animate_nsubj -> r{{ cnt.next() }}(N_prop_nsubj) [0.5]
+[english] ?1
+[semantics] ?1
+
+
+NP_inanimate_dobj -> r{{ cnt.next() }}(Det, N_common_inanimate_dobj) [1]
+[english] *(?1, ?2)
+[semantics] pre_det(?2, ?1)
+
+
+
+
